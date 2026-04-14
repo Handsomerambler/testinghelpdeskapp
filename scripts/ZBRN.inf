@@ -1,0 +1,5215 @@
+;
+; COPYRIGHT (C) 2022 ZIH
+;
+;
+;	Printer Installation File
+;
+;	 List of supported printers, manufacturers
+;
+[Version]
+Signature="$Windows NT$"
+Provider="ZEBRA"
+ClassGUID={4D36E979-E325-11CE-BFC1-08002BE10318}
+Class=Printer
+CatalogFile=ZBRN.cat
+DriverVer = 12/29/2024,5.1.17.7415
+
+[Manufacturer]
+"ZDesigner"=ZDesigner,NTamd64
+
+[ZDesigner]
+"ZDesigner 105SL 203DPI" = BA105SL1,LPTENUM\Zebra_TechnologiesZT2771
+"ZDesigner 105SL 300DPI" = BA105SL2,LPTENUM\Zebra_TechnologiesZTF670
+"ZDesigner 105SLPlus-203dpi ZPL" = BA105SLP2,LPTENUM\Zebra_TechnologiesZT63ED
+"ZDesigner 105SLPlus-203dpi ZPL" = BA105SLP2,USBPRINT\Zebra_TechnologiesZT63ED
+"ZDesigner 105SLPlus-300dpi ZPL" = BA105SLP3,LPTENUM\Zebra_TechnologiesZTB3FC
+"ZDesigner 105SLPlus-300dpi ZPL" = BA105SLP3,USBPRINT\Zebra_TechnologiesZTB3FC
+"ZDesigner 110PAX4 203DPI" = BA110P41,LPTENUM\Zebra_TechnologiesZT9F91
+"ZDesigner 110PAX4 203DPI" = BA110P41,LPTENUM\Zebra_TechnologiesZT3F10
+"ZDesigner 110PAX4 300DPI" = BA110P42,LPTENUM\Zebra_TechnologiesZT8F11
+"ZDesigner 110PAX4 300DPI" = BA110P42,LPTENUM\Zebra_TechnologiesZT2F90
+"ZDesigner 110Xi4 203 dpi" = BA110XI42,LPTENUM\Zebra_TechnologiesZT4F6A
+"ZDesigner 110Xi4 203 dpi" = BA110XI42,USBPRINT\Zebra_TechnologiesZT4F6A
+"ZDesigner 110Xi4 300 dpi" = BA110XI43,LPTENUM\Zebra_TechnologiesZT5F02
+"ZDesigner 110Xi4 300 dpi" = BA110XI43,USBPRINT\Zebra_TechnologiesZT5F02
+"ZDesigner 110Xi4 600 dpi" = BA110XI46,LPTENUM\Zebra_TechnologiesZT8F6B
+"ZDesigner 110Xi4 600 dpi" = BA110XI46,USBPRINT\Zebra_TechnologiesZT8F6B
+"ZDesigner 110XiIII Plus 200DPI" = BA110XI2,LPTENUM\Zebra_TechnologiesZTBACB
+"ZDesigner 110XiIII Plus 200DPI" = BA110XI2,USBPRINT\Zebra_TechnologiesZTBACB
+"ZDesigner 110XiIII Plus 300DPI" = BA110XI3,LPTENUM\Zebra_TechnologiesZT6BCA
+"ZDesigner 110XiIII Plus 300DPI" = BA110XI3,USBPRINT\Zebra_TechnologiesZT6BCA
+"ZDesigner 110XiIII Plus 600DPI" = BA110XI6,LPTENUM\Zebra_TechnologiesZT3ECA
+"ZDesigner 110XiIII Plus 600DPI" = BA110XI6,USBPRINT\Zebra_TechnologiesZT3ECA
+"ZDesigner 140Xi4 203 dpi" = BA140XI42,LPTENUM\Zebra_TechnologiesZTDCD0
+"ZDesigner 140Xi4 203 dpi" = BA140XI42,USBPRINT\Zebra_TechnologiesZTDCD0
+"ZDesigner 140XiIII Plus" = BA14XI3P,LPTENUM\Zebra_TechnologiesZT77DB
+"ZDesigner 140XiIII Plus" = BA14XI3P,USBPRINT\Zebra_TechnologiesZT77DB
+"ZDesigner 170PAX4 203DPI" = BA170P41,LPTENUM\Zebra_TechnologiesZTFDB3
+"ZDesigner 170PAX4 203DPI" = BA170P41,LPTENUM\Zebra_TechnologiesZT9D11
+"ZDesigner 170PAX4 300DPI" = BA170P42,LPTENUM\Zebra_TechnologiesZT2D92
+"ZDesigner 170PAX4 300DPI" = BA170P42,LPTENUM\Zebra_TechnologiesZT4D30
+"ZDesigner 170Xi4 203 dpi" = BA170XI42,LPTENUM\Zebra_TechnologiesZT2D90
+"ZDesigner 170Xi4 203 dpi" = BA170XI42,USBPRINT\Zebra_TechnologiesZT2D90
+"ZDesigner 170Xi4 300 dpi" = BA170XI43,LPTENUM\Zebra_TechnologiesZTFD81
+"ZDesigner 170Xi4 300 dpi" = BA170XI43,USBPRINT\Zebra_TechnologiesZTFD81
+"ZDesigner 170XiIII Plus" = BA17XI3P,LPTENUM\Zebra_TechnologiesZTE22A
+"ZDesigner 170XiIII Plus" = BA17XI3P,USBPRINT\Zebra_TechnologiesZTE22A
+"ZDesigner 170XiIII Plus 200DPI" = B17XI3P2,LPTENUM\Zebra_TechnologiesZT332B
+"ZDesigner 170XiIII Plus 200DPI" = B17XI3P2,USBPRINT\Zebra_TechnologiesZT332B
+"ZDesigner 220Xi4 203 dpi" = BA220XI42,LPTENUM\Zebra_TechnologiesZT81FB
+"ZDesigner 220Xi4 203 dpi" = BA220XI42,USBPRINT\Zebra_TechnologiesZT81FB
+"ZDesigner 220Xi4 300 dpi" = BA220XI43,LPTENUM\Zebra_TechnologiesZT934B
+"ZDesigner 220Xi4 300 dpi" = BA220XI43,USBPRINT\Zebra_TechnologiesZT934B
+"ZDesigner 220XiIII Plus" = BA22XI3P,LPTENUM\Zebra_TechnologiesZT227C
+"ZDesigner 220XiIII Plus" = BA22XI3P,USBPRINT\Zebra_TechnologiesZT227C
+"ZDesigner 220XiIII Plus 300DPI" = B22XI3P3,LPTENUM\Zebra_TechnologiesZTF37D
+"ZDesigner 220XiIII Plus 300DPI" = B22XI3P3,USBPRINT\Zebra_TechnologiesZTF37D
+"ZDesigner 888-DT" = BAB888D,LPTENUM\Zebra_888-DT_024E
+"ZDesigner 888-DT" = BAB888D,USBPRINT\Zebra_888-DT_024E
+"ZDesigner 888-TT" = BAB888T,LPTENUM\Zebra_888-TT_C74F
+"ZDesigner 888-TT" = BAB888T,USBPRINT\Zebra_888-TT_C74F
+"ZDesigner EZ 320" = BAEZ320,USBPRINT\Zebra_TechnologiesEZD0FA
+"ZDesigner GC420d" = BAGC420D,LPTENUM\Zebra_Technologies_Z10F0
+"ZDesigner GC420d" = BAGC420D,USBPRINT\Zebra_Technologies_Z10F0
+"ZDesigner GC420d (EPL)" = BEGC420D,LPTENUM\Zebra_Technologies_ZC4F7
+"ZDesigner GC420d (EPL)" = BEGC420D,USBPRINT\Zebra_Technologies_ZC4F7
+"ZDesigner GC420t" = BAGC420T,LPTENUM\Zebra_Technologies_ZD1E1
+"ZDesigner GC420t" = BAGC420T,USBPRINT\Zebra_Technologies_ZD1E1
+"ZDesigner GC420t (EPL)" = BEGC420T,LPTENUM\Zebra_Technologies_Z05E6
+"ZDesigner GC420t (EPL)" = BEGC420T,USBPRINT\Zebra_Technologies_Z05E6
+"ZDesigner GK420d" = BAGK420D,LPTENUM\Zebra_TechnologiesZT9BEC
+"ZDesigner GK420d" = BAGK420D,USBPRINT\Zebra_TechnologiesZT9BEC
+"ZDesigner GK420d (EPL)" = BGK420DE,LPTENUM\Zebra_TechnologiesZT15F4
+"ZDesigner GK420d (EPL)" = BGK420DE,USBPRINT\Zebra_TechnologiesZT15F4
+"ZDesigner GK420t" = BAGK420T,LPTENUM\Zebra_TechnologiesZT57ED
+"ZDesigner GK420t" = BAGK420T,USBPRINT\Zebra_TechnologiesZT57ED
+"ZDesigner GK420t (EPL)" = BGK420TE,LPTENUM\Zebra_TechnologiesZTD4E5
+"ZDesigner GK420t (EPL)" = BGK420TE,USBPRINT\Zebra_TechnologiesZTD4E5
+"ZDesigner GK888d" = BAGK888D,LPTENUM\Zebra_TechnologiesZT09C8
+"ZDesigner GK888d" = BAGK888D,USBPRINT\Zebra_TechnologiesZT09C8
+"ZDesigner GK888d (EPL)" = BEGK888D,LPTENUM\Zebra_TechnologiesZT2C4B
+"ZDesigner GK888d (EPL)" = BEGK888D,USBPRINT\Zebra_TechnologiesZT2C4B
+"ZDesigner GK888t" = BAGK888T,LPTENUM\Zebra_TechnologiesZTC5C9
+"ZDesigner GK888t" = BAGK888T,USBPRINT\Zebra_TechnologiesZTC5C9
+"ZDesigner GK888t (EPL)" = BEGK888T,LPTENUM\Zebra_TechnologiesZTED5A
+"ZDesigner GK888t (EPL)" = BEGK888T,USBPRINT\Zebra_TechnologiesZTED5A
+"ZDesigner GT800 (EPL)" = BEGT800,LPTENUM\Zebra_TechnologiesZT6E74
+"ZDesigner GT800 (EPL)" = BEGT800,USBPRINT\Zebra_TechnologiesZT6E74
+"ZDesigner GT800 (ZPL)" = BAGT800,LPTENUM\Zebra_TechnologiesZTDA72
+"ZDesigner GT800 (ZPL)" = BAGT800,USBPRINT\Zebra_TechnologiesZTDA72
+"ZDesigner GT800-300dpi EPL" = BEGT8003,LPTENUM\Zebra_Technologies_Z641E
+"ZDesigner GT800-300dpi EPL" = BEGT8003,USBPRINT\Zebra_Technologies_Z641E
+"ZDesigner GT800-300dpi ZPL" = BAGT8003,LPTENUM\Zebra_Technologies_Z63AE
+"ZDesigner GT800-300dpi ZPL" = BAGT8003,USBPRINT\Zebra_Technologies_Z63AE
+"ZDesigner GX420d" = BAGX420D,LPTENUM\Zebra_TechnologiesZT5869
+"ZDesigner GX420d" = BAGX420D,USBPRINT\Zebra_TechnologiesZT5869
+"ZDesigner GX420d (EPL)" = BGX420DE,LPTENUM\Zebra_TechnologiesZT91AF
+"ZDesigner GX420d (EPL)" = BGX420DE,USBPRINT\Zebra_TechnologiesZT91AF
+"ZDesigner GX420s" = BAGX420S,LPTENUM\Zebra_Technologies_ZF5E6
+"ZDesigner GX420s" = BAGX420S,USBPRINT\Zebra_Technologies_ZF5E6
+"ZDesigner GX420s (EPL)" = BGX420SE,LPTENUM\Zebra_Technologies_Z21E1
+"ZDesigner GX420s (EPL)" = BGX420SE,USBPRINT\Zebra_Technologies_Z21E1
+"ZDesigner GX420t" = BAGX420T,LPTENUM\Zebra_TechnologiesZT9468
+"ZDesigner GX420t" = BAGX420T,USBPRINT\Zebra_TechnologiesZT9468
+"ZDesigner GX420t (EPL)" = BGX420TE,LPTENUM\Zebra_TechnologiesZT50BE
+"ZDesigner GX420t (EPL)" = BGX420TE,USBPRINT\Zebra_TechnologiesZT50BE
+"ZDesigner GX430t" = BAGX430T,LPTENUM\Zebra_TechnologiesZT5439
+"ZDesigner GX430t" = BAGX430T,USBPRINT\Zebra_TechnologiesZT5439
+"ZDesigner GX430t (EPL)" = BGX430TE,LPTENUM\Zebra_TechnologiesZTC0B3
+"ZDesigner GX430t (EPL)" = BGX430TE,USBPRINT\Zebra_TechnologiesZTC0B3
+"ZDesigner HC100 300 dpi" = BAHC1003,USBPRINT\Zebra_TechnologiesZT4B4D
+"ZDesigner iMZ220" = BAIMZ220,USBPRINT\Zebra_Technologies_Z36D2
+"ZDesigner iMZ220 (ZPL)" = BAIMZ220Z,USBPRINT\Zebra_Technologies_ZBEDA
+"ZDesigner iMZ320" = BAIMZ320,USBPRINT\Zebra_Technologies_ZF681
+"ZDesigner iMZ320 (ZPL)" = BAIMZ320Z,USBPRINT\Zebra_Technologies_ZB556
+"ZDesigner KR403" = BAKKR403,USBPRINT\Zebra_TechnologiesZT51E8
+"ZDesigner LP 2824" = BAB2824,LPTENUM\Zebra_LP2824_5A26
+"ZDesigner LP 2824" = BAB2824,USBPRINT\Zebra_LP2824_5A26
+"ZDesigner LP 2824 Plus (EPL)" = BAB2824P,LPTENUM\Zebra_TechnologiesZTFD6B
+"ZDesigner LP 2824 Plus (EPL)" = BAB2824P,USBPRINT\Zebra_TechnologiesZTFD6B
+"ZDesigner LP 2824 Plus (ZPL)" = BAT2824ZP,LPTENUM\Zebra_TechnologiesZT77A3
+"ZDesigner LP 2824 Plus (ZPL)" = BAT2824ZP,USBPRINT\Zebra_TechnologiesZT77A3
+"ZDesigner LP 2844" = BAB2844,LPTENUM\Zebra_LP2844_5BC4
+"ZDesigner LP 2844" = BAB2844,USBPRINT\Zebra_LP2844_5BC4
+"ZDesigner LP 2844-Z" = BAB2844Z,LPTENUM\Zebra_TechnologiesZT9FD5
+"ZDesigner LP 2844-Z" = BAB2844Z,USBPRINT\Zebra_TechnologiesZT9FD5
+"ZDesigner Mobile Printer" = BAQLMOB,USBPRINT\1284_CID_Zebra_TechnologiesZTD914
+"ZDesigner Mobile Printer" = BAQLMOB,USBPRINT\1284_CID_Zebra_TechnologiesZTC8B4
+"ZDesigner MZ 220" = BAMZ220,USBPRINT\Zebra_MZ_220_4B8E
+"ZDesigner MZ 320" = BAMZ320,USBPRINT\Zebra_MZ_320_B78F
+"ZDesigner P4T (CPCL)" = BAP4T,USBPRINT\Zebra_TechnologiesZTED52
+"ZDesigner P4T (ZPL)" = BRP4T,USBPRINT\Zebra_Technologies_P06CA
+"ZDesigner QL 220/QL 220 Plus" = BAQL220P,USBPRINT\Zebra_QL_220_7C51
+"ZDesigner QL 220/QL 220 Plus" = BAQL220P,USBPRINT\Zebra_QL_220+_14BB
+"ZDesigner QL 320/QL 320 Plus" = BAQL320P,USBPRINT\Zebra_QL_320_8250
+"ZDesigner QL 320/QL 320 Plus" = BAQL320P,USBPRINT\Zebra_QL_320+_D484
+"ZDesigner QL 420/QL 420 Plus" = BAQL420P,USBPRINT\Zebra_QL_420_F451
+"ZDesigner QL 420/QL 420 Plus" = BAQL420P,USBPRINT\Zebra_QL_420+_1433
+"ZDesigner QLn220" = BAQLN220,USBPRINT\Zebra_TechnologiesQL07A3
+"ZDesigner QLn220 (ZPL)" = BAQLN220Z,USBPRINT\Zebra_Technologies_Z4F3F
+"ZDesigner QLn320" = BAQLN320,USBPRINT\Zebra_TechnologiesQLC7F2
+"ZDesigner QLn320 (ZPL)" = BAQLN320Z,USBPRINT\Zebra_Technologies_ZDF32
+"ZDesigner QLn420 (CPCL)" = BAQLN420,USBPRINT\Zebra_Technologies_ZE00A
+"ZDesigner QLn420 (ZPL)" = BAQLN420Z,USBPRINT\Zebra_Technologies_ZCC94
+"ZDesigner R110PAX4 LH-203DPI" = BRPAX42L,LPTENUM\Zebra_TechnologiesZTD914
+"ZDesigner R110PAX4 LH-203DPI" = BRPAX42L,USBPRINT\Zebra_TechnologiesZTD914
+"ZDesigner R110PAX4 LH-300DPI" = BRPAX43L,LPTENUM\Zebra_TechnologiesZTC8B4
+"ZDesigner R110PAX4 LH-300DPI" = BRPAX43L,USBPRINT\Zebra_TechnologiesZTC8B4
+"ZDesigner R110PAX4 RH-203DPI" = BRPAX42R,LPTENUM\Zebra_TechnologiesZT1994
+"ZDesigner R110PAX4 RH-203DPI" = BRPAX42R,USBPRINT\Zebra_TechnologiesZT1994
+"ZDesigner R110PAX4 RH-300DPI" = BRPAX43R,LPTENUM\Zebra_TechnologiesZT0834
+"ZDesigner R110PAX4 RH-300DPI" = BRPAX43R,USBPRINT\Zebra_TechnologiesZT0834
+"ZDesigner R110Xi 200DPI" = BAR11XM2,LPTENUM\Zebra_TechnologiesZT0FEF
+"ZDesigner R110Xi 200DPI" = BAR11XM2,USBPRINT\Zebra_TechnologiesZT0FEF
+"ZDesigner R110Xi 300DPI" = BAR11XM3,LPTENUM\Zebra_TechnologiesZTDEEE
+"ZDesigner R110Xi 300DPI" = BAR11XM3,USBPRINT\Zebra_TechnologiesZTDEEE
+"ZDesigner R110Xi HF 200DPI" = BRR11X2H,LPTENUM\Zebra_TechnologiesZTC64F
+"ZDesigner R110Xi HF 200DPI" = BRR11X2H,USBPRINT\Zebra_TechnologiesZTC64F
+"ZDesigner R110Xi HF 300DPI" = BRR11X3H,LPTENUM\Zebra_TechnologiesZT174E
+"ZDesigner R110Xi HF 300DPI" = BRR11X3H,USBPRINT\Zebra_TechnologiesZT174E
+"ZDesigner R110Xi4 203 dpi" = BAR110XI42,LPTENUM\Zebra_TechnologiesZTC396
+"ZDesigner R110Xi4 203 dpi" = BAR110XI42,USBPRINT\Zebra_TechnologiesZTC396
+"ZDesigner R110Xi4 300 dpi" = BAR110XI43,LPTENUM\Zebra_TechnologiesZT1387
+"ZDesigner R110Xi4 300 dpi" = BAR110XI43,USBPRINT\Zebra_TechnologiesZT1387
+"ZDesigner R110Xi4 600 dpi" = BAR110XI46,LPTENUM\Zebra_TechnologiesZT0397
+"ZDesigner R110Xi4 600 dpi" = BAR110XI46,USBPRINT\Zebra_TechnologiesZT0397
+"ZDesigner R170Xi 200DPI" = BAR17XM2,LPTENUM\Zebra_TechnologiesZT85F1
+"ZDesigner R170Xi 200DPI" = BAR17XM2,USBPRINT\Zebra_TechnologiesZT85F1
+"ZDesigner R170Xi 300DPI" = BAR17XM3,LPTENUM\Zebra_TechnologiesZT56F0
+"ZDesigner R170Xi 300DPI" = BAR17XM3,USBPRINT\Zebra_TechnologiesZT56F0
+"ZDesigner R2844-Z" = BABR284Z,LPTENUM\Zebra_TechnologiesZT4211
+"ZDesigner R2844-Z" = BABR284Z,USBPRINT\Zebra_TechnologiesZT4211
+"ZDesigner RP4T (ZPL)" = BRRP4T,USBPRINT\Zebra_Technologies_R61C4
+"ZDesigner RW 220" = BARW220,USBPRINT\Zebra_RW_220_9761
+"ZDesigner RW 420" = BARW420,USBPRINT\Zebra_RW_420_1F61
+"ZDesigner RW4-PS" = BARW4PS,USBPRINT\Zebra_Technologies_R50B6
+"ZDesigner RZ400 200 dpi" = BRZ42,LPTENUM\Zebra_TechnologiesZT2AEA
+"ZDesigner RZ400 200 dpi" = BRZ42,USBPRINT\Zebra_TechnologiesZT2AEA
+"ZDesigner RZ400 300 dpi" = BRZ43,LPTENUM\Zebra_TechnologiesZTEFBB
+"ZDesigner RZ400 300 dpi" = BRZ43,USBPRINT\Zebra_TechnologiesZTEFBB
+"ZDesigner RZ600 200 dpi" = BRZ62,LPTENUM\Zebra_TechnologiesZTE8E9
+"ZDesigner RZ600 200 dpi" = BRZ62,USBPRINT\Zebra_TechnologiesZTE8E9
+"ZDesigner RZ600 300 dpi" = BRZ63,LPTENUM\Zebra_TechnologiesZT2DB8
+"ZDesigner RZ600 300 dpi" = BRZ63,USBPRINT\Zebra_TechnologiesZT2DB8
+"ZDesigner S4M-203dpi EPL" = BAS4ME2,LPTENUM\ZEBRA_TECHNOLOGIESZT32B3
+"ZDesigner S4M-203dpi EPL" = BAS4ME2,USBPRINT\Zebra_TechnologiesZT32B3
+"ZDesigner S4M-203dpi ZPL" = BAS4MZ2,LPTENUM\ZEBRA_TECHNOLOGIESZTF482
+"ZDesigner S4M-203dpi ZPL" = BAS4MZ2,USBPRINT\Zebra_TechnologiesZTF482
+"ZDesigner S4M-300dpi ZPL" = BAS4MZ3,LPTENUM\ZEBRA_TECHNOLOGIESZT3189
+"ZDesigner S4M-300dpi ZPL" = BAS4MZ3,USBPRINT\Zebra_TechnologiesZT3189
+"ZDesigner TLP 2824" = BABT2824,LPTENUM\Zebra_TLP2824_F37B
+"ZDesigner TLP 2824" = BABT2824,USBPRINT\Zebra_TLP2824_F37B
+"ZDesigner TLP 2824 Plus (EPL)" = BABT2824P,LPTENUM\Zebra_TechnologiesZT2DE0
+"ZDesigner TLP 2824 Plus (EPL)" = BABT2824P,USBPRINT\Zebra_TechnologiesZT2DE0
+"ZDesigner TLP 2824 Plus (ZPL)" = BA2824ZP,LPTENUM\Zebra_TechnologiesZT0288
+"ZDesigner TLP 2824 Plus (ZPL)" = BA2824ZP,USBPRINT\Zebra_TechnologiesZT0288
+"ZDesigner TLP 2844" = BABT2844,LPTENUM\Zebra_TLP2844_F29B
+"ZDesigner TLP 2844" = BABT2844,USBPRINT\Zebra_TLP2844_F29B
+"ZDesigner TLP 2844-Z" = BABT284Z,LPTENUM\Zebra_TechnologiesZT0783
+"ZDesigner TLP 2844-Z" = BABT284Z,USBPRINT\Zebra_TechnologiesZT0783
+"ZDesigner TLP 3842" = BABT3842,USBPRINT\Zebra_TLP3842_92A5
+"ZDesigner TLP 3844-Z" = BABT3844,LPTENUM\Zebra_TechnologiesZT5780
+"ZDesigner TLP 3844-Z" = BABT3844,USBPRINT\Zebra_TechnologiesZT5780
+"ZDesigner ZD500R-203dpi ZPL" = BAZD50R2,LPTENUM\Zebra_Technologies_Z5971
+"ZDesigner ZD500R-203dpi ZPL" = BAZD50R2,USBPRINT\Zebra_Technologies_Z5971
+"ZDesigner ZD500R-300dpi ZPL" = BAZD50R3,LPTENUM\Zebra_Technologies_Z8960
+"ZDesigner ZD500R-300dpi ZPL" = BAZD50R3,USBPRINT\Zebra_Technologies_Z8960
+"ZDesigner ZE500-4 LH-203dpi ZPL" = BLZE5004L,LPTENUM\Zebra_Technologies_ZE5DB
+"ZDesigner ZE500-4 LH-203dpi ZPL" = BLZE5004L,USBPRINT\Zebra_Technologies_ZE5DB
+"ZDesigner ZE500-4 LH-300dpi ZPL" = BTZE5004L,LPTENUM\Zebra_Technologies_Z35CA
+"ZDesigner ZE500-4 LH-300dpi ZPL" = BTZE5004L,USBPRINT\Zebra_Technologies_Z35CA
+"ZDesigner ZE500-4 RH-203dpi ZPL" = BLZE5004R,LPTENUM\Zebra_Technologies_ZFBF3
+"ZDesigner ZE500-4 RH-203dpi ZPL" = BLZE5004R,USBPRINT\Zebra_Technologies_ZFBF3
+"ZDesigner ZE500-4 RH-300dpi ZPL" = BTZE5004R,LPTENUM\Zebra_Technologies_Z2BE2
+"ZDesigner ZE500-4 RH-300dpi ZPL" = BTZE5004R,USBPRINT\Zebra_Technologies_Z2BE2
+"ZDesigner ZE500R-4 LH-203dpi ZPL" = BLZE50R4L,LPTENUM\Zebra_Technologies_Z9853
+"ZDesigner ZE500R-4 LH-203dpi ZPL" = BLZE50R4L,USBPRINT\Zebra_Technologies_Z9853
+"ZDesigner ZE500R-4 LH-300dpi ZPL" = BTZE50R4L,LPTENUM\Zebra_Technologies_Z4840
+"ZDesigner ZE500R-4 LH-300dpi ZPL" = BTZE50R4L,USBPRINT\Zebra_Technologies_Z4840
+"ZDesigner ZE500R-4 RH-203dpi ZPL" = BLZE50R4R,LPTENUM\Zebra_Technologies_Z847B
+"ZDesigner ZE500R-4 RH-203dpi ZPL" = BLZE50R4R,USBPRINT\Zebra_Technologies_Z847B
+"ZDesigner ZE500R-4 RH-300dpi ZPL" = BTZE50R4R,LPTENUM\Zebra_Technologies_Z97EB
+"ZDesigner ZE500R-4 RH-300dpi ZPL" = BTZE50R4R,USBPRINT\Zebra_Technologies_Z97EB
+"ZDesigner ZE500-6 LH-203dpi ZPL" = BLZE5006L,LPTENUM\Zebra_Technologies_ZE459
+"ZDesigner ZE500-6 LH-203dpi ZPL" = BLZE5006L,USBPRINT\Zebra_Technologies_ZE459
+"ZDesigner ZE500-6 LH-300dpi ZPL" = BTZE5006L,LPTENUM\Zebra_Technologies_ZF5C9
+"ZDesigner ZE500-6 LH-300dpi ZPL" = BTZE5006L,USBPRINT\Zebra_Technologies_ZF5C9
+"ZDesigner ZE500-6 RH-203dpi ZPL" = BLZE5006R,LPTENUM\Zebra_Technologies_ZFA71
+"ZDesigner ZE500-6 RH-203dpi ZPL" = BLZE5006R,USBPRINT\Zebra_Technologies_ZFA71
+"ZDesigner ZE500-6 RH-300dpi ZPL" = BTZE5006R,LPTENUM\Zebra_Technologies_Z2A60
+"ZDesigner ZE500-6 RH-300dpi ZPL" = BTZE5006R,USBPRINT\Zebra_Technologies_Z2A60
+"ZDesigner ZE511 LH-203dpi ZPL" = ZE51L24,USBPRINT\Zebra_Technologies_Z18BB
+"ZDesigner ZE511 LH-300dpi ZPL" = ZE51L34,USBPRINT\Zebra_Technologies_ZC8AA
+"ZDesigner ZE511 LH-600dpi ZPL" = ZE51L64,USBPRINT\Zebra_Technologies_ZD8BA
+"ZDesigner ZE511 RH-203dpi ZPL" = ZE51R24,USBPRINT\Zebra_Technologies_ZC712
+"ZDesigner ZE511 RH-300dpi ZPL" = ZE51R34,USBPRINT\Zebra_Technologies_ZD682
+"ZDesigner ZE511 RH-600dpi ZPL" = ZE51R64,USBPRINT\Zebra_Technologies_Z0713
+"ZDesigner ZE511R LH-203dpi ZPL" = ZE51L24R,USBPRINT\Zebra_Technologies_Z96E0
+"ZDesigner ZE511R LH-300dpi ZPL" = ZE51L34R,USBPRINT\Zebra_Technologies_Z8570
+"ZDesigner ZE511R LH-600dpi ZPL" = ZE51L64R,USBPRINT\Zebra_Technologies_Z56E1
+"ZDesigner ZE511R RH-203dpi ZPL" = ZE51R24R,USBPRINT\Zebra_Technologies_ZF142
+"ZDesigner ZE511R RH-300dpi ZPL" = ZE51R34R,USBPRINT\Zebra_Technologies_Z2153
+"ZDesigner ZE511R RH-600dpi ZPL" = ZE51R64R,USBPRINT\Zebra_Technologies_Z3143
+"ZDesigner ZE521 LH-203dpi ZPL" = ZE52L26,USBPRINT\Zebra_Technologies_Z29D8
+"ZDesigner ZE521 LH-300dpi ZPL" = ZE52L36,USBPRINT\Zebra_Technologies_Z39EA
+"ZDesigner ZE521 RH-203dpi ZPL" = ZE52R26,USBPRINT\Zebra_Technologies_ZF671
+"ZDesigner ZE521 RH-300dpi ZPL" = ZE52R36,USBPRINT\Zebra_Technologies_Z27C2
+"ZDesigner ZE521R LH-203dpi ZPL" = ZE52L26R,USBPRINT\Zebra_Technologies_Z6610
+"ZDesigner ZE521R LH-300dpi ZPL" = ZE52L36R,USBPRINT\Zebra_Technologies_Z7782
+"ZDesigner ZE521R RH-203dpi ZPL" = ZE52R26R,USBPRINT\Zebra_Technologies_Z01B2
+"ZDesigner ZE521R RH-300dpi ZPL" = ZE52R36R,USBPRINT\Zebra_Technologies_ZD1A3
+"ZDesigner ZM400 200 dpi (EPL)" = BZM4E2,LPTENUM\Zebra_TechnologiesZT89E9
+"ZDesigner ZM400 200 dpi (EPL)" = BZM4E2,USBPRINT\Zebra_TechnologiesZT89E9
+"ZDesigner ZM400 200 dpi (ZPL)" = BZM4Z2,LPTENUM\Zebra_TechnologiesZT4FD8
+"ZDesigner ZM400 200 dpi (ZPL)" = BZM4Z2,USBPRINT\Zebra_TechnologiesZT4FD8
+"ZDesigner ZM400 300 dpi (ZPL)" = BZM4Z3,LPTENUM\Zebra_TechnologiesZT8AD3
+"ZDesigner ZM400 300 dpi (ZPL)" = BZM4Z3,USBPRINT\Zebra_TechnologiesZT8AD3
+"ZDesigner ZM400 600 dpi (ZPL)" = BZM4Z6,LPTENUM\Zebra_TechnologiesZT9A99
+"ZDesigner ZM400 600 dpi (ZPL)" = BZM4Z6,USBPRINT\Zebra_TechnologiesZT9A99
+"ZDesigner ZM600 200 dpi (EPL)" = BZM6E2,LPTENUM\Zebra_TechnologiesZTEBD0
+"ZDesigner ZM600 200 dpi (EPL)" = BZM6E2,USBPRINT\Zebra_TechnologiesZTEBD0
+"ZDesigner ZM600 200 dpi (ZPL)" = BZM6Z2,LPTENUM\Zebra_TechnologiesZT2DE1
+"ZDesigner ZM600 200 dpi (ZPL)" = BZM6Z2,USBPRINT\Zebra_TechnologiesZT2DE1
+"ZDesigner ZM600 300 dpi (ZPL)" = BZM6Z3,LPTENUM\Zebra_TechnologiesZTE8B0
+"ZDesigner ZM600 300 dpi (ZPL)" = BZM6Z3,USBPRINT\Zebra_TechnologiesZTE8B0
+"ZDesigner ZQ310 (ZPL)" = BAZQ310Z,USBPRINT\Zebra_Technologies_ZB2A2
+"ZDesigner ZQ310 (CPCL)" = BAZQ310C,USBPRINT\Zebra_Technologies_ZF6F4
+"ZDesigner ZQ320 (ZPL)" = BAZQ320Z,USBPRINT\Zebra_Technologies_ZA7E2
+"ZDesigner ZQ320 (CPCL)" = BAZQ320C,USBPRINT\Zebra_Technologies_Z06E0
+"ZDesigner ZQ510 (ZPL)" = BAZQ510Z,USBPRINT\Zebra_Technologies_Z1289
+"ZDesigner ZQ510 (CPCL)" = BAZQ510C,USBPRINT\Zebra_Technologies_ZE914
+"ZDesigner ZQ520 (ZPL)" = BAZQ520Z,USBPRINT\Zebra_Technologies_Z07C9
+"ZDesigner ZQ520 (CPCL)" = BAZQ520C,USBPRINT\Zebra_Technologies_Z1902
+"ZDesigner ZT210-200dpi EPL" = BEZT210,LPTENUM\Zebra_Technologies_ZB20F
+"ZDesigner ZT210-200dpi EPL" = BEZT210,USBPRINT\Zebra_Technologies_ZB20F
+"ZDesigner ZT210-200dpi ZPL" = BAZT210,LPTENUM\Zebra_Technologies_Z743E
+"ZDesigner ZT210-200dpi ZPL" = BAZT210,USBPRINT\Zebra_Technologies_Z743E
+"ZDesigner ZT210-300dpi ZPL" = BTZT210,LPTENUM\Zebra_Technologies_ZB16F
+"ZDesigner ZT210-300dpi ZPL" = BTZT210,USBPRINT\Zebra_Technologies_ZB16F
+"ZDesigner ZT220-200dpi EPL" = BEZT220,LPTENUM\Zebra_Technologies_Z110B
+"ZDesigner ZT220-200dpi EPL" = BEZT220,USBPRINT\Zebra_Technologies_Z110B
+"ZDesigner ZT220-200dpi ZPL" = BAZT220,LPTENUM\Zebra_Technologies_ZD73A
+"ZDesigner ZT220-200dpi ZPL" = BAZT220,USBPRINT\Zebra_Technologies_ZD73A
+"ZDesigner ZT220-300dpi ZPL" = BTZT220,LPTENUM\Zebra_Technologies_Z126B
+"ZDesigner ZT220-300dpi ZPL" = BTZT220,USBPRINT\Zebra_Technologies_Z126B
+"ZDesigner ZT230-200dpi EPL" = BEZT230,LPTENUM\Zebra_Technologies_Z9009
+"ZDesigner ZT230-200dpi EPL" = BEZT230,USBPRINT\Zebra_Technologies_Z9009
+"ZDesigner ZT230-200dpi ZPL" = BAZT230,LPTENUM\Zebra_Technologies_Z5638
+"ZDesigner ZT230-200dpi ZPL" = BAZT230,USBPRINT\Zebra_Technologies_Z5638
+"ZDesigner ZT230-300dpi ZPL" = BTZT230,LPTENUM\Zebra_Technologies_Z53C8
+"ZDesigner ZT230-300dpi ZPL" = BTZT230,USBPRINT\Zebra_Technologies_Z53C8
+"ZDesigner ZT410-203dpi EPL" = BEZT4142,LPTENUM\Zebra_Technologies_ZC148
+"ZDesigner ZT410-203dpi EPL" = BEZT4142,USBPRINT\Zebra_Technologies_ZC148
+"ZDesigner ZT410-203dpi ZPL" = BZZT4142,LPTENUM\Zebra_Technologies_ZC6F8
+"ZDesigner ZT410-203dpi ZPL" = BZZT4142,USBPRINT\Zebra_Technologies_ZC6F8
+"ZDesigner ZT410-300dpi ZPL" = BZZT4143,LPTENUM\Zebra_Technologies_ZD768
+"ZDesigner ZT410-300dpi ZPL" = BZZT4143,USBPRINT\Zebra_Technologies_ZD768
+"ZDesigner ZT410-600dpi ZPL" = BZZT4146,LPTENUM\Zebra_Technologies_Z06F9
+"ZDesigner ZT410-600dpi ZPL" = BZZT4146,USBPRINT\Zebra_Technologies_Z06F9
+"ZDesigner ZT420-203dpi ZPL" = BZZT4262,LPTENUM\Zebra_Technologies_ZC47C
+"ZDesigner ZT420-203dpi ZPL" = BZZT4262,USBPRINT\Zebra_Technologies_ZC47C
+"ZDesigner ZT420-300dpi ZPL" = BZZT4263,LPTENUM\Zebra_Technologies_Z146D
+"ZDesigner ZT420-300dpi ZPL" = BZZT4263,USBPRINT\Zebra_Technologies_Z146D
+"ZDesigner ZT410R-203dpi ZPL" = BZZT41R2,LPTENUM\Zebra_Technologies_Z34BC
+"ZDesigner ZT410R-203dpi ZPL" = BZZT41R2,USBPRINT\Zebra_Technologies_Z34BC
+"ZDesigner ZT410R-300dpi ZPL" = BZZT41R3,LPTENUM\Zebra_Technologies_ZE4AD
+"ZDesigner ZT410R-300dpi ZPL" = BZZT41R3,USBPRINT\Zebra_Technologies_ZE4AD
+"ZDesigner ZT410R-600dpi ZPL" = BZZT41R6,LPTENUM\Zebra_Technologies_ZF4BD
+"ZDesigner ZT410R-600dpi ZPL" = BZZT41R6,USBPRINT\Zebra_Technologies_ZF4BD
+"ZDesigner ZT420R-203dpi ZPL" = BZZT42R2,LPTENUM\Zebra_Technologies_Z57BE
+"ZDesigner ZT420R-203dpi ZPL" = BZZT42R2,USBPRINT\Zebra_Technologies_Z57BE
+"ZDesigner ZT420R-300dpi ZPL" = BZZT42R3,LPTENUM\Zebra_Technologies_Z85AF
+"ZDesigner ZT420R-300dpi ZPL" = BZZT42R3,USBPRINT\Zebra_Technologies_Z85AF
+"ZDesigner ZT510-203dpi ZPL" = BAZT5102,LPTENUM\Zebra_Technologies_Z07F8
+"ZDesigner ZT510-203dpi ZPL" = BAZT5102,USBPRINT\Zebra_Technologies_Z07F8
+"ZDesigner ZT510-300dpi ZPL" = BAZT5103,LPTENUM\Zebra_Technologies_Z1668
+"ZDesigner ZT510-300dpi ZPL" = BAZT5103,USBPRINT\Zebra_Technologies_Z1668
+"ZDesigner ZT610-203dpi ZPL" = BAZT6102,LPTENUM\Zebra_Technologies_Z04FB
+"ZDesigner ZT610-203dpi ZPL" = BAZT6102,USBPRINT\Zebra_Technologies_Z04FB
+"ZDesigner ZT610-300dpi ZPL" = BAZT6103,LPTENUM\Zebra_Technologies_ZD548
+"ZDesigner ZT610-300dpi ZPL" = BAZT6103,USBPRINT\Zebra_Technologies_ZD548
+"ZDesigner ZT610-600dpi ZPL" = BAZT6106,LPTENUM\Zebra_Technologies_ZC4FA
+"ZDesigner ZT610-600dpi ZPL" = BAZT6106,USBPRINT\Zebra_Technologies_ZC4FA
+"ZDesigner ZT620-203dpi ZPL" = BAZT6202,LPTENUM\Zebra_Technologies_Z067F
+"ZDesigner ZT620-203dpi ZPL" = BAZT6202,USBPRINT\Zebra_Technologies_Z067F
+"ZDesigner ZT620-300dpi ZPL" = BAZT6203,LPTENUM\Zebra_Technologies_Z164D
+"ZDesigner ZT620-300dpi ZPL" = BAZT6203,USBPRINT\Zebra_Technologies_Z164D
+"ZDesigner ZT610R-203dpi ZPL" = BARZT612,LPTENUM\Zebra_Technologies_ZF4BF
+"ZDesigner ZT610R-203dpi ZPL" = BARZT612,USBPRINT\Zebra_Technologies_ZF4BF
+"ZDesigner ZT610R-300dpi ZPL" = BARZT613,LPTENUM\Zebra_Technologies_ZE52F
+"ZDesigner ZT610R-300dpi ZPL" = BARZT613,USBPRINT\Zebra_Technologies_ZE52F
+"ZDesigner ZT610R-600dpi ZPL" = BARZT616,LPTENUM\Zebra_Technologies_Z34BE
+"ZDesigner ZT610R-600dpi ZPL" = BARZT616,USBPRINT\Zebra_Technologies_Z34BE
+"ZDesigner ZT620R-203dpi ZPL" = BARZT622,LPTENUM\Zebra_Technologies_Z97BD
+"ZDesigner ZT620R-203dpi ZPL" = BARZT622,USBPRINT\Zebra_Technologies_Z97BD
+"ZDesigner ZT620R-300dpi ZPL" = BARZT623,LPTENUM\Zebra_Technologies_Z4454
+"ZDesigner ZT620R-300dpi ZPL" = BARZT623,USBPRINT\Zebra_Technologies_Z4454
+"ZDesigner ZD500-203dpi ZPL" = BAZD50Z2,LPTENUM\Zebra_Technologies_Z4B6B
+"ZDesigner ZD500-203dpi ZPL" = BAZD50Z2,USBPRINT\Zebra_Technologies_Z4B6B
+"ZDesigner ZD500-300dpi ZPL" = BAZD50Z3,LPTENUM\Zebra_Technologies_Z9B7A
+"ZDesigner ZD500-300dpi ZPL" = BAZD50Z3,USBPRINT\Zebra_Technologies_Z9B7A
+"ZDesigner ZD500-203dpi EPL" = BAZD50E2,LPTENUM\Zebra_Technologies_Z8D5A
+"ZDesigner ZD500-203dpi EPL" = BAZD50E2,USBPRINT\Zebra_Technologies_Z8D5A
+"ZDesigner ZD500-300dpi EPL" = BAZD50E3,LPTENUM\Zebra_Technologies_Z5D4B
+"ZDesigner ZD500-300dpi EPL" = BAZD50E3,USBPRINT\Zebra_Technologies_Z5D4B
+"ZDesigner ZD410-203dpi ZPL" = BATZD412,LPTENUM\Zebra_Technologies_ZE968
+"ZDesigner ZD410-203dpi ZPL" = BATZD412,USBPRINT\Zebra_Technologies_ZE968
+"ZDesigner ZD410-300dpi ZPL" = BATZD413,LPTENUM\Zebra_Technologies_Z3979
+"ZDesigner ZD410-300dpi ZPL" = BATZD413,USBPRINT\Zebra_Technologies_Z3979
+"ZDesigner ZD410-203dpi EPL" = BABZD412,LPTENUM\Zebra_Technologies_Z2F59
+"ZDesigner ZD410-203dpi EPL" = BABZD412,USBPRINT\Zebra_Technologies_Z2F59
+"ZDesigner ZD410-300dpi EPL" = BABZD413,LPTENUM\Zebra_Technologies_ZFF48
+"ZDesigner ZD410-300dpi EPL" = BABZD413,USBPRINT\Zebra_Technologies_ZFF48
+"ZDesigner ZD411-203dpi ZPL" = BAZD412T,USBPRINT\Zebra_Technologies_Z2A95
+"ZDesigner ZD411-300dpi ZPL" = BAZD413T,USBPRINT\Zebra_Technologies_ZFA86
+"ZDesigner ZD411-203dpi EPL" = BAZD412B,USBPRINT\Zebra_Technologies_ZECA4
+"ZDesigner ZD411-300dpi EPL" = BAZD413B,USBPRINT\Zebra_Technologies_Z3CB5
+"ZDesigner ZD420-203dpi ZPL" = BATZD422,LPTENUM\Zebra_Technologies_ZC86C
+"ZDesigner ZD420-203dpi ZPL" = BATZD422,USBPRINT\Zebra_Technologies_ZC86C
+"ZDesigner ZD420-300dpi ZPL" = BATZD423,LPTENUM\Zebra_Technologies_Z187D
+"ZDesigner ZD420-300dpi ZPL" = BATZD423,USBPRINT\Zebra_Technologies_Z187D
+"ZDesigner ZD420-203dpi EPL" = BABZD422,LPTENUM\Zebra_Technologies_Z0E5D
+"ZDesigner ZD420-203dpi EPL" = BABZD422,USBPRINT\Zebra_Technologies_Z0E5D
+"ZDesigner ZD420-300dpi EPL" = BABZD423,LPTENUM\Zebra_Technologies_ZDE4C
+"ZDesigner ZD420-300dpi EPL" = BABZD423,USBPRINT\Zebra_Technologies_ZDE4C
+"ZDesigner ZD421-203dpi ZPL" = BAZD422T,USBPRINT\Zebra_Technologies_Z0B91
+"ZDesigner ZD421-300dpi ZPL" = BAZD423T,USBPRINT\Zebra_Technologies_ZDB82
+"ZDesigner ZD421-203dpi EPL" = BAZD422B,USBPRINT\Zebra_Technologies_ZCDA0
+"ZDesigner ZD421-300dpi EPL" = BAZD423B,USBPRINT\Zebra_Technologies_Z1DB1
+"ZDesigner ZD421CN-300dpi ZPL" = BAZ423TC,USBPRINT\Zebra_Technologies_ZEC5D
+"ZDesigner ZD421CN-300dpi EPL" = BAZ423BC,USBPRINT\Zebra_Technologies_Z2A6C
+"ZDesigner ZD611-203dpi ZPL" = BAZD612T,USBPRINT\Zebra_Technologies_Z5097
+"ZDesigner ZD611R-203dpi ZPL" = BAZD612R,USBPRINT\Zebra_Technologies_Z1830
+"ZDesigner ZD611-300dpi ZPL" = BAZD613T,USBPRINT\Zebra_Technologies_Z8286
+"ZDesigner ZD611R-300dpi ZPL" = BAZD613R,USBPRINT\Zebra_Technologies_ZC821
+"ZDesigner ZD611-203dpi EPL" = BAZD612B,USBPRINT\Zebra_Technologies_Z96A6
+"ZDesigner ZD611-300dpi EPL" = BAZD613B,USBPRINT\Zebra_Technologies_Z44B7
+"ZDesigner ZD621-203dpi ZPL" = BAZD622T,USBPRINT\Zebra_Technologies_ZC992
+"ZDesigner ZD621R-203dpi ZPL" = BAZD622R,USBPRINT\Zebra_Technologies_ZDB92
+"ZDesigner ZD621-300dpi ZPL" = BAZD623T,USBPRINT\Zebra_Technologies_Z1983
+"ZDesigner ZD621R-300dpi ZPL" = BAZD623R,USBPRINT\Zebra_Technologies_ZCB22
+"ZDesigner ZD621-203dpi EPL" = BAZD622B,USBPRINT\Zebra_Technologies_Z0FA3 
+"ZDesigner ZD621-300dpi EPL" = BAZD623B,USBPRINT\Zebra_Technologies_ZDFB2
+"ZDesigner ZR318 (ZPL)" = BAZR318Z,USBPRINT\Zebra_Technologies_ZBC5A
+"ZDesigner ZR318 (CPCL)" = BAZR318C,USBPRINT\Zebra_Technologies_Z14FA
+"ZDesigner ZR328 (ZPL)" = BAZR328Z,USBPRINT\Zebra_Technologies_Z689B
+"ZDesigner ZR328 (CPCL)" = BAZR328C,USBPRINT\Zebra_Technologies_ZE4EE
+"ZDesigner ZR338 (CPCL)" = BAZR338,USBPRINT\Zebra_Technologies_Z74E3
+"ZDesigner ZR338 (ZPL)" = BAZR338Z,USBPRINT\Zebra_Technologies_ZA45A
+"ZDesigner ZR628 (CPCL)" = BAZR628,USBPRINT\Zebra_Technologies_ZF4FE
+"ZDesigner ZR628 (ZPL)" = BAZR628Z,USBPRINT\Zebra_Technologies_Z38A4
+"ZDesigner ZR638 (CPCL)" = BAZR638,USBPRINT\Zebra_Technologies_Z64F3
+"ZDesigner ZR638 (ZPL)" = BAZR638Z,USBPRINT\Zebra_Technologies_ZF465
+"ZDesigner ZD620-203dpi ZPL" = BATZD622,USBPRINT\Zebra_Technologies_Z6A6E
+"ZDesigner ZD620-300dpi ZPL" = BATZD623,USBPRINT\Zebra_Technologies_Z1A5D
+"ZDesigner ZD620-203dpi EPL" = BABZD622,USBPRINT\Zebra_Technologies_ZAC5F
+"ZDesigner ZD620-300dpi EPL" = BABZD623,USBPRINT\Zebra_Technologies_ZDC6C
+"ZDesigner GK420E (ZPL)" = BAGK420E,LPTENUM\Zebra_TechnologiesZT01E3
+"ZDesigner GK420E (ZPL)" = BAGK420E,USBPRINT\Zebra_TechnologiesZT01E3
+"ZDesigner GK420E (EPL)" = BGK420EE,LPTENUM\Zebra_TechnologiesZTD5E4
+"ZDesigner GK420E (EPL)" = BGK420EE,USBPRINT\Zebra_TechnologiesZTD5E4
+"ZDesigner GK888E (ZPL)" = BAGK888E,LPTENUM\Zebra_TechnologiesZT385C
+"ZDesigner GK888E (ZPL)" = BAGK888E,USBPRINT\Zebra_TechnologiesZT385C
+"ZDesigner GK888E (EPL)" = BEGK888E,LPTENUM\Zebra_TechnologiesZTEC5B
+"ZDesigner GK888E (EPL)" = BEGK888E,USBPRINT\Zebra_TechnologiesZTEC5B
+"ZDesigner ZQ610 (CPCL)" = BAZQ610,USBPRINT\Zebra_Technologies_ZE6E4
+"ZDesigner ZQ610 (ZPL)" = BAZQ610Z,USBPRINT\Zebra_Technologies_ZE29D
+"ZDesigner ZQ620 (CPCL)" = BAZQ620,USBPRINT\Zebra_Technologies_Z16F0
+"ZDesigner ZQ620 (ZPL)" = BAZQ620Z,USBPRINT\Zebra_Technologies_ZF7DD
+"ZDesigner ZR658 (CPCL)" = BAZR658,USBPRINT\Zebra_Technologies_ZC4D8
+"ZDesigner ZR658 (ZPL)" = BAZR658Z,USBPRINT\Zebra_Technologies_ZDEE5
+"ZDesigner ZR668 (CPCL)" = BAZR668,USBPRINT\Zebra_Technologies_Z34CC
+"ZDesigner ZR668 (ZPL)" = BAZR668Z,USBPRINT\Zebra_Technologies_ZCBA5
+"ZDesigner GK420t Plus (ZPL)" = BAGK42TP,LPTENUM\Zebra_Technologies_Z58FF
+"ZDesigner GK420t Plus (ZPL)" = BAGK42TP,USBPRINT\Zebra_Technologies_Z58FF
+"ZDesigner GK420t Plus (EPL)" = BGK42TEP,LPTENUM\Zebra_Technologies_Z4D79
+"ZDesigner GK420t Plus (EPL)" = BGK42TEP,USBPRINT\Zebra_Technologies_Z4D79
+"ZDesigner ZD510-300dpi ZPL" = BAZD5103,USBPRINT\Zebra_Technologies_ZF879
+"ZDesigner GT800 Plus (EPL)" = BEGT800P,LPTENUM\Zebra_Technologies_Z69AB
+"ZDesigner GT800 Plus (EPL)" = BEGT800P,USBPRINT\Zebra_Technologies_Z69AB
+"ZDesigner GT800 Plus (ZPL)" = BAGT800P,LPTENUM\Zebra_Technologies_ZBDAC
+"ZDesigner GT800 Plus (ZPL)" = BAGT800P,USBPRINT\Zebra_Technologies_ZBDAC
+"ZDesigner ZD511-300dpi ZPL" = BAZD5113,USBPRINT\Zebra_Technologies_Z3B84
+"ZDesigner ZQ630 (CPCL)" = BAZQ630,USBPRINT\Zebra_Technologies_Z84FD
+"ZDesigner ZQ630 (ZPL)" = BAZQ630Z,USBPRINT\Zebra_Technologies_Z3B1C
+"ZDesigner ZQ630R (ZPL)" = BAZQ63RZ,USBPRINT\Zebra_Technologies_ZDCF8
+"ZDesigner ZQ120 (CPCL)" = BAZQ120,USBPRINT\Zebra_Technologies_ZCC43
+"ZDesigner ZQ220 (CPCL)" = BAZQ220,USBPRINT\Zebra_Technologies_ZC3B1
+"ZDesigner ZR138 (CPCL)" = BAZR138,USBPRINT\Zebra_Technologies_Z7EE3
+"ZDesigner ZD100-203dpi ZPL" = ZD100Z2,USBPRINT\Zebra_Technologies_Z8F6E
+"ZDesigner ZD100-203dpi EPL" = ZD100E2,USBPRINT\Zebra_Technologies_Z495F
+"ZDesigner ZD220-203dpi ZPL" = BATZD222,LPTENUM\Zebra_Technologies_Z0ECB
+"ZDesigner ZD220-203dpi ZPL" = BATZD222,USBPRINT\Zebra_Technologies_Z0ECB
+"ZDesigner ZD220-203dpi EPL" = BABZD222,LPTENUM\Zebra_Technologies_ZC8FA
+"ZDesigner ZD220-203dpi EPL" = BABZD222,USBPRINT\Zebra_Technologies_ZC8FA
+"ZDesigner ZD230-203dpi ZPL" = BATZD232,LPTENUM\Zebra_Technologies_Z4F68
+"ZDesigner ZD230-203dpi ZPL" = BATZD232,USBPRINT\Zebra_Technologies_Z4F68
+"ZDesigner ZD230-203dpi EPL" = BABZD232,LPTENUM\Zebra_Technologies_Z8959
+"ZDesigner ZD230-203dpi EPL" = BABZD232,USBPRINT\Zebra_Technologies_Z8959
+"ZDesigner ZD230-300dpi ZPL" = ZD230Z3,USBPRINT\Zebra_Technologies_Z5FD8
+"ZDesigner ZD230-300dpi EPL" = ZD230E3,USBPRINT\Zebra_Technologies_Z99E9
+"ZDesigner ZD888-203dpi ZPL" = BATZD888,LPTENUM\Zebra_Technologies_Z1199
+"ZDesigner ZD888-203dpi ZPL" = BATZD888,USBPRINT\Zebra_Technologies_Z1199
+"ZDesigner ZD888-203dpi EPL" = BABZD888,LPTENUM\Zebra_Technologies_ZD7A8
+"ZDesigner ZD888-203dpi EPL" = BABZD888,USBPRINT\Zebra_Technologies_ZD7A8
+"ZDesigner ZD888-300dpi ZPL" = ZD888Z3,USBPRINT\Zebra_Technologies_ZC188
+"ZDesigner ZD888-300dpi EPL" = ZD888E3,USBPRINT\Zebra_Technologies_ZC638
+"ZDesigner ZT411-203dpi EPL" = BEZT4112,LPTENUM\Zebra_Technologies_Z02B5
+"ZDesigner ZT411-203dpi EPL" = BEZT4112,USBPRINT\Zebra_Technologies_Z02B5
+"ZDesigner ZT411-203dpi ZPL" = BZZT4112,LPTENUM\Zebra_Technologies_Z0505
+"ZDesigner ZT411-203dpi ZPL" = BZZT4112,USBPRINT\Zebra_Technologies_Z0505
+"ZDesigner ZT411-300dpi ZPL" = BZZT4113,LPTENUM\Zebra_Technologies_Z1495
+"ZDesigner ZT411-300dpi ZPL" = BZZT4113,USBPRINT\Zebra_Technologies_Z1495
+"ZDesigner ZT411-600dpi ZPL" = BZZT4116,LPTENUM\Zebra_Technologies_ZC504
+"ZDesigner ZT411-600dpi ZPL" = BZZT4116,USBPRINT\Zebra_Technologies_ZC504
+"ZDesigner ZT421-203dpi ZPL" = BZZT4212,LPTENUM\Zebra_Technologies_Z0781
+"ZDesigner ZT421-203dpi ZPL" = BZZT4212,USBPRINT\Zebra_Technologies_Z0781
+"ZDesigner ZT421-300dpi ZPL" = BZZT4213,LPTENUM\Zebra_Technologies_ZD790
+"ZDesigner ZT421-300dpi ZPL" = BZZT4213,USBPRINT\Zebra_Technologies_ZD790
+"ZDesigner ZT411R-203dpi ZPL" = BZT411R2,LPTENUM\Zebra_Technologies_ZB5BE
+"ZDesigner ZT411R-203dpi ZPL" = BZT411R2,USBPRINT\Zebra_Technologies_ZB5BE
+"ZDesigner ZT411R-300dpi ZPL" = BZT411R3,LPTENUM\Zebra_Technologies_Z65AF
+"ZDesigner ZT411R-300dpi ZPL" = BZT411R3,USBPRINT\Zebra_Technologies_Z65AF
+"ZDesigner ZT411R-600dpi ZPL" = BZT411R6,LPTENUM\Zebra_Technologies_Z75BF
+"ZDesigner ZT411R-600dpi ZPL" = BZT411R6,USBPRINT\Zebra_Technologies_Z75BF
+"ZDesigner ZT421R-203dpi ZPL" = BZT421R2,LPTENUM\Zebra_Technologies_ZD6BC
+"ZDesigner ZT421R-203dpi ZPL" = BZT421R2,USBPRINT\Zebra_Technologies_ZD6BC
+"ZDesigner ZT421R-300dpi ZPL" = BZT421R3,LPTENUM\Zebra_Technologies_Z06AD
+"ZDesigner ZT421R-300dpi ZPL" = BZT421R3,USBPRINT\Zebra_Technologies_Z06AD
+"ZDesigner ZQ511 (ZPL)" = BAZQ511Z,USBPRINT\Zebra_Technologies_ZD299
+"ZDesigner ZQ511 (CPCL)" = BAZQ511C,USBPRINT\Zebra_Technologies_Z25D5
+"ZDesigner ZQ521 (ZPL)" = BAZQ521Z,USBPRINT\Zebra_Technologies_ZC7D9
+"ZDesigner ZQ521 (CPCL)" = BAZQ521C,USBPRINT\Zebra_Technologies_ZD5C3
+"ZDesigner ZQ511R (ZPL)" = BAZQ511R,USBPRINT\Zebra_Technologies_Z7FD0
+"ZDesigner ZQ521R (ZPL)" = BAZQ521R,USBPRINT\Zebra_Technologies_Z8FC6
+"ZDesigner ZQ112 (CPCL)" = BAZQ112,USBPRINT\Zebra_Technologies_ZE5D4
+"ZDesigner ZQ210 (CPCL)" = BAZQ210,USBPRINT\Zebra_Technologies_Z33A5
+"ZDesigner ZR118 (CPCL)" = BAZR118,USBPRINT\Zebra_Technologies_Z1EFA
+"ZDesigner ZT111-203dpi EPL" = ZT111E2,LPTENUM\Zebra_Technologies_ZC631 
+"ZDesigner ZT111-203dpi EPL" = ZT111E2,USBPRINT\Zebra_Technologies_ZC631 
+"ZDesigner ZT111-203dpi ZPL" = ZT111Z2,LPTENUM\Zebra_Technologies_ZC181 
+"ZDesigner ZT111-203dpi ZPL" = ZT111Z2,USBPRINT\Zebra_Technologies_ZC181 
+"ZDesigner ZT111-300dpi ZPL" = ZT111Z3,LPTENUM\Zebra_Technologies_Z1190
+"ZDesigner ZT111-300dpi ZPL" = ZT111Z3,USBPRINT\Zebra_Technologies_Z1190
+"ZDesigner ZT211-203dpi EPL" = ZT211E2,LPTENUM\Zebra_Technologies_ZC532
+"ZDesigner ZT211-203dpi EPL" = ZT211E2,USBPRINT\Zebra_Technologies_ZC532
+"ZDesigner ZT211-203dpi ZPL" = ZT211Z2,LPTENUM\Zebra_Technologies_ZC282
+"ZDesigner ZT211-203dpi ZPL" = ZT211Z2,USBPRINT\Zebra_Technologies_ZC282
+"ZDesigner ZT211-300dpi ZPL" = ZT211Z3,LPTENUM\Zebra_Technologies_Z1293
+"ZDesigner ZT211-300dpi ZPL" = ZT211Z3,USBPRINT\Zebra_Technologies_Z1293
+"ZDesigner ZT231-203dpi EPL" = ZT231E2,LPTENUM\Zebra_Technologies_Z44B4
+"ZDesigner ZT231-203dpi EPL" = ZT231E2,USBPRINT\Zebra_Technologies_Z44B4
+"ZDesigner ZT231-203dpi ZPL" = ZT231Z2,LPTENUM\Zebra_Technologies_Z8285
+"ZDesigner ZT231-203dpi ZPL" = ZT231Z2,USBPRINT\Zebra_Technologies_Z8285
+"ZDesigner ZT231-300dpi ZPL" = ZT231Z3,LPTENUM\Zebra_Technologies_Z5094
+"ZDesigner ZT231-300dpi ZPL" = ZT231Z3,USBPRINT\Zebra_Technologies_Z5094
+"ZDesigner ZT231R-203dpi ZPL" = ZT231Z2R,LPTENUM\Zebra_Technologies_ZCCBB
+"ZDesigner ZT231R-203dpi ZPL" = ZT231Z2R,USBPRINT\Zebra_Technologies_ZCCBB
+"ZDesigner ZT231R-300dpi ZPL" = ZT231Z3R,LPTENUM\Zebra_Technologies_Z1CAA
+"ZDesigner ZT231R-300dpi ZPL" = ZT231Z3R,USBPRINT\Zebra_Technologies_Z1CAA
+"ZDesigner ZQ310 Plus (CPCL)" = ZQ310PC,USBPRINT\Zebra_Technologies_ZF16B
+"ZDesigner ZQ320 Plus (CPCL)" = ZQ320PC,USBPRINT\Zebra_Technologies_ZF268
+"ZDesigner ZR328 Plus (CPCL)" = ZR328PC,USBPRINT\Zebra_Technologies_Z4B37
+"ZDesigner ZQ610 Plus (CPCL)" = ZQ610PC,USBPRINT\Zebra_Technologies_ZF2AE
+"ZDesigner ZQ620 Plus (CPCL)" = ZQ620PC,USBPRINT\Zebra_Technologies_ZF1AD
+"ZDesigner ZQ630 Plus (CPCL)" = ZQ630PC,USBPRINT\Zebra_Technologies_ZF0D4
+"ZDesigner ZR668 Plus (CPCL)" = ZR668PC,USBPRINT\Zebra_Technologies_Z4D76
+"ZDesigner ZQ310 Plus (ZPL)" = ZQ310PZ,USBPRINT\Zebra_Technologies_ZADA8
+"ZDesigner ZQ320 Plus (ZPL)" = ZQ320PZ,USBPRINT\Zebra_Technologies_Z6EAD
+"ZDesigner ZR328 Plus (ZPL)" = ZR328PZ,USBPRINT\Zebra_Technologies_ZB00F
+"ZDesigner ZQ610 Plus (ZPL)" = ZQ610PZ,USBPRINT\Zebra_Technologies_ZA8AD
+"ZDesigner ZQ620 Plus (ZPL)" = ZQ620PZ,USBPRINT\Zebra_Technologies_Z6BA8
+"ZDesigner ZQ630 Plus (ZPL)" = ZQ630PZ,USBPRINT\Zebra_Technologies_Z52AB
+"ZDesigner ZR668 Plus (ZPL)" = ZR668PZ,USBPRINT\Zebra_Technologies_Z3106
+"ZDesigner ZQ630R Plus (ZPL)" = ZQ630RPZ,USBPRINT\Zebra_Technologies_Z736C
+"ZDesigner ZQ120 Plus (CPCL)" = ZQ120PC,USBPRINT\Zebra_Technologies_ZF3EA
+"ZDesigner ZQ220 Plus (CPCL)" = ZQ220PC,USBPRINT\Zebra_Technologies_Z10A8
+
+
+
+[ZDesigner.NTamd64]
+"ZDesigner 105SL 203DPI" = BA105SL1,LPTENUM\Zebra_TechnologiesZT2771
+"ZDesigner 105SL 300DPI" = BA105SL2,LPTENUM\Zebra_TechnologiesZTF670
+"ZDesigner 105SLPlus-203dpi ZPL" = BA105SLP2,LPTENUM\Zebra_TechnologiesZT63ED
+"ZDesigner 105SLPlus-203dpi ZPL" = BA105SLP2,USBPRINT\Zebra_TechnologiesZT63ED
+"ZDesigner 105SLPlus-300dpi ZPL" = BA105SLP3,LPTENUM\Zebra_TechnologiesZTB3FC
+"ZDesigner 105SLPlus-300dpi ZPL" = BA105SLP3,USBPRINT\Zebra_TechnologiesZTB3FC
+"ZDesigner 110PAX4 203DPI" = BA110P41,LPTENUM\Zebra_TechnologiesZT9F91
+"ZDesigner 110PAX4 203DPI" = BA110P41,LPTENUM\Zebra_TechnologiesZT3F10
+"ZDesigner 110PAX4 300DPI" = BA110P42,LPTENUM\Zebra_TechnologiesZT8F11
+"ZDesigner 110PAX4 300DPI" = BA110P42,LPTENUM\Zebra_TechnologiesZT2F90
+"ZDesigner 110Xi4 203 dpi" = BA110XI42,LPTENUM\Zebra_TechnologiesZT4F6A
+"ZDesigner 110Xi4 203 dpi" = BA110XI42,USBPRINT\Zebra_TechnologiesZT4F6A
+"ZDesigner 110Xi4 300 dpi" = BA110XI43,LPTENUM\Zebra_TechnologiesZT5F02
+"ZDesigner 110Xi4 300 dpi" = BA110XI43,USBPRINT\Zebra_TechnologiesZT5F02
+"ZDesigner 110Xi4 600 dpi" = BA110XI46,LPTENUM\Zebra_TechnologiesZT8F6B
+"ZDesigner 110Xi4 600 dpi" = BA110XI46,USBPRINT\Zebra_TechnologiesZT8F6B
+"ZDesigner 110XiIII Plus 200DPI" = BA110XI2,LPTENUM\Zebra_TechnologiesZTBACB
+"ZDesigner 110XiIII Plus 200DPI" = BA110XI2,USBPRINT\Zebra_TechnologiesZTBACB
+"ZDesigner 110XiIII Plus 300DPI" = BA110XI3,LPTENUM\Zebra_TechnologiesZT6BCA
+"ZDesigner 110XiIII Plus 300DPI" = BA110XI3,USBPRINT\Zebra_TechnologiesZT6BCA
+"ZDesigner 110XiIII Plus 600DPI" = BA110XI6,LPTENUM\Zebra_TechnologiesZT3ECA
+"ZDesigner 110XiIII Plus 600DPI" = BA110XI6,USBPRINT\Zebra_TechnologiesZT3ECA
+"ZDesigner 140Xi4 203 dpi" = BA140XI42,LPTENUM\Zebra_TechnologiesZTDCD0
+"ZDesigner 140Xi4 203 dpi" = BA140XI42,USBPRINT\Zebra_TechnologiesZTDCD0
+"ZDesigner 140XiIII Plus" = BA14XI3P,LPTENUM\Zebra_TechnologiesZT77DB
+"ZDesigner 140XiIII Plus" = BA14XI3P,USBPRINT\Zebra_TechnologiesZT77DB
+"ZDesigner 170PAX4 203DPI" = BA170P41,LPTENUM\Zebra_TechnologiesZTFDB3
+"ZDesigner 170PAX4 203DPI" = BA170P41,LPTENUM\Zebra_TechnologiesZT9D11
+"ZDesigner 170PAX4 300DPI" = BA170P42,LPTENUM\Zebra_TechnologiesZT2D92
+"ZDesigner 170PAX4 300DPI" = BA170P42,LPTENUM\Zebra_TechnologiesZT4D30
+"ZDesigner 170Xi4 203 dpi" = BA170XI42,LPTENUM\Zebra_TechnologiesZT2D90
+"ZDesigner 170Xi4 203 dpi" = BA170XI42,USBPRINT\Zebra_TechnologiesZT2D90
+"ZDesigner 170Xi4 300 dpi" = BA170XI43,LPTENUM\Zebra_TechnologiesZTFD81
+"ZDesigner 170Xi4 300 dpi" = BA170XI43,USBPRINT\Zebra_TechnologiesZTFD81
+"ZDesigner 170XiIII Plus" = BA17XI3P,LPTENUM\Zebra_TechnologiesZTE22A
+"ZDesigner 170XiIII Plus" = BA17XI3P,USBPRINT\Zebra_TechnologiesZTE22A
+"ZDesigner 170XiIII Plus 200DPI" = B17XI3P2,LPTENUM\Zebra_TechnologiesZT332B
+"ZDesigner 170XiIII Plus 200DPI" = B17XI3P2,USBPRINT\Zebra_TechnologiesZT332B
+"ZDesigner 220Xi4 203 dpi" = BA220XI42,LPTENUM\Zebra_TechnologiesZT81FB
+"ZDesigner 220Xi4 203 dpi" = BA220XI42,USBPRINT\Zebra_TechnologiesZT81FB
+"ZDesigner 220Xi4 300 dpi" = BA220XI43,LPTENUM\Zebra_TechnologiesZT934B
+"ZDesigner 220Xi4 300 dpi" = BA220XI43,USBPRINT\Zebra_TechnologiesZT934B
+"ZDesigner 220XiIII Plus" = BA22XI3P,LPTENUM\Zebra_TechnologiesZT227C
+"ZDesigner 220XiIII Plus" = BA22XI3P,USBPRINT\Zebra_TechnologiesZT227C
+"ZDesigner 220XiIII Plus 300DPI" = B22XI3P3,LPTENUM\Zebra_TechnologiesZTF37D
+"ZDesigner 220XiIII Plus 300DPI" = B22XI3P3,USBPRINT\Zebra_TechnologiesZTF37D
+"ZDesigner 888-DT" = BAB888D,LPTENUM\Zebra_888-DT_024E
+"ZDesigner 888-DT" = BAB888D,USBPRINT\Zebra_888-DT_024E
+"ZDesigner 888-TT" = BAB888T,LPTENUM\Zebra_888-TT_C74F
+"ZDesigner 888-TT" = BAB888T,USBPRINT\Zebra_888-TT_C74F
+"ZDesigner EZ 320" = BAEZ320,USBPRINT\Zebra_TechnologiesEZD0FA
+"ZDesigner GC420d" = BAGC420D,LPTENUM\Zebra_Technologies_Z10F0
+"ZDesigner GC420d" = BAGC420D,USBPRINT\Zebra_Technologies_Z10F0
+"ZDesigner GC420d (EPL)" = BEGC420D,LPTENUM\Zebra_Technologies_ZC4F7
+"ZDesigner GC420d (EPL)" = BEGC420D,USBPRINT\Zebra_Technologies_ZC4F7
+"ZDesigner GC420t" = BAGC420T,LPTENUM\Zebra_Technologies_ZD1E1
+"ZDesigner GC420t" = BAGC420T,USBPRINT\Zebra_Technologies_ZD1E1
+"ZDesigner GC420t (EPL)" = BEGC420T,LPTENUM\Zebra_Technologies_Z05E6
+"ZDesigner GC420t (EPL)" = BEGC420T,USBPRINT\Zebra_Technologies_Z05E6
+"ZDesigner GK420d" = BAGK420D,LPTENUM\Zebra_TechnologiesZT9BEC
+"ZDesigner GK420d" = BAGK420D,USBPRINT\Zebra_TechnologiesZT9BEC
+"ZDesigner GK420d (EPL)" = BGK420DE,LPTENUM\Zebra_TechnologiesZT15F4
+"ZDesigner GK420d (EPL)" = BGK420DE,USBPRINT\Zebra_TechnologiesZT15F4
+"ZDesigner GK420t" = BAGK420T,LPTENUM\Zebra_TechnologiesZT57ED
+"ZDesigner GK420t" = BAGK420T,USBPRINT\Zebra_TechnologiesZT57ED
+"ZDesigner GK420t (EPL)" = BGK420TE,LPTENUM\Zebra_TechnologiesZTD4E5
+"ZDesigner GK420t (EPL)" = BGK420TE,USBPRINT\Zebra_TechnologiesZTD4E5
+"ZDesigner GK888d" = BAGK888D,LPTENUM\Zebra_TechnologiesZT09C8
+"ZDesigner GK888d" = BAGK888D,USBPRINT\Zebra_TechnologiesZT09C8
+"ZDesigner GK888d (EPL)" = BEGK888D,LPTENUM\Zebra_TechnologiesZT2C4B
+"ZDesigner GK888d (EPL)" = BEGK888D,USBPRINT\Zebra_TechnologiesZT2C4B
+"ZDesigner GK888t" = BAGK888T,LPTENUM\Zebra_TechnologiesZTC5C9
+"ZDesigner GK888t" = BAGK888T,USBPRINT\Zebra_TechnologiesZTC5C9
+"ZDesigner GK888t (EPL)" = BEGK888T,LPTENUM\Zebra_TechnologiesZTED5A
+"ZDesigner GK888t (EPL)" = BEGK888T,USBPRINT\Zebra_TechnologiesZTED5A
+"ZDesigner GT800 (EPL)" = BEGT800,LPTENUM\Zebra_TechnologiesZT6E74
+"ZDesigner GT800 (EPL)" = BEGT800,USBPRINT\Zebra_TechnologiesZT6E74
+"ZDesigner GT800 (ZPL)" = BAGT800,LPTENUM\Zebra_TechnologiesZTDA72
+"ZDesigner GT800 (ZPL)" = BAGT800,USBPRINT\Zebra_TechnologiesZTDA72
+"ZDesigner GT800-300dpi EPL" = BEGT8003,LPTENUM\Zebra_Technologies_Z641E
+"ZDesigner GT800-300dpi EPL" = BEGT8003,USBPRINT\Zebra_Technologies_Z641E
+"ZDesigner GT800-300dpi ZPL" = BAGT8003,LPTENUM\Zebra_Technologies_Z63AE
+"ZDesigner GT800-300dpi ZPL" = BAGT8003,USBPRINT\Zebra_Technologies_Z63AE
+"ZDesigner GX420d" = BAGX420D,LPTENUM\Zebra_TechnologiesZT5869
+"ZDesigner GX420d" = BAGX420D,USBPRINT\Zebra_TechnologiesZT5869
+"ZDesigner GX420d (EPL)" = BGX420DE,LPTENUM\Zebra_TechnologiesZT91AF
+"ZDesigner GX420d (EPL)" = BGX420DE,USBPRINT\Zebra_TechnologiesZT91AF
+"ZDesigner GX420s" = BAGX420S,LPTENUM\Zebra_Technologies_ZF5E6
+"ZDesigner GX420s" = BAGX420S,USBPRINT\Zebra_Technologies_ZF5E6
+"ZDesigner GX420s (EPL)" = BGX420SE,LPTENUM\Zebra_Technologies_Z21E1
+"ZDesigner GX420s (EPL)" = BGX420SE,USBPRINT\Zebra_Technologies_Z21E1
+"ZDesigner GX420t" = BAGX420T,LPTENUM\Zebra_TechnologiesZT9468
+"ZDesigner GX420t" = BAGX420T,USBPRINT\Zebra_TechnologiesZT9468
+"ZDesigner GX420t (EPL)" = BGX420TE,LPTENUM\Zebra_TechnologiesZT50BE
+"ZDesigner GX420t (EPL)" = BGX420TE,USBPRINT\Zebra_TechnologiesZT50BE
+"ZDesigner GX430t" = BAGX430T,LPTENUM\Zebra_TechnologiesZT5439
+"ZDesigner GX430t" = BAGX430T,USBPRINT\Zebra_TechnologiesZT5439
+"ZDesigner GX430t (EPL)" = BGX430TE,LPTENUM\Zebra_TechnologiesZTC0B3
+"ZDesigner GX430t (EPL)" = BGX430TE,USBPRINT\Zebra_TechnologiesZTC0B3
+"ZDesigner HC100 300 dpi" = BAHC1003,USBPRINT\Zebra_TechnologiesZT4B4D
+"ZDesigner iMZ220" = BAIMZ220,USBPRINT\Zebra_Technologies_Z36D2
+"ZDesigner iMZ220 (ZPL)" = BAIMZ220Z,USBPRINT\Zebra_Technologies_ZBEDA
+"ZDesigner iMZ320" = BAIMZ320,USBPRINT\Zebra_Technologies_ZF681      
+"ZDesigner iMZ320 (ZPL)" = BAIMZ320Z,USBPRINT\Zebra_Technologies_ZB556
+"ZDesigner KR403" = BAKKR403,USBPRINT\Zebra_TechnologiesZT51E8
+"ZDesigner LP 2824" = BAB2824,LPTENUM\Zebra_LP2824_5A26
+"ZDesigner LP 2824" = BAB2824,USBPRINT\Zebra_LP2824_5A26
+"ZDesigner LP 2824 Plus (EPL)" = BAB2824P,LPTENUM\Zebra_TechnologiesZTFD6B
+"ZDesigner LP 2824 Plus (EPL)" = BAB2824P,USBPRINT\Zebra_TechnologiesZTFD6B
+"ZDesigner LP 2824 Plus (ZPL)" = BAT2824ZP,LPTENUM\Zebra_TechnologiesZT77A3
+"ZDesigner LP 2824 Plus (ZPL)" = BAT2824ZP,USBPRINT\Zebra_TechnologiesZT77A3
+"ZDesigner LP 2844" = BAB2844,LPTENUM\Zebra_LP2844_5BC4
+"ZDesigner LP 2844" = BAB2844,USBPRINT\Zebra_LP2844_5BC4
+"ZDesigner LP 2844-Z" = BAB2844Z,LPTENUM\Zebra_TechnologiesZT9FD5
+"ZDesigner LP 2844-Z" = BAB2844Z,USBPRINT\Zebra_TechnologiesZT9FD5
+"ZDesigner Mobile Printer" = BAQLMOB,USBPRINT\1284_CID_Zebra_TechnologiesZTD914
+"ZDesigner Mobile Printer" = BAQLMOB,USBPRINT\1284_CID_Zebra_TechnologiesZTC8B4
+"ZDesigner MZ 220" = BAMZ220,USBPRINT\Zebra_MZ_220_4B8E
+"ZDesigner MZ 320" = BAMZ320,USBPRINT\Zebra_MZ_320_B78F
+"ZDesigner P4T (CPCL)" = BAP4T,USBPRINT\Zebra_TechnologiesZTED52
+"ZDesigner P4T (ZPL)" = BRP4T,USBPRINT\Zebra_Technologies_P06CA
+"ZDesigner QL 220/QL 220 Plus" = BAQL220P,USBPRINT\Zebra_QL_220_7C51
+"ZDesigner QL 220/QL 220 Plus" = BAQL220P,USBPRINT\Zebra_QL_220+_14BB
+"ZDesigner QL 320/QL 320 Plus" = BAQL320P,USBPRINT\Zebra_QL_320_8250
+"ZDesigner QL 320/QL 320 Plus" = BAQL320P,USBPRINT\Zebra_QL_320+_D484
+"ZDesigner QL 420/QL 420 Plus" = BAQL420P,USBPRINT\Zebra_QL_420_F451
+"ZDesigner QL 420/QL 420 Plus" = BAQL420P,USBPRINT\Zebra_QL_420+_1433
+"ZDesigner QLn220" = BAQLN220,USBPRINT\Zebra_TechnologiesQL07A3
+"ZDesigner QLn220 (ZPL)" = BAQLN220Z,USBPRINT\Zebra_Technologies_Z4F3F
+"ZDesigner QLn320" = BAQLN320,USBPRINT\Zebra_TechnologiesQLC7F2
+"ZDesigner QLn320 (ZPL)" = BAQLN320Z,USBPRINT\Zebra_Technologies_ZDF32
+"ZDesigner QLn420 (CPCL)" = BAQLN420,USBPRINT\Zebra_Technologies_ZE00A
+"ZDesigner QLn420 (ZPL)" = BAQLN420Z,USBPRINT\Zebra_Technologies_ZCC94
+"ZDesigner R110PAX4 LH-203DPI" = BRPAX42L,LPTENUM\Zebra_TechnologiesZTD914
+"ZDesigner R110PAX4 LH-203DPI" = BRPAX42L,USBPRINT\Zebra_TechnologiesZTD914
+"ZDesigner R110PAX4 LH-300DPI" = BRPAX43L,LPTENUM\Zebra_TechnologiesZTC8B4
+"ZDesigner R110PAX4 LH-300DPI" = BRPAX43L,USBPRINT\Zebra_TechnologiesZTC8B4
+"ZDesigner R110PAX4 RH-203DPI" = BRPAX42R,LPTENUM\Zebra_TechnologiesZT1994
+"ZDesigner R110PAX4 RH-203DPI" = BRPAX42R,USBPRINT\Zebra_TechnologiesZT1994
+"ZDesigner R110PAX4 RH-300DPI" = BRPAX43R,LPTENUM\Zebra_TechnologiesZT0834
+"ZDesigner R110PAX4 RH-300DPI" = BRPAX43R,USBPRINT\Zebra_TechnologiesZT0834
+"ZDesigner R110Xi 200DPI" = BAR11XM2,LPTENUM\Zebra_TechnologiesZT0FEF
+"ZDesigner R110Xi 200DPI" = BAR11XM2,USBPRINT\Zebra_TechnologiesZT0FEF
+"ZDesigner R110Xi 300DPI" = BAR11XM3,LPTENUM\Zebra_TechnologiesZTDEEE
+"ZDesigner R110Xi 300DPI" = BAR11XM3,USBPRINT\Zebra_TechnologiesZTDEEE
+"ZDesigner R110Xi HF 200DPI" = BRR11X2H,LPTENUM\Zebra_TechnologiesZTC64F
+"ZDesigner R110Xi HF 200DPI" = BRR11X2H,USBPRINT\Zebra_TechnologiesZTC64F
+"ZDesigner R110Xi HF 300DPI" = BRR11X3H,LPTENUM\Zebra_TechnologiesZT174E
+"ZDesigner R110Xi HF 300DPI" = BRR11X3H,USBPRINT\Zebra_TechnologiesZT174E
+"ZDesigner R110Xi4 203 dpi" = BAR110XI42,LPTENUM\Zebra_TechnologiesZTC396
+"ZDesigner R110Xi4 203 dpi" = BAR110XI42,USBPRINT\Zebra_TechnologiesZTC396
+"ZDesigner R110Xi4 300 dpi" = BAR110XI43,LPTENUM\Zebra_TechnologiesZT1387
+"ZDesigner R110Xi4 300 dpi" = BAR110XI43,USBPRINT\Zebra_TechnologiesZT1387
+"ZDesigner R110Xi4 600 dpi" = BAR110XI46,LPTENUM\Zebra_TechnologiesZT0397
+"ZDesigner R110Xi4 600 dpi" = BAR110XI46,USBPRINT\Zebra_TechnologiesZT0397
+"ZDesigner R170Xi 200DPI" = BAR17XM2,LPTENUM\Zebra_TechnologiesZT85F1
+"ZDesigner R170Xi 200DPI" = BAR17XM2,USBPRINT\Zebra_TechnologiesZT85F1
+"ZDesigner R170Xi 300DPI" = BAR17XM3,LPTENUM\Zebra_TechnologiesZT56F0
+"ZDesigner R170Xi 300DPI" = BAR17XM3,USBPRINT\Zebra_TechnologiesZT56F0
+"ZDesigner R2844-Z" = BABR284Z,LPTENUM\Zebra_TechnologiesZT4211
+"ZDesigner R2844-Z" = BABR284Z,USBPRINT\Zebra_TechnologiesZT4211
+"ZDesigner RP4T (ZPL)" = BRRP4T,USBPRINT\Zebra_Technologies_R61C4
+"ZDesigner RW 220" = BARW220,USBPRINT\Zebra_RW_220_9761
+"ZDesigner RW 420" = BARW420,USBPRINT\Zebra_RW_420_1F61
+"ZDesigner RW4-PS" = BARW4PS,USBPRINT\Zebra_Technologies_R50B6
+"ZDesigner RZ400 200 dpi" = BRZ42,LPTENUM\Zebra_TechnologiesZT2AEA
+"ZDesigner RZ400 200 dpi" = BRZ42,USBPRINT\Zebra_TechnologiesZT2AEA
+"ZDesigner RZ400 300 dpi" = BRZ43,LPTENUM\Zebra_TechnologiesZTEFBB
+"ZDesigner RZ400 300 dpi" = BRZ43,USBPRINT\Zebra_TechnologiesZTEFBB
+"ZDesigner RZ600 200 dpi" = BRZ62,LPTENUM\Zebra_TechnologiesZTE8E9
+"ZDesigner RZ600 200 dpi" = BRZ62,USBPRINT\Zebra_TechnologiesZTE8E9
+"ZDesigner RZ600 300 dpi" = BRZ63,LPTENUM\Zebra_TechnologiesZT2DB8
+"ZDesigner RZ600 300 dpi" = BRZ63,USBPRINT\Zebra_TechnologiesZT2DB8
+"ZDesigner S4M-203dpi EPL" = BAS4ME2,LPTENUM\ZEBRA_TECHNOLOGIESZT32B3
+"ZDesigner S4M-203dpi EPL" = BAS4ME2,USBPRINT\Zebra_TechnologiesZT32B3
+"ZDesigner S4M-203dpi ZPL" = BAS4MZ2,LPTENUM\ZEBRA_TECHNOLOGIESZTF482
+"ZDesigner S4M-203dpi ZPL" = BAS4MZ2,USBPRINT\Zebra_TechnologiesZTF482
+"ZDesigner S4M-300dpi ZPL" = BAS4MZ3,LPTENUM\ZEBRA_TECHNOLOGIESZT3189
+"ZDesigner S4M-300dpi ZPL" = BAS4MZ3,USBPRINT\Zebra_TechnologiesZT3189
+"ZDesigner TLP 2824" = BABT2824,LPTENUM\Zebra_TLP2824_F37B
+"ZDesigner TLP 2824" = BABT2824,USBPRINT\Zebra_TLP2824_F37B
+"ZDesigner TLP 2824 Plus (EPL)" = BABT2824P,LPTENUM\Zebra_TechnologiesZT2DE0
+"ZDesigner TLP 2824 Plus (EPL)" = BABT2824P,USBPRINT\Zebra_TechnologiesZT2DE0
+"ZDesigner TLP 2824 Plus (ZPL)" = BA2824ZP,LPTENUM\Zebra_TechnologiesZT0288
+"ZDesigner TLP 2824 Plus (ZPL)" = BA2824ZP,USBPRINT\Zebra_TechnologiesZT0288
+"ZDesigner TLP 2844" = BABT2844,LPTENUM\Zebra_TLP2844_F29B
+"ZDesigner TLP 2844" = BABT2844,USBPRINT\Zebra_TLP2844_F29B
+"ZDesigner TLP 2844-Z" = BABT284Z,LPTENUM\Zebra_TechnologiesZT0783
+"ZDesigner TLP 2844-Z" = BABT284Z,USBPRINT\Zebra_TechnologiesZT0783
+"ZDesigner TLP 3842" = BABT3842,USBPRINT\Zebra_TLP3842_92A5
+"ZDesigner TLP 3844-Z" = BABT3844,LPTENUM\Zebra_TechnologiesZT5780
+"ZDesigner TLP 3844-Z" = BABT3844,USBPRINT\Zebra_TechnologiesZT5780
+"ZDesigner ZD500R-203dpi ZPL" = BAZD50R2,LPTENUM\Zebra_Technologies_Z5971
+"ZDesigner ZD500R-203dpi ZPL" = BAZD50R2,USBPRINT\Zebra_Technologies_Z5971
+"ZDesigner ZD500R-300dpi ZPL" = BAZD50R3,LPTENUM\Zebra_Technologies_Z8960
+"ZDesigner ZD500R-300dpi ZPL" = BAZD50R3,USBPRINT\Zebra_Technologies_Z8960
+"ZDesigner ZE500-4 LH-203dpi ZPL" = BLZE5004L,LPTENUM\Zebra_Technologies_ZE5DB
+"ZDesigner ZE500-4 LH-203dpi ZPL" = BLZE5004L,USBPRINT\Zebra_Technologies_ZE5DB
+"ZDesigner ZE500-4 LH-300dpi ZPL" = BTZE5004L,LPTENUM\Zebra_Technologies_Z35CA
+"ZDesigner ZE500-4 LH-300dpi ZPL" = BTZE5004L,USBPRINT\Zebra_Technologies_Z35CA
+"ZDesigner ZE500-4 RH-203dpi ZPL" = BLZE5004R,LPTENUM\Zebra_Technologies_ZFBF3
+"ZDesigner ZE500-4 RH-203dpi ZPL" = BLZE5004R,USBPRINT\Zebra_Technologies_ZFBF3
+"ZDesigner ZE500-4 RH-300dpi ZPL" = BTZE5004R,LPTENUM\Zebra_Technologies_Z2BE2
+"ZDesigner ZE500-4 RH-300dpi ZPL" = BTZE5004R,USBPRINT\Zebra_Technologies_Z2BE2
+"ZDesigner ZE500R-4 LH-203dpi ZPL" = BLZE50R4L,LPTENUM\Zebra_Technologies_Z9853
+"ZDesigner ZE500R-4 LH-203dpi ZPL" = BLZE50R4L,USBPRINT\Zebra_Technologies_Z9853
+"ZDesigner ZE500R-4 LH-300dpi ZPL" = BTZE50R4L,LPTENUM\Zebra_Technologies_Z4840
+"ZDesigner ZE500R-4 LH-300dpi ZPL" = BTZE50R4L,USBPRINT\Zebra_Technologies_Z4840
+"ZDesigner ZE500R-4 RH-203dpi ZPL" = BLZE50R4R,LPTENUM\Zebra_Technologies_Z847B
+"ZDesigner ZE500R-4 RH-203dpi ZPL" = BLZE50R4R,USBPRINT\Zebra_Technologies_Z847B
+"ZDesigner ZE500R-4 RH-300dpi ZPL" = BTZE50R4R,LPTENUM\Zebra_Technologies_Z97EB
+"ZDesigner ZE500R-4 RH-300dpi ZPL" = BTZE50R4R,USBPRINT\Zebra_Technologies_Z97EB
+"ZDesigner ZE500-6 LH-203dpi ZPL" = BLZE5006L,LPTENUM\Zebra_Technologies_ZE459
+"ZDesigner ZE500-6 LH-203dpi ZPL" = BLZE5006L,USBPRINT\Zebra_Technologies_ZE459
+"ZDesigner ZE500-6 LH-300dpi ZPL" = BTZE5006L,LPTENUM\Zebra_Technologies_ZF5C9
+"ZDesigner ZE500-6 LH-300dpi ZPL" = BTZE5006L,USBPRINT\Zebra_Technologies_ZF5C9
+"ZDesigner ZE500-6 RH-203dpi ZPL" = BLZE5006R,LPTENUM\Zebra_Technologies_ZFA71
+"ZDesigner ZE500-6 RH-203dpi ZPL" = BLZE5006R,USBPRINT\Zebra_Technologies_ZFA71
+"ZDesigner ZE500-6 RH-300dpi ZPL" = BTZE5006R,LPTENUM\Zebra_Technologies_Z2A60
+"ZDesigner ZE500-6 RH-300dpi ZPL" = BTZE5006R,USBPRINT\Zebra_Technologies_Z2A60
+"ZDesigner ZE511 LH-203dpi ZPL" = ZE51L24,USBPRINT\Zebra_Technologies_Z18BB
+"ZDesigner ZE511 LH-300dpi ZPL" = ZE51L34,USBPRINT\Zebra_Technologies_ZC8AA
+"ZDesigner ZE511 LH-600dpi ZPL" = ZE51L64,USBPRINT\Zebra_Technologies_ZD8BA
+"ZDesigner ZE511 RH-203dpi ZPL" = ZE51R24,USBPRINT\Zebra_Technologies_ZC712
+"ZDesigner ZE511 RH-300dpi ZPL" = ZE51R34,USBPRINT\Zebra_Technologies_ZD682
+"ZDesigner ZE511 RH-600dpi ZPL" = ZE51R64,USBPRINT\Zebra_Technologies_Z0713
+"ZDesigner ZE511R LH-203dpi ZPL" = ZE51L24R,USBPRINT\Zebra_Technologies_Z96E0
+"ZDesigner ZE511R LH-300dpi ZPL" = ZE51L34R,USBPRINT\Zebra_Technologies_Z8570
+"ZDesigner ZE511R LH-600dpi ZPL" = ZE51L64R,USBPRINT\Zebra_Technologies_Z56E1
+"ZDesigner ZE511R RH-203dpi ZPL" = ZE51R24R,USBPRINT\Zebra_Technologies_ZF142
+"ZDesigner ZE511R RH-300dpi ZPL" = ZE51R34R,USBPRINT\Zebra_Technologies_Z2153
+"ZDesigner ZE511R RH-600dpi ZPL" = ZE51R64R,USBPRINT\Zebra_Technologies_Z3143
+"ZDesigner ZE521 LH-203dpi ZPL" = ZE52L26,USBPRINT\Zebra_Technologies_Z29D8
+"ZDesigner ZE521 LH-300dpi ZPL" = ZE52L36,USBPRINT\Zebra_Technologies_Z39EA
+"ZDesigner ZE521 RH-203dpi ZPL" = ZE52R26,USBPRINT\Zebra_Technologies_ZF671
+"ZDesigner ZE521 RH-300dpi ZPL" = ZE52R36,USBPRINT\Zebra_Technologies_Z27C2
+"ZDesigner ZE521R LH-203dpi ZPL" = ZE52L26R,USBPRINT\Zebra_Technologies_Z6610
+"ZDesigner ZE521R LH-300dpi ZPL" = ZE52L36R,USBPRINT\Zebra_Technologies_Z7782
+"ZDesigner ZE521R RH-203dpi ZPL" = ZE52R26R,USBPRINT\Zebra_Technologies_Z01B2
+"ZDesigner ZE521R RH-300dpi ZPL" = ZE52R36R,USBPRINT\Zebra_Technologies_ZD1A3
+"ZDesigner ZM400 200 dpi (EPL)" = BZM4E2,LPTENUM\Zebra_TechnologiesZT89E9
+"ZDesigner ZM400 200 dpi (EPL)" = BZM4E2,USBPRINT\Zebra_TechnologiesZT89E9
+"ZDesigner ZM400 200 dpi (ZPL)" = BZM4Z2,LPTENUM\Zebra_TechnologiesZT4FD8
+"ZDesigner ZM400 200 dpi (ZPL)" = BZM4Z2,USBPRINT\Zebra_TechnologiesZT4FD8
+"ZDesigner ZM400 300 dpi (ZPL)" = BZM4Z3,LPTENUM\Zebra_TechnologiesZT8AD3
+"ZDesigner ZM400 300 dpi (ZPL)" = BZM4Z3,USBPRINT\Zebra_TechnologiesZT8AD3
+"ZDesigner ZM400 600 dpi (ZPL)" = BZM4Z6,LPTENUM\Zebra_TechnologiesZT9A99
+"ZDesigner ZM400 600 dpi (ZPL)" = BZM4Z6,USBPRINT\Zebra_TechnologiesZT9A99
+"ZDesigner ZM600 200 dpi (EPL)" = BZM6E2,LPTENUM\Zebra_TechnologiesZTEBD0
+"ZDesigner ZM600 200 dpi (EPL)" = BZM6E2,USBPRINT\Zebra_TechnologiesZTEBD0
+"ZDesigner ZM600 200 dpi (ZPL)" = BZM6Z2,LPTENUM\Zebra_TechnologiesZT2DE1
+"ZDesigner ZM600 200 dpi (ZPL)" = BZM6Z2,USBPRINT\Zebra_TechnologiesZT2DE1
+"ZDesigner ZM600 300 dpi (ZPL)" = BZM6Z3,LPTENUM\Zebra_TechnologiesZTE8B0
+"ZDesigner ZM600 300 dpi (ZPL)" = BZM6Z3,USBPRINT\Zebra_TechnologiesZTE8B0
+"ZDesigner ZQ310 (ZPL)" = BAZQ310Z,USBPRINT\Zebra_Technologies_ZB2A2
+"ZDesigner ZQ310 (CPCL)" = BAZQ310C,USBPRINT\Zebra_Technologies_ZF6F4
+"ZDesigner ZQ320 (ZPL)" = BAZQ320Z,USBPRINT\Zebra_Technologies_ZA7E2
+"ZDesigner ZQ320 (CPCL)" = BAZQ320C,USBPRINT\Zebra_Technologies_Z06E0
+"ZDesigner ZQ510 (ZPL)" = BAZQ510Z,USBPRINT\Zebra_Technologies_Z1289
+"ZDesigner ZQ510 (CPCL)" = BAZQ510C,USBPRINT\Zebra_Technologies_ZE914
+"ZDesigner ZQ520 (ZPL)" = BAZQ520Z,USBPRINT\Zebra_Technologies_Z07C9
+"ZDesigner ZQ520 (CPCL)" = BAZQ520C,USBPRINT\Zebra_Technologies_Z1902
+"ZDesigner ZT210-200dpi EPL" = BEZT210,LPTENUM\Zebra_Technologies_ZB20F
+"ZDesigner ZT210-200dpi EPL" = BEZT210,USBPRINT\Zebra_Technologies_ZB20F
+"ZDesigner ZT210-200dpi ZPL" = BAZT210,LPTENUM\Zebra_Technologies_Z743E
+"ZDesigner ZT210-200dpi ZPL" = BAZT210,USBPRINT\Zebra_Technologies_Z743E
+"ZDesigner ZT210-300dpi ZPL" = BTZT210,LPTENUM\Zebra_Technologies_ZB16F
+"ZDesigner ZT210-300dpi ZPL" = BTZT210,USBPRINT\Zebra_Technologies_ZB16F
+"ZDesigner ZT220-200dpi EPL" = BEZT220,LPTENUM\Zebra_Technologies_Z110B
+"ZDesigner ZT220-200dpi EPL" = BEZT220,USBPRINT\Zebra_Technologies_Z110B
+"ZDesigner ZT220-200dpi ZPL" = BAZT220,LPTENUM\Zebra_Technologies_ZD73A
+"ZDesigner ZT220-200dpi ZPL" = BAZT220,USBPRINT\Zebra_Technologies_ZD73A
+"ZDesigner ZT220-300dpi ZPL" = BTZT220,LPTENUM\Zebra_Technologies_Z126B
+"ZDesigner ZT220-300dpi ZPL" = BTZT220,USBPRINT\Zebra_Technologies_Z126B
+"ZDesigner ZT230-200dpi EPL" = BEZT230,LPTENUM\Zebra_Technologies_Z9009
+"ZDesigner ZT230-200dpi EPL" = BEZT230,USBPRINT\Zebra_Technologies_Z9009
+"ZDesigner ZT230-200dpi ZPL" = BAZT230,LPTENUM\Zebra_Technologies_Z5638
+"ZDesigner ZT230-200dpi ZPL" = BAZT230,USBPRINT\Zebra_Technologies_Z5638
+"ZDesigner ZT230-300dpi ZPL" = BTZT230,LPTENUM\Zebra_Technologies_Z53C8
+"ZDesigner ZT230-300dpi ZPL" = BTZT230,USBPRINT\Zebra_Technologies_Z53C8
+"ZDesigner ZT410-203dpi EPL" = BEZT4142,LPTENUM\Zebra_Technologies_ZC148
+"ZDesigner ZT410-203dpi EPL" = BEZT4142,USBPRINT\Zebra_Technologies_ZC148
+"ZDesigner ZT410-203dpi ZPL" = BZZT4142,LPTENUM\Zebra_Technologies_ZC6F8
+"ZDesigner ZT410-203dpi ZPL" = BZZT4142,USBPRINT\Zebra_Technologies_ZC6F8
+"ZDesigner ZT410-300dpi ZPL" = BZZT4143,LPTENUM\Zebra_Technologies_ZD768
+"ZDesigner ZT410-300dpi ZPL" = BZZT4143,USBPRINT\Zebra_Technologies_ZD768
+"ZDesigner ZT410-600dpi ZPL" = BZZT4146,LPTENUM\Zebra_Technologies_Z06F9
+"ZDesigner ZT410-600dpi ZPL" = BZZT4146,USBPRINT\Zebra_Technologies_Z06F9
+"ZDesigner ZT420-203dpi ZPL" = BZZT4262,LPTENUM\Zebra_Technologies_ZC47C
+"ZDesigner ZT420-203dpi ZPL" = BZZT4262,USBPRINT\Zebra_Technologies_ZC47C
+"ZDesigner ZT420-300dpi ZPL" = BZZT4263,LPTENUM\Zebra_Technologies_Z146D
+"ZDesigner ZT420-300dpi ZPL" = BZZT4263,USBPRINT\Zebra_Technologies_Z146D
+"ZDesigner ZT410R-203dpi ZPL" = BZZT41R2,LPTENUM\Zebra_Technologies_Z34BC
+"ZDesigner ZT410R-203dpi ZPL" = BZZT41R2,USBPRINT\Zebra_Technologies_Z34BC
+"ZDesigner ZT410R-300dpi ZPL" = BZZT41R3,LPTENUM\Zebra_Technologies_ZE4AD
+"ZDesigner ZT410R-300dpi ZPL" = BZZT41R3,USBPRINT\Zebra_Technologies_ZE4AD
+"ZDesigner ZT410R-600dpi ZPL" = BZZT41R6,LPTENUM\Zebra_Technologies_ZF4BD
+"ZDesigner ZT410R-600dpi ZPL" = BZZT41R6,USBPRINT\Zebra_Technologies_ZF4BD
+"ZDesigner ZT420R-203dpi ZPL" = BZZT42R2,LPTENUM\Zebra_Technologies_Z57BE
+"ZDesigner ZT420R-203dpi ZPL" = BZZT42R2,USBPRINT\Zebra_Technologies_Z57BE
+"ZDesigner ZT420R-300dpi ZPL" = BZZT42R3,LPTENUM\Zebra_Technologies_Z85AF
+"ZDesigner ZT420R-300dpi ZPL" = BZZT42R3,USBPRINT\Zebra_Technologies_Z85AF
+"ZDesigner ZT510-203dpi ZPL" = BAZT5102,LPTENUM\Zebra_Technologies_Z07F8
+"ZDesigner ZT510-203dpi ZPL" = BAZT5102,USBPRINT\Zebra_Technologies_Z07F8
+"ZDesigner ZT510-300dpi ZPL" = BAZT5103,LPTENUM\Zebra_Technologies_Z1668
+"ZDesigner ZT510-300dpi ZPL" = BAZT5103,USBPRINT\Zebra_Technologies_Z1668
+"ZDesigner ZT610-203dpi ZPL" = BAZT6102,LPTENUM\Zebra_Technologies_Z04FB
+"ZDesigner ZT610-203dpi ZPL" = BAZT6102,USBPRINT\Zebra_Technologies_Z04FB
+"ZDesigner ZT610-300dpi ZPL" = BAZT6103,LPTENUM\Zebra_Technologies_ZD548
+"ZDesigner ZT610-300dpi ZPL" = BAZT6103,USBPRINT\Zebra_Technologies_ZD548
+"ZDesigner ZT610-600dpi ZPL" = BAZT6106,LPTENUM\Zebra_Technologies_ZC4FA
+"ZDesigner ZT610-600dpi ZPL" = BAZT6106,USBPRINT\Zebra_Technologies_ZC4FA
+"ZDesigner ZT620-203dpi ZPL" = BAZT6202,LPTENUM\Zebra_Technologies_Z067F
+"ZDesigner ZT620-203dpi ZPL" = BAZT6202,USBPRINT\Zebra_Technologies_Z067F
+"ZDesigner ZT620-300dpi ZPL" = BAZT6203,LPTENUM\Zebra_Technologies_Z164D
+"ZDesigner ZT620-300dpi ZPL" = BAZT6203,USBPRINT\Zebra_Technologies_Z164D
+"ZDesigner ZT610R-203dpi ZPL" = BARZT612,LPTENUM\Zebra_Technologies_ZF4BF
+"ZDesigner ZT610R-203dpi ZPL" = BARZT612,USBPRINT\Zebra_Technologies_ZF4BF
+"ZDesigner ZT610R-300dpi ZPL" = BARZT613,LPTENUM\Zebra_Technologies_ZE52F
+"ZDesigner ZT610R-300dpi ZPL" = BARZT613,USBPRINT\Zebra_Technologies_ZE52F
+"ZDesigner ZT610R-600dpi ZPL" = BARZT616,LPTENUM\Zebra_Technologies_Z34BE
+"ZDesigner ZT610R-600dpi ZPL" = BARZT616,USBPRINT\Zebra_Technologies_Z34BE
+"ZDesigner ZT620R-203dpi ZPL" = BARZT622,LPTENUM\Zebra_Technologies_Z97BD
+"ZDesigner ZT620R-203dpi ZPL" = BARZT622,USBPRINT\Zebra_Technologies_Z97BD
+"ZDesigner ZT620R-300dpi ZPL" = BARZT623,LPTENUM\Zebra_Technologies_Z4454
+"ZDesigner ZT620R-300dpi ZPL" = BARZT623,USBPRINT\Zebra_Technologies_Z4454
+"ZDesigner ZD500-203dpi ZPL" = BAZD50Z2,LPTENUM\Zebra_Technologies_Z4B6B
+"ZDesigner ZD500-203dpi ZPL" = BAZD50Z2,USBPRINT\Zebra_Technologies_Z4B6B
+"ZDesigner ZD500-300dpi ZPL" = BAZD50Z3,LPTENUM\Zebra_Technologies_Z9B7A
+"ZDesigner ZD500-300dpi ZPL" = BAZD50Z3,USBPRINT\Zebra_Technologies_Z9B7A
+"ZDesigner ZD500-203dpi EPL" = BAZD50E2,LPTENUM\Zebra_Technologies_Z8D5A
+"ZDesigner ZD500-203dpi EPL" = BAZD50E2,USBPRINT\Zebra_Technologies_Z8D5A
+"ZDesigner ZD500-300dpi EPL" = BAZD50E3,LPTENUM\Zebra_Technologies_Z5D4B
+"ZDesigner ZD500-300dpi EPL" = BAZD50E3,USBPRINT\Zebra_Technologies_Z5D4B
+"ZDesigner ZD410-203dpi ZPL" = BATZD412,LPTENUM\Zebra_Technologies_ZE968
+"ZDesigner ZD410-203dpi ZPL" = BATZD412,USBPRINT\Zebra_Technologies_ZE968
+"ZDesigner ZD410-300dpi ZPL" = BATZD413,LPTENUM\Zebra_Technologies_Z3979
+"ZDesigner ZD410-300dpi ZPL" = BATZD413,USBPRINT\Zebra_Technologies_Z3979
+"ZDesigner ZD410-203dpi EPL" = BABZD412,LPTENUM\Zebra_Technologies_Z2F59
+"ZDesigner ZD410-203dpi EPL" = BABZD412,USBPRINT\Zebra_Technologies_Z2F59
+"ZDesigner ZD410-300dpi EPL" = BABZD413,LPTENUM\Zebra_Technologies_ZFF48
+"ZDesigner ZD410-300dpi EPL" = BABZD413,USBPRINT\Zebra_Technologies_ZFF48
+"ZDesigner ZD411-203dpi ZPL" = BAZD412T,USBPRINT\Zebra_Technologies_Z2A95
+"ZDesigner ZD411-300dpi ZPL" = BAZD413T,USBPRINT\Zebra_Technologies_ZFA86
+"ZDesigner ZD411-203dpi EPL" = BAZD412B,USBPRINT\Zebra_Technologies_ZECA4
+"ZDesigner ZD411-300dpi EPL" = BAZD413B,USBPRINT\Zebra_Technologies_Z3CB5
+"ZDesigner ZD420-203dpi ZPL" = BATZD422,LPTENUM\Zebra_Technologies_ZC86C
+"ZDesigner ZD420-203dpi ZPL" = BATZD422,USBPRINT\Zebra_Technologies_ZC86C
+"ZDesigner ZD420-300dpi ZPL" = BATZD423,LPTENUM\Zebra_Technologies_Z187D
+"ZDesigner ZD420-300dpi ZPL" = BATZD423,USBPRINT\Zebra_Technologies_Z187D
+"ZDesigner ZD420-203dpi EPL" = BABZD422,LPTENUM\Zebra_Technologies_Z0E5D
+"ZDesigner ZD420-203dpi EPL" = BABZD422,USBPRINT\Zebra_Technologies_Z0E5D
+"ZDesigner ZD420-300dpi EPL" = BABZD423,LPTENUM\Zebra_Technologies_ZDE4C
+"ZDesigner ZD420-300dpi EPL" = BABZD423,USBPRINT\Zebra_Technologies_ZDE4C
+"ZDesigner ZD421-203dpi ZPL" = BAZD422T,USBPRINT\Zebra_Technologies_Z0B91
+"ZDesigner ZD421-300dpi ZPL" = BAZD423T,USBPRINT\Zebra_Technologies_ZDB82
+"ZDesigner ZD421-203dpi EPL" = BAZD422B,USBPRINT\Zebra_Technologies_ZCDA0
+"ZDesigner ZD421-300dpi EPL" = BAZD423B,USBPRINT\Zebra_Technologies_Z1DB1
+"ZDesigner ZD421CN-300dpi ZPL" = BAZ423TC,USBPRINT\Zebra_Technologies_ZEC5D
+"ZDesigner ZD421CN-300dpi EPL" = BAZ423BC,USBPRINT\Zebra_Technologies_Z2A6C
+"ZDesigner ZD611-203dpi ZPL" = BAZD612T,USBPRINT\Zebra_Technologies_Z5097
+"ZDesigner ZD611R-203dpi ZPL" = BAZD612R,USBPRINT\Zebra_Technologies_Z1830
+"ZDesigner ZD611-300dpi ZPL" = BAZD613T,USBPRINT\Zebra_Technologies_Z8286
+"ZDesigner ZD611R-300dpi ZPL" = BAZD613R,USBPRINT\Zebra_Technologies_ZC821
+"ZDesigner ZD611-203dpi EPL" = BAZD612B,USBPRINT\Zebra_Technologies_Z96A6
+"ZDesigner ZD611-300dpi EPL" = BAZD613B,USBPRINT\Zebra_Technologies_Z44B7
+"ZDesigner ZD621-203dpi ZPL" = BAZD622T,USBPRINT\Zebra_Technologies_ZC992
+"ZDesigner ZD621R-203dpi ZPL" = BAZD622R,USBPRINT\Zebra_Technologies_ZDB92
+"ZDesigner ZD621-300dpi ZPL" = BAZD623T,USBPRINT\Zebra_Technologies_Z1983
+"ZDesigner ZD621R-300dpi ZPL" = BAZD623R,USBPRINT\Zebra_Technologies_ZCB22
+"ZDesigner ZD621-203dpi EPL" = BAZD622B,USBPRINT\Zebra_Technologies_Z0FA3 
+"ZDesigner ZD621-300dpi EPL" = BAZD623B,USBPRINT\Zebra_Technologies_ZDFB2
+"ZDesigner ZR318 (ZPL)" = BAZR318Z,USBPRINT\Zebra_Technologies_ZBC5A
+"ZDesigner ZR318 (CPCL)" = BAZR318C,USBPRINT\Zebra_Technologies_Z14FA
+"ZDesigner ZR328 (ZPL)" = BAZR328Z,USBPRINT\Zebra_Technologies_Z689B
+"ZDesigner ZR328 (CPCL)" = BAZR328C,USBPRINT\Zebra_Technologies_ZE4EE
+"ZDesigner ZR338 (CPCL)" = BAZR338,USBPRINT\Zebra_Technologies_Z74E3   
+"ZDesigner ZR338 (ZPL)" = BAZR338Z,USBPRINT\Zebra_Technologies_ZA45A
+"ZDesigner ZR628 (CPCL)" = BAZR628,USBPRINT\Zebra_Technologies_ZF4FE
+"ZDesigner ZR628 (ZPL)" = BAZR628Z,USBPRINT\Zebra_Technologies_Z38A4
+"ZDesigner ZR638 (CPCL)" = BAZR638,USBPRINT\Zebra_Technologies_Z64F3
+"ZDesigner ZR638 (ZPL)" = BAZR638Z,USBPRINT\Zebra_Technologies_ZF465
+"ZDesigner ZD620-203dpi ZPL" = BATZD622,USBPRINT\Zebra_Technologies_Z6A6E
+"ZDesigner ZD620-300dpi ZPL" = BATZD623,USBPRINT\Zebra_Technologies_Z1A5D
+"ZDesigner ZD620-203dpi EPL" = BABZD622,USBPRINT\Zebra_Technologies_ZAC5F
+"ZDesigner ZD620-300dpi EPL" = BABZD623,USBPRINT\Zebra_Technologies_ZDC6C
+"ZDesigner GK420E (ZPL)" = BAGK420E,LPTENUM\Zebra_TechnologiesZT01E3
+"ZDesigner GK420E (ZPL)" = BAGK420E,USBPRINT\Zebra_TechnologiesZT01E3
+"ZDesigner GK420E (EPL)" = BGK420EE,LPTENUM\Zebra_TechnologiesZTD5E4
+"ZDesigner GK420E (EPL)" = BGK420EE,USBPRINT\Zebra_TechnologiesZTD5E4
+"ZDesigner GK888E (ZPL)" = BAGK888E,LPTENUM\Zebra_TechnologiesZT385C
+"ZDesigner GK888E (ZPL)" = BAGK888E,USBPRINT\Zebra_TechnologiesZT385C
+"ZDesigner GK888E (EPL)" = BEGK888E,LPTENUM\Zebra_TechnologiesZTEC5B
+"ZDesigner GK888E (EPL)" = BEGK888E,USBPRINT\Zebra_TechnologiesZTEC5B
+"ZDesigner ZQ610 (CPCL)" = BAZQ610,USBPRINT\Zebra_Technologies_ZE6E4
+"ZDesigner ZQ610 (ZPL)" = BAZQ610Z,USBPRINT\Zebra_Technologies_ZE29D
+"ZDesigner ZQ620 (CPCL)" = BAZQ620,USBPRINT\Zebra_Technologies_Z16F0
+"ZDesigner ZQ620 (ZPL)" = BAZQ620Z,USBPRINT\Zebra_Technologies_ZF7DD
+"ZDesigner ZR658 (CPCL)" = BAZR658,USBPRINT\Zebra_Technologies_ZC4D8
+"ZDesigner ZR658 (ZPL)" = BAZR658Z,USBPRINT\Zebra_Technologies_ZDEE5
+"ZDesigner ZR668 (CPCL)" = BAZR668,USBPRINT\Zebra_Technologies_Z34CC
+"ZDesigner ZR668 (ZPL)" = BAZR668Z,USBPRINT\Zebra_Technologies_ZCBA5
+"ZDesigner GK420t Plus (ZPL)" = BAGK42TP,LPTENUM\Zebra_Technologies_Z58FF
+"ZDesigner GK420t Plus (ZPL)" = BAGK42TP,USBPRINT\Zebra_Technologies_Z58FF
+"ZDesigner GK420t Plus (EPL)" = BGK42TEP,LPTENUM\Zebra_Technologies_Z4D79
+"ZDesigner GK420t Plus (EPL)" = BGK42TEP,USBPRINT\Zebra_Technologies_Z4D79
+"ZDesigner ZD510-300dpi ZPL" = BAZD5103,USBPRINT\Zebra_Technologies_ZF879
+"ZDesigner GT800 Plus (EPL)" = BEGT800P,LPTENUM\Zebra_Technologies_Z69AB
+"ZDesigner GT800 Plus (EPL)" = BEGT800P,USBPRINT\Zebra_Technologies_Z69AB
+"ZDesigner GT800 Plus (ZPL)" = BAGT800P,LPTENUM\Zebra_Technologies_ZBDAC
+"ZDesigner GT800 Plus (ZPL)" = BAGT800P,USBPRINT\Zebra_Technologies_ZBDAC
+"ZDesigner ZD511-300dpi ZPL" = BAZD5113,USBPRINT\Zebra_Technologies_Z3B84
+"ZDesigner ZQ630 (CPCL)" = BAZQ630,USBPRINT\Zebra_Technologies_Z84FD
+"ZDesigner ZQ630 (ZPL)" = BAZQ630Z,USBPRINT\Zebra_Technologies_Z3B1C
+"ZDesigner ZQ630R (ZPL)" = BAZQ63RZ,USBPRINT\Zebra_Technologies_ZDCF8
+"ZDesigner ZQ120 (CPCL)" = BAZQ120,USBPRINT\Zebra_Technologies_ZCC43
+"ZDesigner ZQ220 (CPCL)" = BAZQ220,USBPRINT\Zebra_Technologies_ZC3B1
+"ZDesigner ZR138 (CPCL)" = BAZR138,USBPRINT\Zebra_Technologies_Z7EE3
+"ZDesigner ZD100-203dpi ZPL" = ZD100Z2,USBPRINT\Zebra_Technologies_Z8F6E
+"ZDesigner ZD100-203dpi EPL" = ZD100E2,USBPRINT\Zebra_Technologies_Z495F
+"ZDesigner ZD220-203dpi ZPL" = BATZD222,LPTENUM\Zebra_Technologies_Z0ECB
+"ZDesigner ZD220-203dpi ZPL" = BATZD222,USBPRINT\Zebra_Technologies_Z0ECB
+"ZDesigner ZD220-203dpi EPL" = BABZD222,LPTENUM\Zebra_Technologies_ZC8FA
+"ZDesigner ZD220-203dpi EPL" = BABZD222,USBPRINT\Zebra_Technologies_ZC8FA
+"ZDesigner ZD230-203dpi ZPL" = BATZD232,LPTENUM\Zebra_Technologies_Z4F68
+"ZDesigner ZD230-203dpi ZPL" = BATZD232,USBPRINT\Zebra_Technologies_Z4F68
+"ZDesigner ZD230-203dpi EPL" = BABZD232,LPTENUM\Zebra_Technologies_Z8959
+"ZDesigner ZD230-203dpi EPL" = BABZD232,USBPRINT\Zebra_Technologies_Z8959
+"ZDesigner ZD230-300dpi ZPL" = ZD230Z3,USBPRINT\Zebra_Technologies_Z5FD8
+"ZDesigner ZD230-300dpi EPL" = ZD230E3,USBPRINT\Zebra_Technologies_Z99E9
+"ZDesigner ZD888-203dpi ZPL" = BATZD888,LPTENUM\Zebra_Technologies_Z1199
+"ZDesigner ZD888-203dpi ZPL" = BATZD888,USBPRINT\Zebra_Technologies_Z1199
+"ZDesigner ZD888-203dpi EPL" = BABZD888,LPTENUM\Zebra_Technologies_ZD7A8
+"ZDesigner ZD888-203dpi EPL" = BABZD888,USBPRINT\Zebra_Technologies_ZD7A8
+"ZDesigner ZD888-300dpi ZPL" = ZD888Z3,USBPRINT\Zebra_Technologies_ZC188
+"ZDesigner ZD888-300dpi EPL" = ZD888E3,USBPRINT\Zebra_Technologies_ZC638
+"ZDesigner ZT411-203dpi EPL" = BEZT4112,LPTENUM\Zebra_Technologies_Z02B5
+"ZDesigner ZT411-203dpi EPL" = BEZT4112,USBPRINT\Zebra_Technologies_Z02B5
+"ZDesigner ZT411-203dpi ZPL" = BZZT4112,LPTENUM\Zebra_Technologies_Z0505
+"ZDesigner ZT411-203dpi ZPL" = BZZT4112,USBPRINT\Zebra_Technologies_Z0505
+"ZDesigner ZT411-300dpi ZPL" = BZZT4113,LPTENUM\Zebra_Technologies_Z1495
+"ZDesigner ZT411-300dpi ZPL" = BZZT4113,USBPRINT\Zebra_Technologies_Z1495
+"ZDesigner ZT411-600dpi ZPL" = BZZT4116,LPTENUM\Zebra_Technologies_ZC504
+"ZDesigner ZT411-600dpi ZPL" = BZZT4116,USBPRINT\Zebra_Technologies_ZC504
+"ZDesigner ZT421-203dpi ZPL" = BZZT4212,LPTENUM\Zebra_Technologies_Z0781
+"ZDesigner ZT421-203dpi ZPL" = BZZT4212,USBPRINT\Zebra_Technologies_Z0781
+"ZDesigner ZT421-300dpi ZPL" = BZZT4213,LPTENUM\Zebra_Technologies_ZD790
+"ZDesigner ZT421-300dpi ZPL" = BZZT4213,USBPRINT\Zebra_Technologies_ZD790
+"ZDesigner ZT411R-203dpi ZPL" = BZT411R2,LPTENUM\Zebra_Technologies_ZB5BE
+"ZDesigner ZT411R-203dpi ZPL" = BZT411R2,USBPRINT\Zebra_Technologies_ZB5BE
+"ZDesigner ZT411R-300dpi ZPL" = BZT411R3,LPTENUM\Zebra_Technologies_Z65AF
+"ZDesigner ZT411R-300dpi ZPL" = BZT411R3,USBPRINT\Zebra_Technologies_Z65AF
+"ZDesigner ZT411R-600dpi ZPL" = BZT411R6,LPTENUM\Zebra_Technologies_Z75BF
+"ZDesigner ZT411R-600dpi ZPL" = BZT411R6,USBPRINT\Zebra_Technologies_Z75BF
+"ZDesigner ZT421R-203dpi ZPL" = BZT421R2,LPTENUM\Zebra_Technologies_ZD6BC
+"ZDesigner ZT421R-203dpi ZPL" = BZT421R2,USBPRINT\Zebra_Technologies_ZD6BC
+"ZDesigner ZT421R-300dpi ZPL" = BZT421R3,LPTENUM\Zebra_Technologies_Z06AD
+"ZDesigner ZT421R-300dpi ZPL" = BZT421R3,USBPRINT\Zebra_Technologies_Z06AD
+"ZDesigner ZQ511 (ZPL)" = BAZQ511Z,USBPRINT\Zebra_Technologies_ZD299
+"ZDesigner ZQ511 (CPCL)" = BAZQ511C,USBPRINT\Zebra_Technologies_Z25D5
+"ZDesigner ZQ521 (ZPL)" = BAZQ521Z,USBPRINT\Zebra_Technologies_ZC7D9
+"ZDesigner ZQ521 (CPCL)" = BAZQ521C,USBPRINT\Zebra_Technologies_ZD5C3
+"ZDesigner ZQ511R (ZPL)" = BAZQ511R,USBPRINT\Zebra_Technologies_Z7FD0
+"ZDesigner ZQ521R (ZPL)" = BAZQ521R,USBPRINT\Zebra_Technologies_Z8FC6
+"ZDesigner ZQ112 (CPCL)" = BAZQ112,USBPRINT\Zebra_Technologies_ZE5D4
+"ZDesigner ZQ210 (CPCL)" = BAZQ210,USBPRINT\Zebra_Technologies_Z33A5
+"ZDesigner ZR118 (CPCL)" = BAZR118,USBPRINT\Zebra_Technologies_Z1EFA
+"ZDesigner ZT111-203dpi EPL" = ZT111E2,LPTENUM\Zebra_Technologies_ZC631 
+"ZDesigner ZT111-203dpi EPL" = ZT111E2,USBPRINT\Zebra_Technologies_ZC631 
+"ZDesigner ZT111-203dpi ZPL" = ZT111Z2,LPTENUM\Zebra_Technologies_ZC181 
+"ZDesigner ZT111-203dpi ZPL" = ZT111Z2,USBPRINT\Zebra_Technologies_ZC181 
+"ZDesigner ZT111-300dpi ZPL" = ZT111Z3,LPTENUM\Zebra_Technologies_Z1190
+"ZDesigner ZT111-300dpi ZPL" = ZT111Z3,USBPRINT\Zebra_Technologies_Z1190
+"ZDesigner ZT211-203dpi EPL" = ZT211E2,LPTENUM\Zebra_Technologies_ZC532
+"ZDesigner ZT211-203dpi EPL" = ZT211E2,USBPRINT\Zebra_Technologies_ZC532
+"ZDesigner ZT211-203dpi ZPL" = ZT211Z2,LPTENUM\Zebra_Technologies_ZC282
+"ZDesigner ZT211-203dpi ZPL" = ZT211Z2,USBPRINT\Zebra_Technologies_ZC282
+"ZDesigner ZT211-300dpi ZPL" = ZT211Z3,LPTENUM\Zebra_Technologies_Z1293
+"ZDesigner ZT211-300dpi ZPL" = ZT211Z3,USBPRINT\Zebra_Technologies_Z1293
+"ZDesigner ZT231-203dpi EPL" = ZT231E2,LPTENUM\Zebra_Technologies_Z44B4
+"ZDesigner ZT231-203dpi EPL" = ZT231E2,USBPRINT\Zebra_Technologies_Z44B4
+"ZDesigner ZT231-203dpi ZPL" = ZT231Z2,LPTENUM\Zebra_Technologies_Z8285
+"ZDesigner ZT231-203dpi ZPL" = ZT231Z2,USBPRINT\Zebra_Technologies_Z8285
+"ZDesigner ZT231-300dpi ZPL" = ZT231Z3,LPTENUM\Zebra_Technologies_Z5094
+"ZDesigner ZT231-300dpi ZPL" = ZT231Z3,USBPRINT\Zebra_Technologies_Z5094
+"ZDesigner ZT231R-203dpi ZPL" = ZT231Z2R,LPTENUM\Zebra_Technologies_ZCCBB
+"ZDesigner ZT231R-203dpi ZPL" = ZT231Z2R,USBPRINT\Zebra_Technologies_ZCCBB
+"ZDesigner ZT231R-300dpi ZPL" = ZT231Z3R,LPTENUM\Zebra_Technologies_Z1CAA
+"ZDesigner ZT231R-300dpi ZPL" = ZT231Z3R,USBPRINT\Zebra_Technologies_Z1CAA
+"ZDesigner ZQ310 Plus (CPCL)" = ZQ310PC,USBPRINT\Zebra_Technologies_ZF16B
+"ZDesigner ZQ320 Plus (CPCL)" = ZQ320PC,USBPRINT\Zebra_Technologies_ZF268
+"ZDesigner ZR328 Plus (CPCL)" = ZR328PC,USBPRINT\Zebra_Technologies_Z4B37
+"ZDesigner ZQ610 Plus (CPCL)" = ZQ610PC,USBPRINT\Zebra_Technologies_ZF2AE
+"ZDesigner ZQ620 Plus (CPCL)" = ZQ620PC,USBPRINT\Zebra_Technologies_ZF1AD
+"ZDesigner ZQ630 Plus (CPCL)" = ZQ630PC,USBPRINT\Zebra_Technologies_ZF0D4
+"ZDesigner ZR668 Plus (CPCL)" = ZR668PC,USBPRINT\Zebra_Technologies_Z4D76
+"ZDesigner ZQ310 Plus (ZPL)" = ZQ310PZ,USBPRINT\Zebra_Technologies_ZADA8
+"ZDesigner ZQ320 Plus (ZPL)" = ZQ320PZ,USBPRINT\Zebra_Technologies_Z6EAD
+"ZDesigner ZR328 Plus (ZPL)" = ZR328PZ,USBPRINT\Zebra_Technologies_ZB00F
+"ZDesigner ZQ610 Plus (ZPL)" = ZQ610PZ,USBPRINT\Zebra_Technologies_ZA8AD
+"ZDesigner ZQ620 Plus (ZPL)" = ZQ620PZ,USBPRINT\Zebra_Technologies_Z6BA8
+"ZDesigner ZQ630 Plus (ZPL)" = ZQ630PZ,USBPRINT\Zebra_Technologies_Z52AB
+"ZDesigner ZR668 Plus (ZPL)" = ZR668PZ,USBPRINT\Zebra_Technologies_Z3106
+"ZDesigner ZQ630R Plus (ZPL)" = ZQ630RPZ,USBPRINT\Zebra_Technologies_Z736C
+"ZDesigner ZQ120 Plus (CPCL)" = ZQ120PC,USBPRINT\Zebra_Technologies_ZF3EA
+"ZDesigner ZQ220 Plus (CPCL)" = ZQ220PC,USBPRINT\Zebra_Technologies_Z10A8
+
+
+[ZQ220PC]
+CopyFiles=@ZQ220PC.dat,THERMAL_NT,@ZQ220PC.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZQ220PC.dat
+DataSection=THERMAL_DATA_NT
+
+[ZQ220PC.NTamd64]
+CopyFiles=@ZQ220PC.dat,THERMAL_NT_64,@ZQ220PC.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZQ220PC.dat
+DataSection=THERMAL_DATA_NT_64
+
+
+[ZQ120PC]
+CopyFiles=@ZQ120PC.dat,THERMAL_NT,@ZQ120PC.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZQ120PC.dat
+DataSection=THERMAL_DATA_NT
+
+[ZQ120PC.NTamd64]
+CopyFiles=@ZQ120PC.dat,THERMAL_NT_64,@ZQ120PC.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZQ120PC.dat
+DataSection=THERMAL_DATA_NT_64
+
+
+[ZQ630RPZ]
+CopyFiles=@ZQ630RPZ.dat,THERMAL_NT,@ZQ630RPZ.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZQ630RPZ.dat
+DataSection=THERMAL_DATA_NT
+
+[ZQ630RPZ.NTamd64]
+CopyFiles=@ZQ630RPZ.dat,THERMAL_NT_64,@ZQ630RPZ.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZQ630RPZ.dat
+DataSection=THERMAL_DATA_NT_64
+
+
+[ZR668PZ]
+CopyFiles=@ZR668PZ.dat,THERMAL_NT,@ZR668PZ.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZR668PZ.dat
+DataSection=THERMAL_DATA_NT
+
+[ZR668PZ.NTamd64]
+CopyFiles=@ZR668PZ.dat,THERMAL_NT_64,@ZR668PZ.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZR668PZ.dat
+DataSection=THERMAL_DATA_NT_64
+
+
+[ZQ630PZ]
+CopyFiles=@ZQ630PZ.dat,THERMAL_NT,@ZQ630PZ.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZQ630PZ.dat
+DataSection=THERMAL_DATA_NT
+
+[ZQ630PZ.NTamd64]
+CopyFiles=@ZQ630PZ.dat,THERMAL_NT_64,@ZQ630PZ.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZQ630PZ.dat
+DataSection=THERMAL_DATA_NT_64
+
+
+[ZQ620PZ]
+CopyFiles=@ZQ620PZ.dat,THERMAL_NT,@ZQ620PZ.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZQ620PZ.dat
+DataSection=THERMAL_DATA_NT
+
+[ZQ620PZ.NTamd64]
+CopyFiles=@ZQ620PZ.dat,THERMAL_NT_64,@ZQ620PZ.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZQ620PZ.dat
+DataSection=THERMAL_DATA_NT_64
+
+
+[ZQ610PZ]
+CopyFiles=@ZQ610PZ.dat,THERMAL_NT,@ZQ610PZ.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZQ610PZ.dat
+DataSection=THERMAL_DATA_NT
+
+[ZQ610PZ.NTamd64]
+CopyFiles=@ZQ610PZ.dat,THERMAL_NT_64,@ZQ610PZ.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZQ610PZ.dat
+DataSection=THERMAL_DATA_NT_64
+
+
+[ZR328PZ]
+CopyFiles=@ZR328PZ.dat,THERMAL_NT,@ZR328PZ.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZR328PZ.dat
+DataSection=THERMAL_DATA_NT
+
+[ZR328PZ.NTamd64]
+CopyFiles=@ZR328PZ.dat,THERMAL_NT_64,@ZR328PZ.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZR328PZ.dat
+DataSection=THERMAL_DATA_NT_64
+
+
+[ZQ320PZ]
+CopyFiles=@ZQ320PZ.dat,THERMAL_NT,@ZQ320PZ.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZQ320PZ.dat
+DataSection=THERMAL_DATA_NT
+
+[ZQ320PZ.NTamd64]
+CopyFiles=@ZQ320PZ.dat,THERMAL_NT_64,@ZQ320PZ.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZQ320PZ.dat
+DataSection=THERMAL_DATA_NT_64
+
+
+[ZQ310PZ]
+CopyFiles=@ZQ310PZ.dat,THERMAL_NT,@ZQ310PZ.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZQ310PZ.dat
+DataSection=THERMAL_DATA_NT
+
+[ZQ310PZ.NTamd64]
+CopyFiles=@ZQ310PZ.dat,THERMAL_NT_64,@ZQ310PZ.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZQ310PZ.dat
+DataSection=THERMAL_DATA_NT_64
+
+
+[ZR668PC]
+CopyFiles=@ZR668PC.dat,THERMAL_NT,@ZR668PC.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZR668PC.dat
+DataSection=THERMAL_DATA_NT
+
+[ZR668PC.NTamd64]
+CopyFiles=@ZR668PC.dat,THERMAL_NT_64,@ZR668PC.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZR668PC.dat
+DataSection=THERMAL_DATA_NT_64
+
+
+[ZQ630PC]
+CopyFiles=@ZQ630PC.dat,THERMAL_NT,@ZQ630PC.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZQ630PC.dat
+DataSection=THERMAL_DATA_NT
+
+[ZQ630PC.NTamd64]
+CopyFiles=@ZQ630PC.dat,THERMAL_NT_64,@ZQ630PC.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZQ630PC.dat
+DataSection=THERMAL_DATA_NT_64
+
+
+[ZQ620PC]
+CopyFiles=@ZQ620PC.dat,THERMAL_NT,@ZQ620PC.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZQ620PC.dat
+DataSection=THERMAL_DATA_NT
+
+[ZQ620PC.NTamd64]
+CopyFiles=@ZQ620PC.dat,THERMAL_NT_64,@ZQ620PC.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZQ620PC.dat
+DataSection=THERMAL_DATA_NT_64
+
+
+[ZQ610PC]
+CopyFiles=@ZQ610PC.dat,THERMAL_NT,@ZQ610PC.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZQ610PC.dat
+DataSection=THERMAL_DATA_NT
+
+[ZQ610PC.NTamd64]
+CopyFiles=@ZQ610PC.dat,THERMAL_NT_64,@ZQ610PC.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZQ610PC.dat
+DataSection=THERMAL_DATA_NT_64
+
+
+[ZR328PC]
+CopyFiles=@ZR328PC.dat,THERMAL_NT,@ZR328PC.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZR328PC.dat
+DataSection=THERMAL_DATA_NT
+
+[ZR328PC.NTamd64]
+CopyFiles=@ZR328PC.dat,THERMAL_NT_64,@ZR328PC.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZR328PC.dat
+DataSection=THERMAL_DATA_NT_64
+
+
+[ZQ320PC]
+CopyFiles=@ZQ320PC.dat,THERMAL_NT,@ZQ320PC.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZQ320PC.dat
+DataSection=THERMAL_DATA_NT
+
+[ZQ320PC.NTamd64]
+CopyFiles=@ZQ320PC.dat,THERMAL_NT_64,@ZQ320PC.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZQ320PC.dat
+DataSection=THERMAL_DATA_NT_64
+
+
+[ZQ310PC]
+CopyFiles=@ZQ310PC.dat,THERMAL_NT,@ZQ310PC.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZQ310PC.dat
+DataSection=THERMAL_DATA_NT
+
+[ZQ310PC.NTamd64]
+CopyFiles=@ZQ310PC.dat,THERMAL_NT_64,@ZQ310PC.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZQ310PC.dat
+DataSection=THERMAL_DATA_NT_64
+
+
+[BA105SL1]
+CopyFiles=@BA105SL1.dat,THERMAL_NT,@BA105SL1.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BA105SL1.dat
+DataSection=THERMAL_DATA_NT
+
+[BA105SL2]
+CopyFiles=@BA105SL2.dat,THERMAL_NT,@BA105SL2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BA105SL2.dat
+DataSection=THERMAL_DATA_NT
+
+[BA105SLP2]
+CopyFiles=@BA105SLP2.dat,THERMAL_NT,@BA105SLP2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BA105SLP2.dat
+DataSection=THERMAL_DATA_NT
+
+[BA105SLP3]
+CopyFiles=@BA105SLP3.dat,THERMAL_NT,@BA105SLP3.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BA105SLP3.dat
+DataSection=THERMAL_DATA_NT
+
+[BA110P41]
+CopyFiles=@BA110P41.dat,THERMAL_NT,@BA110P41.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BA110P41.dat
+DataSection=THERMAL_DATA_NT
+
+[BA110P42]
+CopyFiles=@BA110P42.dat,THERMAL_NT,@BA110P42.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BA110P42.dat
+DataSection=THERMAL_DATA_NT
+
+[BA110XI42]
+CopyFiles=@BA110XI42.dat,THERMAL_NT,@BA110XI42.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BA110XI42.dat
+DataSection=THERMAL_DATA_NT
+
+[BA110XI43]
+CopyFiles=@BA110XI43.dat,THERMAL_NT,@BA110XI43.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BA110XI43.dat
+DataSection=THERMAL_DATA_NT
+
+[BA110XI46]
+CopyFiles=@BA110XI46.dat,THERMAL_NT,@BA110XI46.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BA110XI46.dat
+DataSection=THERMAL_DATA_NT
+
+[BA110XI2]
+CopyFiles=@BA110XI2.dat,THERMAL_NT,@BA110XI2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BA110XI2.dat
+DataSection=THERMAL_DATA_NT
+
+[BA110XI3]
+CopyFiles=@BA110XI3.dat,THERMAL_NT,@BA110XI3.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BA110XI3.dat
+DataSection=THERMAL_DATA_NT
+
+[BA110XI6]
+CopyFiles=@BA110XI6.dat,THERMAL_NT,@BA110XI6.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BA110XI6.dat
+DataSection=THERMAL_DATA_NT
+
+[BA140XI42]
+CopyFiles=@BA140XI42.dat,THERMAL_NT,@BA140XI42.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BA140XI42.dat
+DataSection=THERMAL_DATA_NT
+
+[BA14XI3P]
+CopyFiles=@BA14XI3P.dat,THERMAL_NT,@BA14XI3P.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BA14XI3P.dat
+DataSection=THERMAL_DATA_NT
+
+[BA170P41]
+CopyFiles=@BA170P41.dat,THERMAL_NT,@BA170P41.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BA170P41.dat
+DataSection=THERMAL_DATA_NT
+
+[BA170P42]
+CopyFiles=@BA170P42.dat,THERMAL_NT,@BA170P42.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BA170P42.dat
+DataSection=THERMAL_DATA_NT
+
+[BA170XI42]
+CopyFiles=@BA170XI42.dat,THERMAL_NT,@BA170XI42.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BA170XI42.dat
+DataSection=THERMAL_DATA_NT
+
+[BA170XI43]
+CopyFiles=@BA170XI43.dat,THERMAL_NT,@BA170XI43.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BA170XI43.dat
+DataSection=THERMAL_DATA_NT
+
+[BA17XI3P]
+CopyFiles=@BA17XI3P.dat,THERMAL_NT,@BA17XI3P.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BA17XI3P.dat
+DataSection=THERMAL_DATA_NT
+
+[B17XI3P2]
+CopyFiles=@B17XI3P2.dat,THERMAL_NT,@B17XI3P2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=B17XI3P2.dat
+DataSection=THERMAL_DATA_NT
+
+[BA220XI42]
+CopyFiles=@BA220XI42.dat,THERMAL_NT,@BA220XI42.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BA220XI42.dat
+DataSection=THERMAL_DATA_NT
+
+[BA220XI43]
+CopyFiles=@BA220XI43.dat,THERMAL_NT,@BA220XI43.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BA220XI43.dat
+DataSection=THERMAL_DATA_NT
+
+[BA22XI3P]
+CopyFiles=@BA22XI3P.dat,THERMAL_NT,@BA22XI3P.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BA22XI3P.dat
+DataSection=THERMAL_DATA_NT
+
+[B22XI3P3]
+CopyFiles=@B22XI3P3.dat,THERMAL_NT,@B22XI3P3.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=B22XI3P3.dat
+DataSection=THERMAL_DATA_NT
+
+[BAB888D]
+CopyFiles=@BAB888D.dat,THERMAL_NT,@BAB888D.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAB888D.dat
+DataSection=THERMAL_DATA_NT
+
+[BAB888T]
+CopyFiles=@BAB888T.dat,THERMAL_NT,@BAB888T.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAB888T.dat
+DataSection=THERMAL_DATA_NT
+
+[BAEZ320]
+CopyFiles=@BAEZ320.dat,THERMAL_NT,@BAEZ320.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAEZ320.dat
+DataSection=THERMAL_DATA_NT
+
+[BAGC420D]
+CopyFiles=@BAGC420D.dat,THERMAL_NT,@BAGC420D.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAGC420D.dat
+DataSection=THERMAL_DATA_NT
+
+[BEGC420D]
+CopyFiles=@BEGC420D.dat,THERMAL_NT,@BEGC420D.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BEGC420D.dat
+DataSection=THERMAL_DATA_NT
+
+[BAGC420T]
+CopyFiles=@BAGC420T.dat,THERMAL_NT,@BAGC420T.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAGC420T.dat
+DataSection=THERMAL_DATA_NT
+
+[BEGC420T]
+CopyFiles=@BEGC420T.dat,THERMAL_NT,@BEGC420T.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BEGC420T.dat
+DataSection=THERMAL_DATA_NT
+
+[BAGK420D]
+CopyFiles=@BAGK420D.dat,THERMAL_NT,@BAGK420D.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAGK420D.dat
+DataSection=THERMAL_DATA_NT
+
+[BGK420DE]
+CopyFiles=@BGK420DE.dat,THERMAL_NT,@BGK420DE.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BGK420DE.dat
+DataSection=THERMAL_DATA_NT
+
+[BAGK420T]
+CopyFiles=@BAGK420T.dat,THERMAL_NT,@BAGK420T.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAGK420T.dat
+DataSection=THERMAL_DATA_NT
+
+[BGK420TE]
+CopyFiles=@BGK420TE.dat,THERMAL_NT,@BGK420TE.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BGK420TE.dat
+DataSection=THERMAL_DATA_NT
+
+[BAGK888D]
+CopyFiles=@BAGK888D.dat,THERMAL_NT,@BAGK888D.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAGK888D.dat
+DataSection=THERMAL_DATA_NT
+
+[BEGK888D]
+CopyFiles=@BEGK888D.dat,THERMAL_NT,@BEGK888D.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BEGK888D.dat
+DataSection=THERMAL_DATA_NT
+
+[BAGK888T]
+CopyFiles=@BAGK888T.dat,THERMAL_NT,@BAGK888T.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAGK888T.dat
+DataSection=THERMAL_DATA_NT
+
+[BEGK888T]
+CopyFiles=@BEGK888T.dat,THERMAL_NT,@BEGK888T.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BEGK888T.dat
+DataSection=THERMAL_DATA_NT
+
+[BEGT800]
+CopyFiles=@BEGT800.dat,THERMAL_NT,@BEGT800.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BEGT800.dat
+DataSection=THERMAL_DATA_NT
+
+[BAGT800]
+CopyFiles=@BAGT800.dat,THERMAL_NT,@BAGT800.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAGT800.dat
+DataSection=THERMAL_DATA_NT
+
+[BEGT8003]
+CopyFiles=@BEGT8003.dat,THERMAL_NT,@BEGT8003.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BEGT8003.dat
+DataSection=THERMAL_DATA_NT
+
+[BAGT8003]
+CopyFiles=@BAGT8003.dat,THERMAL_NT,@BAGT8003.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAGT8003.dat
+DataSection=THERMAL_DATA_NT
+
+[BAGX420D]
+CopyFiles=@BAGX420D.dat,THERMAL_NT,@BAGX420D.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAGX420D.dat
+DataSection=THERMAL_DATA_NT
+
+[BGX420DE]
+CopyFiles=@BGX420DE.dat,THERMAL_NT,@BGX420DE.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BGX420DE.dat
+DataSection=THERMAL_DATA_NT
+
+[BAGX420S]
+CopyFiles=@BAGX420S.dat,THERMAL_NT,@BAGX420S.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAGX420S.dat
+DataSection=THERMAL_DATA_NT
+
+[BGX420SE]
+CopyFiles=@BGX420SE.dat,THERMAL_NT,@BGX420SE.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BGX420SE.dat
+DataSection=THERMAL_DATA_NT
+
+[BAGX420T]
+CopyFiles=@BAGX420T.dat,THERMAL_NT,@BAGX420T.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAGX420T.dat
+DataSection=THERMAL_DATA_NT
+
+[BGX420TE]
+CopyFiles=@BGX420TE.dat,THERMAL_NT,@BGX420TE.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BGX420TE.dat
+DataSection=THERMAL_DATA_NT
+
+[BAGX430T]
+CopyFiles=@BAGX430T.dat,THERMAL_NT,@BAGX430T.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAGX430T.dat
+DataSection=THERMAL_DATA_NT
+
+[BGX430TE]
+CopyFiles=@BGX430TE.dat,THERMAL_NT,@BGX430TE.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BGX430TE.dat
+DataSection=THERMAL_DATA_NT
+
+[BAHC1003]
+CopyFiles=@BAHC1003.dat,THERMAL_NT,@BAHC1003.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAHC1003.dat
+DataSection=THERMAL_DATA_NT
+
+[BAIMZ220]
+CopyFiles=@BAIMZ220.dat,THERMAL_NT,@BAIMZ220.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAIMZ220.dat
+DataSection=THERMAL_DATA_NT
+
+[BAIMZ220Z]
+CopyFiles=@BAIMZ220Z.dat,THERMAL_NT,@BAIMZ220Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAIMZ220Z.dat
+DataSection=THERMAL_DATA_NT
+
+[BAIMZ320]
+CopyFiles=@BAIMZ320.dat,THERMAL_NT,@BAIMZ320.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAIMZ320.dat
+DataSection=THERMAL_DATA_NT
+
+[BAIMZ320Z]
+CopyFiles=@BAIMZ320Z.dat,THERMAL_NT,@BAIMZ320Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAIMZ320Z.dat
+DataSection=THERMAL_DATA_NT
+
+[BAKKR403]
+CopyFiles=@BAKKR403.dat,THERMAL_NT,@BAKKR403.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAKKR403.dat
+DataSection=THERMAL_DATA_NT
+
+[BAB2824]
+CopyFiles=@BAB2824.dat,THERMAL_NT,@BAB2824.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAB2824.dat
+DataSection=THERMAL_DATA_NT
+
+[BAB2824P]
+CopyFiles=@BAB2824P.dat,THERMAL_NT,@BAB2824P.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAB2824P.dat
+DataSection=THERMAL_DATA_NT
+
+[BAT2824ZP]
+CopyFiles=@BAT2824ZP.dat,THERMAL_NT,@BAT2824ZP.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAT2824ZP.dat
+DataSection=THERMAL_DATA_NT
+
+[BAB2844]
+CopyFiles=@BAB2844.dat,THERMAL_NT,@BAB2844.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAB2844.dat
+DataSection=THERMAL_DATA_NT
+
+[BAB2844Z]
+CopyFiles=@BAB2844Z.dat,THERMAL_NT,@BAB2844Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAB2844Z.dat
+DataSection=THERMAL_DATA_NT
+
+[BAQLMOB]
+CopyFiles=@BAQLMOB.dat,THERMAL_NT,@BAQLMOB.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAQLMOB.dat
+DataSection=THERMAL_DATA_NT
+
+[BAMZ220]
+CopyFiles=@BAMZ220.dat,THERMAL_NT,@BAMZ220.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAMZ220.dat
+DataSection=THERMAL_DATA_NT
+
+[BAMZ320]
+CopyFiles=@BAMZ320.dat,THERMAL_NT,@BAMZ320.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAMZ320.dat
+DataSection=THERMAL_DATA_NT
+
+[BAP4T]
+CopyFiles=@BAP4T.dat,THERMAL_NT,@BAP4T.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAP4T.dat
+DataSection=THERMAL_DATA_NT
+
+[BRP4T]
+CopyFiles=@BRP4T.dat,THERMAL_NT,@BRP4T.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BRP4T.dat
+DataSection=THERMAL_DATA_NT
+
+[BAQL220P]
+CopyFiles=@BAQL220P.dat,THERMAL_NT,@BAQL220P.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAQL220P.dat
+DataSection=THERMAL_DATA_NT
+
+[BAQL320P]
+CopyFiles=@BAQL320P.dat,THERMAL_NT,@BAQL320P.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAQL320P.dat
+DataSection=THERMAL_DATA_NT
+
+[BAQL420P]
+CopyFiles=@BAQL420P.dat,THERMAL_NT,@BAQL420P.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAQL420P.dat
+DataSection=THERMAL_DATA_NT
+
+[BAQLN220]
+CopyFiles=@BAQLN220.dat,THERMAL_NT,@BAQLN220.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAQLN220.dat
+DataSection=THERMAL_DATA_NT
+
+[BAQLN220Z]
+CopyFiles=@BAQLN220Z.dat,THERMAL_NT,@BAQLN220Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAQLN220Z.dat
+DataSection=THERMAL_DATA_NT
+
+[BAQLN320]
+CopyFiles=@BAQLN320.dat,THERMAL_NT,@BAQLN320.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAQLN320.dat
+DataSection=THERMAL_DATA_NT
+
+[BAQLN320Z]
+CopyFiles=@BAQLN320Z.dat,THERMAL_NT,@BAQLN320Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAQLN320Z.dat
+DataSection=THERMAL_DATA_NT
+
+[BAQLN420]
+CopyFiles=@BAQLN420.dat,THERMAL_NT,@BAQLN420.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAQLN420.dat
+DataSection=THERMAL_DATA_NT
+
+[BAQLN420Z]
+CopyFiles=@BAQLN420Z.dat,THERMAL_NT,@BAQLN420Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAQLN420Z.dat
+DataSection=THERMAL_DATA_NT
+
+[BRPAX42L]
+CopyFiles=@BRPAX42L.dat,THERMAL_NT,@BRPAX42L.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BRPAX42L.dat
+DataSection=THERMAL_DATA_NT
+
+[BRPAX43L]
+CopyFiles=@BRPAX43L.dat,THERMAL_NT,@BRPAX43L.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BRPAX43L.dat
+DataSection=THERMAL_DATA_NT
+
+[BRPAX42R]
+CopyFiles=@BRPAX42R.dat,THERMAL_NT,@BRPAX42R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BRPAX42R.dat
+DataSection=THERMAL_DATA_NT
+
+[BRPAX43R]
+CopyFiles=@BRPAX43R.dat,THERMAL_NT,@BRPAX43R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BRPAX43R.dat
+DataSection=THERMAL_DATA_NT
+
+[BAR11XM2]
+CopyFiles=@BAR11XM2.dat,THERMAL_NT,@BAR11XM2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAR11XM2.dat
+DataSection=THERMAL_DATA_NT
+
+[BAR11XM3]
+CopyFiles=@BAR11XM3.dat,THERMAL_NT,@BAR11XM3.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAR11XM3.dat
+DataSection=THERMAL_DATA_NT
+
+[BRR11X2H]
+CopyFiles=@BRR11X2H.dat,THERMAL_NT,@BRR11X2H.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BRR11X2H.dat
+DataSection=THERMAL_DATA_NT
+
+[BRR11X3H]
+CopyFiles=@BRR11X3H.dat,THERMAL_NT,@BRR11X3H.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BRR11X3H.dat
+DataSection=THERMAL_DATA_NT
+
+[BAR110XI42]
+CopyFiles=@BAR110XI42.dat,THERMAL_NT,@BAR110XI42.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAR110XI42.dat
+DataSection=THERMAL_DATA_NT
+
+[BAR110XI43]
+CopyFiles=@BAR110XI43.dat,THERMAL_NT,@BAR110XI43.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAR110XI43.dat
+DataSection=THERMAL_DATA_NT
+
+[BAR110XI46]
+CopyFiles=@BAR110XI46.dat,THERMAL_NT,@BAR110XI46.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAR110XI46.dat
+DataSection=THERMAL_DATA_NT
+
+[BAR17XM2]
+CopyFiles=@BAR17XM2.dat,THERMAL_NT,@BAR17XM2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAR17XM2.dat
+DataSection=THERMAL_DATA_NT
+
+[BAR17XM3]
+CopyFiles=@BAR17XM3.dat,THERMAL_NT,@BAR17XM3.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAR17XM3.dat
+DataSection=THERMAL_DATA_NT
+
+[BABR284Z]
+CopyFiles=@BABR284Z.dat,THERMAL_NT,@BABR284Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BABR284Z.dat
+DataSection=THERMAL_DATA_NT
+
+[BRRP4T]
+CopyFiles=@BRRP4T.dat,THERMAL_NT,@BRRP4T.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BRRP4T.dat
+DataSection=THERMAL_DATA_NT
+
+[BARW220]
+CopyFiles=@BARW220.dat,THERMAL_NT,@BARW220.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BARW220.dat
+DataSection=THERMAL_DATA_NT
+
+[BARW420]
+CopyFiles=@BARW420.dat,THERMAL_NT,@BARW420.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BARW420.dat
+DataSection=THERMAL_DATA_NT
+
+[BARW4PS]
+CopyFiles=@BARW4PS.dat,THERMAL_NT,@BARW4PS.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BARW4PS.dat
+DataSection=THERMAL_DATA_NT
+
+[BRZ42]
+CopyFiles=@BRZ42.dat,THERMAL_NT,@BRZ42.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BRZ42.dat
+DataSection=THERMAL_DATA_NT
+
+[BRZ43]
+CopyFiles=@BRZ43.dat,THERMAL_NT,@BRZ43.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BRZ43.dat
+DataSection=THERMAL_DATA_NT
+
+[BRZ62]
+CopyFiles=@BRZ62.dat,THERMAL_NT,@BRZ62.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BRZ62.dat
+DataSection=THERMAL_DATA_NT
+
+[BRZ63]
+CopyFiles=@BRZ63.dat,THERMAL_NT,@BRZ63.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BRZ63.dat
+DataSection=THERMAL_DATA_NT
+
+[BAS4ME2]
+CopyFiles=@BAS4ME2.dat,THERMAL_NT,@BAS4ME2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAS4ME2.dat
+DataSection=THERMAL_DATA_NT
+
+[BAS4MZ2]
+CopyFiles=@BAS4MZ2.dat,THERMAL_NT,@BAS4MZ2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAS4MZ2.dat
+DataSection=THERMAL_DATA_NT
+
+[BAS4MZ3]
+CopyFiles=@BAS4MZ3.dat,THERMAL_NT,@BAS4MZ3.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAS4MZ3.dat
+DataSection=THERMAL_DATA_NT
+
+[BABT2824]
+CopyFiles=@BABT2824.dat,THERMAL_NT,@BABT2824.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BABT2824.dat
+DataSection=THERMAL_DATA_NT
+
+[BABT2824P]
+CopyFiles=@BABT2824P.dat,THERMAL_NT,@BABT2824P.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BABT2824P.dat
+DataSection=THERMAL_DATA_NT
+
+[BA2824ZP]
+CopyFiles=@BA2824ZP.dat,THERMAL_NT,@BA2824ZP.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BA2824ZP.dat
+DataSection=THERMAL_DATA_NT
+
+[BABT2844]
+CopyFiles=@BABT2844.dat,THERMAL_NT,@BABT2844.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BABT2844.dat
+DataSection=THERMAL_DATA_NT
+
+[BABT284Z]
+CopyFiles=@BABT284Z.dat,THERMAL_NT,@BABT284Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BABT284Z.dat
+DataSection=THERMAL_DATA_NT
+
+[BABT3842]
+CopyFiles=@BABT3842.dat,THERMAL_NT,@BABT3842.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BABT3842.dat
+DataSection=THERMAL_DATA_NT
+
+[BABT3844]
+CopyFiles=@BABT3844.dat,THERMAL_NT,@BABT3844.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BABT3844.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZD50R2]
+CopyFiles=@BAZD50R2.dat,THERMAL_NT,@BAZD50R2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD50R2.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZD50R3]
+CopyFiles=@BAZD50R3.dat,THERMAL_NT,@BAZD50R3.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD50R3.dat
+DataSection=THERMAL_DATA_NT
+
+[BLZE5004L]
+CopyFiles=@BLZE5004L.dat,THERMAL_NT,@BLZE5004L.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BLZE5004L.dat
+DataSection=THERMAL_DATA_NT
+
+[BTZE5004L]
+CopyFiles=@BTZE5004L.dat,THERMAL_NT,@BTZE5004L.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BTZE5004L.dat
+DataSection=THERMAL_DATA_NT
+
+[BLZE5004R]
+CopyFiles=@BLZE5004R.dat,THERMAL_NT,@BLZE5004R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BLZE5004R.dat
+DataSection=THERMAL_DATA_NT
+
+[BTZE5004R]
+CopyFiles=@BTZE5004R.dat,THERMAL_NT,@BTZE5004R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BTZE5004R.dat
+DataSection=THERMAL_DATA_NT
+
+[BLZE50R4L]
+CopyFiles=@BLZE50R4L.dat,THERMAL_NT,@BLZE50R4L.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BLZE50R4L.dat
+DataSection=THERMAL_DATA_NT
+
+[BTZE50R4L]
+CopyFiles=@BTZE50R4L.dat,THERMAL_NT,@BTZE50R4L.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BTZE50R4L.dat
+DataSection=THERMAL_DATA_NT
+
+[BLZE50R4R]
+CopyFiles=@BLZE50R4R.dat,THERMAL_NT,@BLZE50R4R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BLZE50R4R.dat
+DataSection=THERMAL_DATA_NT
+
+[BTZE50R4R]
+CopyFiles=@BTZE50R4R.dat,THERMAL_NT,@BTZE50R4R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BTZE50R4R.dat
+DataSection=THERMAL_DATA_NT
+
+[BLZE5006L]
+CopyFiles=@BLZE5006L.dat,THERMAL_NT,@BLZE5006L.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BLZE5006L.dat
+DataSection=THERMAL_DATA_NT
+
+[BTZE5006L]
+CopyFiles=@BTZE5006L.dat,THERMAL_NT,@BTZE5006L.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BTZE5006L.dat
+DataSection=THERMAL_DATA_NT
+
+[BLZE5006R]
+CopyFiles=@BLZE5006R.dat,THERMAL_NT,@BLZE5006R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BLZE5006R.dat
+DataSection=THERMAL_DATA_NT
+
+[BTZE5006R]
+CopyFiles=@BTZE5006R.dat,THERMAL_NT,@BTZE5006R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BTZE5006R.dat
+DataSection=THERMAL_DATA_NT
+
+[ZE51L24]
+CopyFiles=@ZE51L24.dat,THERMAL_NT,@ZE51L24.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZE51L24.dat
+DataSection=THERMAL_DATA_NT
+
+[ZE51L34]
+CopyFiles=@ZE51L34.dat,THERMAL_NT,@ZE51L34.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZE51L34.dat
+DataSection=THERMAL_DATA_NT
+
+[ZE51L64]
+CopyFiles=@ZE51L64.dat,THERMAL_NT,@ZE51L64.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZE51L64.dat
+DataSection=THERMAL_DATA_NT
+
+[ZE51R24]
+CopyFiles=@ZE51R24.dat,THERMAL_NT,@ZE51R24.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZE51R24.dat
+DataSection=THERMAL_DATA_NT
+
+[ZE51R34]
+CopyFiles=@ZE51R34.dat,THERMAL_NT,@ZE51R34.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZE51R34.dat
+DataSection=THERMAL_DATA_NT
+
+[ZE51R64]
+CopyFiles=@ZE51R64.dat,THERMAL_NT,@ZE51R64.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZE51R64.dat
+DataSection=THERMAL_DATA_NT
+
+[ZE51L24R]
+CopyFiles=@ZE51L24R.dat,THERMAL_NT,@ZE51L24R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZE51L24R.dat
+DataSection=THERMAL_DATA_NT
+
+[ZE51L34R]
+CopyFiles=@ZE51L34R.dat,THERMAL_NT,@ZE51L34R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZE51L34R.dat
+DataSection=THERMAL_DATA_NT
+
+[ZE51L64R]
+CopyFiles=@ZE51L64R.dat,THERMAL_NT,@ZE51L64R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZE51L64R.dat
+DataSection=THERMAL_DATA_NT
+
+[ZE51R24R]
+CopyFiles=@ZE51R24R.dat,THERMAL_NT,@ZE51R24R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZE51R24R.dat
+DataSection=THERMAL_DATA_NT
+
+[ZE51R34R]
+CopyFiles=@ZE51R34R.dat,THERMAL_NT,@ZE51R34R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZE51R34R.dat
+DataSection=THERMAL_DATA_NT
+
+[ZE51R64R]
+CopyFiles=@ZE51R64R.dat,THERMAL_NT,@ZE51R64R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZE51R64R.dat
+DataSection=THERMAL_DATA_NT
+
+[ZE52L26]
+CopyFiles=@ZE52L26.dat,THERMAL_NT,@ZE52L26.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZE52L26.dat
+DataSection=THERMAL_DATA_NT
+
+[ZE52L36]
+CopyFiles=@ZE52L36.dat,THERMAL_NT,@ZE52L36.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZE52L36.dat
+DataSection=THERMAL_DATA_NT
+
+[ZE52R26]
+CopyFiles=@ZE52R26.dat,THERMAL_NT,@ZE52R26.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZE52R26.dat
+DataSection=THERMAL_DATA_NT
+
+[ZE52R36]
+CopyFiles=@ZE52R36.dat,THERMAL_NT,@ZE52R36.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZE52R36.dat
+DataSection=THERMAL_DATA_NT
+
+[ZE52L26R]
+CopyFiles=@ZE52L26R.dat,THERMAL_NT,@ZE52L26R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZE52L26R.dat
+DataSection=THERMAL_DATA_NT
+
+[ZE52L36R]
+CopyFiles=@ZE52L36R.dat,THERMAL_NT,@ZE52L36R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZE52L36R.dat
+DataSection=THERMAL_DATA_NT
+
+[ZE52R26R]
+CopyFiles=@ZE52R26R.dat,THERMAL_NT,@ZE52R26R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZE52R26R.dat
+DataSection=THERMAL_DATA_NT
+
+[ZE52R36R]
+CopyFiles=@ZE52R36R.dat,THERMAL_NT,@ZE52R36R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZE52R36R.dat
+DataSection=THERMAL_DATA_NT
+
+
+[BZM4E2]
+CopyFiles=@BZM4E2.dat,THERMAL_NT,@BZM4E2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZM4E2.dat
+DataSection=THERMAL_DATA_NT
+
+[BZM4Z2]
+CopyFiles=@BZM4Z2.dat,THERMAL_NT,@BZM4Z2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZM4Z2.dat
+DataSection=THERMAL_DATA_NT
+
+[BZM4Z3]
+CopyFiles=@BZM4Z3.dat,THERMAL_NT,@BZM4Z3.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZM4Z3.dat
+DataSection=THERMAL_DATA_NT
+
+[BZM4Z6]
+CopyFiles=@BZM4Z6.dat,THERMAL_NT,@BZM4Z6.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZM4Z6.dat
+DataSection=THERMAL_DATA_NT
+
+[BZM6E2]
+CopyFiles=@BZM6E2.dat,THERMAL_NT,@BZM6E2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZM6E2.dat
+DataSection=THERMAL_DATA_NT
+
+[BZM6Z2]
+CopyFiles=@BZM6Z2.dat,THERMAL_NT,@BZM6Z2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZM6Z2.dat
+DataSection=THERMAL_DATA_NT
+
+[BZM6Z3]
+CopyFiles=@BZM6Z3.dat,THERMAL_NT,@BZM6Z3.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZM6Z3.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZQ310Z]
+CopyFiles=@BAZQ310Z.dat,THERMAL_NT,@BAZQ310Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ310Z.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZQ310C]
+CopyFiles=@BAZQ310C.dat,THERMAL_NT,@BAZQ310C.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ310C.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZQ320Z]
+CopyFiles=@BAZQ320Z.dat,THERMAL_NT,@BAZQ320Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ320Z.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZQ320C]
+CopyFiles=@BAZQ320C.dat,THERMAL_NT,@BAZQ320C.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ320C.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZQ510Z]
+CopyFiles=@BAZQ510Z.dat,THERMAL_NT,@BAZQ510Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ510Z.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZQ510C]
+CopyFiles=@BAZQ510C.dat,THERMAL_NT,@BAZQ510C.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ510C.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZQ520Z]
+CopyFiles=@BAZQ520Z.dat,THERMAL_NT,@BAZQ520Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ520Z.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZQ520C]
+CopyFiles=@BAZQ520C.dat,THERMAL_NT,@BAZQ520C.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ520C.dat
+DataSection=THERMAL_DATA_NT
+
+[BEZT210]
+CopyFiles=@BEZT210.dat,THERMAL_NT,@BEZT210.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BEZT210.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZT210]
+CopyFiles=@BAZT210.dat,THERMAL_NT,@BAZT210.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZT210.dat
+DataSection=THERMAL_DATA_NT
+
+[BTZT210]
+CopyFiles=@BTZT210.dat,THERMAL_NT,@BTZT210.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BTZT210.dat
+DataSection=THERMAL_DATA_NT
+
+[BEZT220]
+CopyFiles=@BEZT220.dat,THERMAL_NT,@BEZT220.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BEZT220.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZT220]
+CopyFiles=@BAZT220.dat,THERMAL_NT,@BAZT220.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZT220.dat
+DataSection=THERMAL_DATA_NT
+
+[BTZT220]
+CopyFiles=@BTZT220.dat,THERMAL_NT,@BTZT220.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BTZT220.dat
+DataSection=THERMAL_DATA_NT
+
+[BEZT230]
+CopyFiles=@BEZT230.dat,THERMAL_NT,@BEZT230.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BEZT230.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZT230]
+CopyFiles=@BAZT230.dat,THERMAL_NT,@BAZT230.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZT230.dat
+DataSection=THERMAL_DATA_NT
+
+[BTZT230]
+CopyFiles=@BTZT230.dat,THERMAL_NT,@BTZT230.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BTZT230.dat
+DataSection=THERMAL_DATA_NT
+
+[BEZT4142]
+CopyFiles=@BEZT4142.dat,THERMAL_NT,@BEZT4142.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BEZT4142.dat
+DataSection=THERMAL_DATA_NT
+
+[BZZT4142]
+CopyFiles=@BZZT4142.dat,THERMAL_NT,@BZZT4142.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZZT4142.dat
+DataSection=THERMAL_DATA_NT
+
+[BZZT4143]
+CopyFiles=@BZZT4143.dat,THERMAL_NT,@BZZT4143.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZZT4143.dat
+DataSection=THERMAL_DATA_NT
+
+[BZZT4146]
+CopyFiles=@BZZT4146.dat,THERMAL_NT,@BZZT4146.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZZT4146.dat
+DataSection=THERMAL_DATA_NT
+
+[BZZT4262]
+CopyFiles=@BZZT4262.dat,THERMAL_NT,@BZZT4262.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZZT4262.dat
+DataSection=THERMAL_DATA_NT
+
+[BZZT4263]
+CopyFiles=@BZZT4263.dat,THERMAL_NT,@BZZT4263.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZZT4263.dat
+DataSection=THERMAL_DATA_NT
+
+[BZZT41R2]
+CopyFiles=@BZZT41R2.dat,THERMAL_NT,@BZZT41R2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZZT41R2.dat
+DataSection=THERMAL_DATA_NT
+
+[BZZT41R3]
+CopyFiles=@BZZT41R3.dat,THERMAL_NT,@BZZT41R3.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZZT41R3.dat
+DataSection=THERMAL_DATA_NT
+
+[BZZT41R6]
+CopyFiles=@BZZT41R6.dat,THERMAL_NT,@BZZT41R6.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZZT41R6.dat
+DataSection=THERMAL_DATA_NT
+
+[BZZT42R2]
+CopyFiles=@BZZT42R2.dat,THERMAL_NT,@BZZT42R2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZZT42R2.dat
+DataSection=THERMAL_DATA_NT
+
+[BZZT42R3]
+CopyFiles=@BZZT42R3.dat,THERMAL_NT,@BZZT42R3.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZZT42R3.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZT5102]
+CopyFiles=@BAZT5102.dat,THERMAL_NT,@BAZT5102.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZT5102.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZT5103]
+CopyFiles=@BAZT5103.dat,THERMAL_NT,@BAZT5103.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZT5103.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZT6102]
+CopyFiles=@BAZT6102.dat,THERMAL_NT,@BAZT6102.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZT6102.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZT6103]
+CopyFiles=@BAZT6103.dat,THERMAL_NT,@BAZT6103.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZT6103.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZT6106]
+CopyFiles=@BAZT6106.dat,THERMAL_NT,@BAZT6106.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZT6106.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZT6202]
+CopyFiles=@BAZT6202.dat,THERMAL_NT,@BAZT6202.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZT6202.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZT6203]
+CopyFiles=@BAZT6203.dat,THERMAL_NT,@BAZT6203.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZT6203.dat
+DataSection=THERMAL_DATA_NT
+
+[BARZT612]
+CopyFiles=@BARZT612.dat,THERMAL_NT,@BARZT612.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BARZT612.dat
+DataSection=THERMAL_DATA_NT
+
+[BARZT613]
+CopyFiles=@BARZT613.dat,THERMAL_NT,@BARZT613.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BARZT613.dat
+DataSection=THERMAL_DATA_NT
+
+[BARZT616]
+CopyFiles=@BARZT616.dat,THERMAL_NT,@BARZT616.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BARZT616.dat
+DataSection=THERMAL_DATA_NT
+
+[BARZT622]
+CopyFiles=@BARZT622.dat,THERMAL_NT,@BARZT622.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BARZT622.dat
+DataSection=THERMAL_DATA_NT
+
+[BARZT623]
+CopyFiles=@BARZT623.dat,THERMAL_NT,@BARZT623.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BARZT623.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZD50Z2]
+CopyFiles=@BAZD50Z2.dat,THERMAL_NT,@BAZD50Z2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD50Z2.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZD50Z3]
+CopyFiles=@BAZD50Z3.dat,THERMAL_NT,@BAZD50Z3.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD50Z3.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZD50E2]
+CopyFiles=@BAZD50E2.dat,THERMAL_NT,@BAZD50E2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD50E2.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZD50E3]
+CopyFiles=@BAZD50R3.dat,THERMAL_NT,@BAZD50R3.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD50R3.dat
+DataSection=THERMAL_DATA_NT
+
+[BATZD412]
+CopyFiles=@BATZD412.dat,THERMAL_NT,@BATZD412.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BATZD412.dat
+DataSection=THERMAL_DATA_NT
+
+[BATZD413]
+CopyFiles=@BATZD413.dat,THERMAL_NT,@BATZD413.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BATZD413.dat
+DataSection=THERMAL_DATA_NT
+
+[BABZD412]
+CopyFiles=@BABZD412.dat,THERMAL_NT,@BABZD412.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BABZD412.dat
+DataSection=THERMAL_DATA_NT
+
+[BABZD413]
+CopyFiles=@BABZD413.dat,THERMAL_NT,@BABZD413.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BABZD413.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZD412T]
+CopyFiles=@BAZD412T.dat,THERMAL_NT,@BAZD412T.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD412T.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZD413T]
+CopyFiles=@BAZD413T.dat,THERMAL_NT,@BAZD413T.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD413T.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZD412B]
+CopyFiles=@BAZD412B.dat,THERMAL_NT,@BAZD412B.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD412B.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZD413B]
+CopyFiles=@BAZD413B.dat,THERMAL_NT,@BAZD413B.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD413B.dat
+DataSection=THERMAL_DATA_NT
+
+[BATZD422]
+CopyFiles=@BATZD422.dat,THERMAL_NT,@BATZD422.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BATZD422.dat
+DataSection=THERMAL_DATA_NT
+
+[BATZD423]
+CopyFiles=@BATZD423.dat,THERMAL_NT,@BATZD423.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BATZD423.dat
+DataSection=THERMAL_DATA_NT
+
+[BABZD422]
+CopyFiles=@BABZD422.dat,THERMAL_NT,@BABZD422.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BABZD422.dat
+DataSection=THERMAL_DATA_NT
+
+[BABZD423]
+CopyFiles=@BABZD423.dat,THERMAL_NT,@BABZD423.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BABZD423.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZD422T]
+CopyFiles=@BAZD422T.dat,THERMAL_NT,@BAZD422T.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD422T.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZD423T]
+CopyFiles=@BAZD423T.dat,THERMAL_NT,@BAZD423T.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD423T.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZD422B]
+CopyFiles=@BAZD422B.dat,THERMAL_NT,@BAZD422B.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD422B.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZD423B]
+CopyFiles=@BAZD423B.dat,THERMAL_NT,@BAZD423B.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD423B.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZ423TC]
+CopyFiles=@BAZ423TC.dat,THERMAL_NT,@BAZ423TC.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZ423TC.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZ423BC]
+CopyFiles=@BAZ423BC.dat,THERMAL_NT,@BAZ423BC.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZ423BC.dat
+DataSection=THERMAL_DATA_NT
+
+
+[BAZD612T]
+CopyFiles=@BAZD612T.dat,THERMAL_NT,@BAZD612T.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD612T.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZD612R]
+CopyFiles=@BAZD612R.dat,THERMAL_NT,@BAZD612R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD612R.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZD613T]
+CopyFiles=@BAZD613T.dat,THERMAL_NT,@BAZD613T.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD613T.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZD613R]
+CopyFiles=@BAZD613R.dat,THERMAL_NT,@BAZD613R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD613R.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZD612B]
+CopyFiles=@BAZD612B.dat,THERMAL_NT,@BAZD612B.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD612B.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZD613B]
+CopyFiles=@BAZD613B.dat,THERMAL_NT,@BAZD613B.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD613B.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZD622T]
+CopyFiles=@BAZD622T.dat,THERMAL_NT,@BAZD622T.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD622T.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZD623T]
+CopyFiles=@BAZD623T.dat,THERMAL_NT,@BAZD623T.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD623T.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZD622R]
+CopyFiles=@BAZD622R.dat,THERMAL_NT,@BAZD622R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD622R.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZD623R]
+CopyFiles=@BAZD623R.dat,THERMAL_NT,@BAZD623R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD623R.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZD622B]
+CopyFiles=@BAZD622B.dat,THERMAL_NT,@BAZD622B.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD622B.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZD623B]
+CopyFiles=@BAZD623B.dat,THERMAL_NT,@BAZD623B.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD623B.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZR318Z]
+CopyFiles=@BAZR318Z.dat,THERMAL_NT,@BAZR318Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZR318Z.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZR318C]
+CopyFiles=@BAZR318C.dat,THERMAL_NT,@BAZR318C.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZR318C.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZR328Z]
+CopyFiles=@BAZR328Z.dat,THERMAL_NT,@BAZR328Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZR328Z.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZR328C]
+CopyFiles=@BAZR328C.dat,THERMAL_NT,@BAZR328C.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZR328C.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZR338]
+CopyFiles=@BAZR338.dat,THERMAL_NT,@BAZR338.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZR338.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZR338Z]
+CopyFiles=@BAZR338Z.dat,THERMAL_NT,@BAZR338Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZR338Z.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZR628]
+CopyFiles=@BAZR628.dat,THERMAL_NT,@BAZR628.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZR628.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZR628Z]
+CopyFiles=@BAZR628Z.dat,THERMAL_NT,@BAZR628Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZR628Z.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZR638]
+CopyFiles=@BAZR638.dat,THERMAL_NT,@BAZR638.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZR638.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZR638Z]
+CopyFiles=@BAZR638Z.dat,THERMAL_NT,@BAZR638Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZR638Z.dat
+DataSection=THERMAL_DATA_NT
+
+[BATZD622]
+CopyFiles=@BATZD622.dat,THERMAL_NT,@BATZD622.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BATZD622.dat
+DataSection=THERMAL_DATA_NT
+
+[BATZD623]
+CopyFiles=@BATZD623.dat,THERMAL_NT,@BATZD623.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BATZD623.dat
+DataSection=THERMAL_DATA_NT
+
+[BABZD622]
+CopyFiles=@BABZD622.dat,THERMAL_NT,@BABZD622.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BABZD622.dat
+DataSection=THERMAL_DATA_NT
+
+[BABZD623]
+CopyFiles=@BABZD623.dat,THERMAL_NT,@BABZD623.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BABZD623.dat
+DataSection=THERMAL_DATA_NT
+
+[BAGK420E]
+CopyFiles=@BAGK420E.dat,THERMAL_NT,@BAGK420E.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAGK420E.dat
+DataSection=THERMAL_DATA_NT
+
+[BGK420EE]
+CopyFiles=@BGK420EE.dat,THERMAL_NT,@BGK420EE.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BGK420EE.dat
+DataSection=THERMAL_DATA_NT
+
+[BAGK888E]
+CopyFiles=@BAGK888E.dat,THERMAL_NT,@BAGK888E.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAGK888E.dat
+DataSection=THERMAL_DATA_NT
+
+[BEGK888E]
+CopyFiles=@BEGK888E.dat,THERMAL_NT,@BEGK888E.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BEGK888E.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZQ610]
+CopyFiles=@BAZQ610.dat,THERMAL_NT,@BAZQ610.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ610.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZQ610Z]
+CopyFiles=@BAZQ610Z.dat,THERMAL_NT,@BAZQ610Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ610Z.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZQ620]
+CopyFiles=@BAZQ620.dat,THERMAL_NT,@BAZQ620.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ620.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZQ620Z]
+CopyFiles=@BAZQ620Z.dat,THERMAL_NT,@BAZQ620Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ620Z.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZR658]
+CopyFiles=@BAZR658.dat,THERMAL_NT,@BAZR658.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZR658.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZR658Z]
+CopyFiles=@BAZR658Z.dat,THERMAL_NT,@BAZR658Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZR658Z.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZR668]
+CopyFiles=@BAZR668.dat,THERMAL_NT,@BAZR668.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZR668.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZR668Z]
+CopyFiles=@BAZR668Z.dat,THERMAL_NT,@BAZR668Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZR668Z.dat
+DataSection=THERMAL_DATA_NT
+
+[BAGK42TP]
+CopyFiles=@BAGK42TP.dat,THERMAL_NT,@BAGK42TP.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAGK42TP.dat
+DataSection=THERMAL_DATA_NT
+
+[BGK42TEP]
+CopyFiles=@BGK42TEP.dat,THERMAL_NT,@BGK42TEP.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BGK42TEP.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZD5103]
+CopyFiles=@BAZD5103.dat,THERMAL_NT,@BAZD5103.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD5103.dat
+DataSection=THERMAL_DATA_NT
+
+[BEGT800P]
+CopyFiles=@BEGT800P.dat,THERMAL_NT,@BEGT800P.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BEGT800P.dat
+DataSection=THERMAL_DATA_NT
+
+[BAGT800P]
+CopyFiles=@BAGT800P.dat,THERMAL_NT,@BAGT800P.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAGT800P.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZD5113]
+CopyFiles=@BAZD5113.dat,THERMAL_NT,@BAZD5113.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD5113.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZQ630]
+CopyFiles=@BAZQ630.dat,THERMAL_NT,@BAZQ630.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ630.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZQ630Z]
+CopyFiles=@BAZQ630Z.dat,THERMAL_NT,@BAZQ630Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ630Z.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZQ63RZ]
+CopyFiles=@BAZQ63RZ.dat,THERMAL_NT,@BAZQ63RZ.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ63RZ.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZQ120]
+CopyFiles=@BAZQ120.dat,THERMAL_NT,@BAZQ120.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ120.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZQ220]
+CopyFiles=@BAZQ220.dat,THERMAL_NT,@BAZQ220.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ220.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZR138]
+CopyFiles=@BAZR138.dat,THERMAL_NT,@BAZR138.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZR138.dat
+DataSection=THERMAL_DATA_NT
+
+[BATZD222]
+CopyFiles=@BATZD222.dat,THERMAL_NT,@BATZD222.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BATZD222.dat
+DataSection=THERMAL_DATA_NT
+
+[BABZD222]
+CopyFiles=@BABZD222.dat,THERMAL_NT,@BABZD222.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BABZD222.dat
+DataSection=THERMAL_DATA_NT
+
+[BATZD232]
+CopyFiles=@BATZD232.dat,THERMAL_NT,@BATZD232.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BATZD232.dat
+DataSection=THERMAL_DATA_NT
+
+[BABZD232]
+CopyFiles=@BABZD232.dat,THERMAL_NT,@BABZD232.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BABZD232.dat
+DataSection=THERMAL_DATA_NT
+
+[ZD100Z2]
+CopyFiles=@ZD100Z2.dat,THERMAL_NT,@ZD100Z2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZD100Z2.dat
+DataSection=THERMAL_DATA_NT
+
+[ZD100E2]
+CopyFiles=@ZD100E2.dat,THERMAL_NT,@ZD100E2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZD100E2.dat
+DataSection=THERMAL_DATA_NT
+
+[ZD230Z3]
+CopyFiles=@ZD230Z3.dat,THERMAL_NT,@ZD230Z3.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZD230Z3.dat
+DataSection=THERMAL_DATA_NT
+
+[ZD230E3]
+CopyFiles=@ZD230E3.dat,THERMAL_NT,@ZD230E3.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZD230E3.dat
+DataSection=THERMAL_DATA_NT
+
+[BATZD888]
+CopyFiles=@BATZD888.dat,THERMAL_NT,@BATZD888.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BATZD888.dat
+DataSection=THERMAL_DATA_NT
+
+[BABZD888]
+CopyFiles=@BABZD888.dat,THERMAL_NT,@BABZD888.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BABZD888.dat
+DataSection=THERMAL_DATA_NT
+
+[ZD888E3]
+CopyFiles=@ZD888E3.dat,THERMAL_NT,@ZD888E3.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZD888E3.dat
+DataSection=THERMAL_DATA_NT
+
+[ZD888Z3]
+CopyFiles=@ZD888Z3.dat,THERMAL_NT,@ZD888Z3.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZD888Z3.dat
+DataSection=THERMAL_DATA_NT
+
+[BEZT4112]
+CopyFiles=@BEZT4112.dat,THERMAL_NT,@BEZT4112.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BEZT4112.dat
+DataSection=THERMAL_DATA_NT
+
+[BZZT4112]
+CopyFiles=@BZZT4112.dat,THERMAL_NT,@BZZT4112.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZZT4112.dat
+DataSection=THERMAL_DATA_NT
+
+[BZZT4113]
+CopyFiles=@BZZT4113.dat,THERMAL_NT,@BZZT4113.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZZT4113.dat
+DataSection=THERMAL_DATA_NT
+
+[BZZT4116]
+CopyFiles=@BZZT4116.dat,THERMAL_NT,@BZZT4116.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZZT4116.dat
+DataSection=THERMAL_DATA_NT
+
+[BZZT4212]
+CopyFiles=@BZZT4212.dat,THERMAL_NT,@BZZT4212.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZZT4212.dat
+DataSection=THERMAL_DATA_NT
+
+[BZZT4213]
+CopyFiles=@BZZT4213.dat,THERMAL_NT,@BZZT4213.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZZT4213.dat
+DataSection=THERMAL_DATA_NT
+
+[BZT411R2]
+CopyFiles=@BZT411R2.dat,THERMAL_NT,@BZT411R2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZT411R2.dat
+DataSection=THERMAL_DATA_NT
+
+[BZT411R3]
+CopyFiles=@BZT411R3.dat,THERMAL_NT,@BZT411R3.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZT411R3.dat
+DataSection=THERMAL_DATA_NT
+
+[BZT411R6]
+CopyFiles=@BZT411R6.dat,THERMAL_NT,@BZT411R6.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZT411R6.dat
+DataSection=THERMAL_DATA_NT
+
+[BZT421R2]
+CopyFiles=@BZT421R2.dat,THERMAL_NT,@BZT421R2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZT421R2.dat
+DataSection=THERMAL_DATA_NT
+
+[BZT421R3]
+CopyFiles=@BZT421R3.dat,THERMAL_NT,@BZT421R3.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZT421R3.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZQ511Z]
+CopyFiles=@BAZQ511Z.dat,THERMAL_NT,@BAZQ511Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ511Z.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZQ511C]
+CopyFiles=@BAZQ511C.dat,THERMAL_NT,@BAZQ511C.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ511C.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZQ521Z]
+CopyFiles=@BAZQ521Z.dat,THERMAL_NT,@BAZQ521Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ521Z.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZQ521C]
+CopyFiles=@BAZQ521C.dat,THERMAL_NT,@BAZQ521C.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ521C.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZQ511R]
+CopyFiles=@BAZQ511R.dat,THERMAL_NT,@BAZQ511R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ511R.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZQ521R]
+CopyFiles=@BAZQ521R.dat,THERMAL_NT,@BAZQ521R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ521R.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZQ112]
+CopyFiles=@BAZQ112.dat,THERMAL_NT,@BAZQ112.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ112.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZQ210]
+CopyFiles=@BAZQ210.dat,THERMAL_NT,@BAZQ210.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ210.dat
+DataSection=THERMAL_DATA_NT
+
+[BAZR118]
+CopyFiles=@BAZR118.dat,THERMAL_NT,@BAZR118.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZR118.dat
+DataSection=THERMAL_DATA_NT
+
+[ZT111E2]
+CopyFiles=@ZT111E2.dat,THERMAL_NT,@ZT111E2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZT111E2.dat
+DataSection=THERMAL_DATA_NT
+
+[ZT111Z2]
+CopyFiles=@ZT111Z2.dat,THERMAL_NT,@ZT111Z2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZT111Z2.dat
+DataSection=THERMAL_DATA_NT
+
+[ZT111Z3]
+CopyFiles=@ZT111Z3.dat,THERMAL_NT,@ZT111Z3.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZT111Z3.dat
+DataSection=THERMAL_DATA_NT
+
+[ZT211E2]
+CopyFiles=@ZT211E2.dat,THERMAL_NT,@ZT211E2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZT211E2.dat
+DataSection=THERMAL_DATA_NT
+
+[ZT211Z2]
+CopyFiles=@ZT211Z2.dat,THERMAL_NT,@ZT211Z2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZT211Z2.dat
+DataSection=THERMAL_DATA_NT
+
+[ZT211Z3]
+CopyFiles=@ZT211Z3.dat,THERMAL_NT,@ZT211Z3.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZT211Z3.dat
+DataSection=THERMAL_DATA_NT
+
+[ZT231E2]
+CopyFiles=@ZT231E2.dat,THERMAL_NT,@ZT231E2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZT231E2.dat
+DataSection=THERMAL_DATA_NT
+
+[ZT231Z2]
+CopyFiles=@ZT231Z2.dat,THERMAL_NT,@ZT231Z2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZT231Z2.dat
+DataSection=THERMAL_DATA_NT
+
+[ZT231Z3]
+CopyFiles=@ZT231Z3.dat,THERMAL_NT,@ZT231Z3.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZT231Z3.dat
+DataSection=THERMAL_DATA_NT
+
+[ZT231Z2R]
+CopyFiles=@ZT231Z2R.dat,THERMAL_NT,@ZT231Z2R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZT231Z2R.dat
+DataSection=THERMAL_DATA_NT
+
+[ZT231Z3R]
+CopyFiles=@ZT231Z3R.dat,THERMAL_NT,@ZT231Z3R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZT231Z3R.dat
+DataSection=THERMAL_DATA_NT
+
+
+
+[BA105SL1.NTamd64]
+CopyFiles=@BA105SL1.dat,THERMAL_NT_64,@BA105SL1.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BA105SL1.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BA105SL2.NTamd64]
+CopyFiles=@BA105SL2.dat,THERMAL_NT_64,@BA105SL2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BA105SL2.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BA105SLP2.NTamd64]
+CopyFiles=@BA105SLP2.dat,THERMAL_NT_64,@BA105SLP2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BA105SLP2.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BA105SLP3.NTamd64]
+CopyFiles=@BA105SLP3.dat,THERMAL_NT_64,@BA105SLP3.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BA105SLP3.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BA110P41.NTamd64]
+CopyFiles=@BA110P41.dat,THERMAL_NT_64,@BA110P41.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BA110P41.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BA110P42.NTamd64]
+CopyFiles=@BA110P42.dat,THERMAL_NT_64,@BA110P42.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BA110P42.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BA110XI42.NTamd64]
+CopyFiles=@BA110XI42.dat,THERMAL_NT_64,@BA110XI42.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BA110XI42.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BA110XI43.NTamd64]
+CopyFiles=@BA110XI43.dat,THERMAL_NT_64,@BA110XI43.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BA110XI43.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BA110XI46.NTamd64]
+CopyFiles=@BA110XI46.dat,THERMAL_NT_64,@BA110XI46.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BA110XI46.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BA110XI2.NTamd64]
+CopyFiles=@BA110XI2.dat,THERMAL_NT_64,@BA110XI2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BA110XI2.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BA110XI3.NTamd64]
+CopyFiles=@BA110XI3.dat,THERMAL_NT_64,@BA110XI3.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BA110XI3.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BA110XI6.NTamd64]
+CopyFiles=@BA110XI6.dat,THERMAL_NT_64,@BA110XI6.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BA110XI6.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BA140XI42.NTamd64]
+CopyFiles=@BA140XI42.dat,THERMAL_NT_64,@BA140XI42.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BA140XI42.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BA14XI3P.NTamd64]
+CopyFiles=@BA14XI3P.dat,THERMAL_NT_64,@BA14XI3P.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BA14XI3P.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BA170P41.NTamd64]
+CopyFiles=@BA170P41.dat,THERMAL_NT_64,@BA170P41.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BA170P41.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BA170P42.NTamd64]
+CopyFiles=@BA170P42.dat,THERMAL_NT_64,@BA170P42.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BA170P42.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BA170XI42.NTamd64]
+CopyFiles=@BA170XI42.dat,THERMAL_NT_64,@BA170XI42.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BA170XI42.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BA170XI43.NTamd64]
+CopyFiles=@BA170XI43.dat,THERMAL_NT_64,@BA170XI43.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BA170XI43.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BA17XI3P.NTamd64]
+CopyFiles=@BA17XI3P.dat,THERMAL_NT_64,@BA17XI3P.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BA17XI3P.dat
+DataSection=THERMAL_DATA_NT_64
+
+[B17XI3P2.NTamd64]
+CopyFiles=@B17XI3P2.dat,THERMAL_NT_64,@B17XI3P2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=B17XI3P2.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BA220XI42.NTamd64]
+CopyFiles=@BA220XI42.dat,THERMAL_NT_64,@BA220XI42.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BA220XI42.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BA220XI43.NTamd64]
+CopyFiles=@BA220XI43.dat,THERMAL_NT_64,@BA220XI43.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BA220XI43.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BA22XI3P.NTamd64]
+CopyFiles=@BA22XI3P.dat,THERMAL_NT_64,@BA22XI3P.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BA22XI3P.dat
+DataSection=THERMAL_DATA_NT_64
+
+[B22XI3P3.NTamd64]
+CopyFiles=@B22XI3P3.dat,THERMAL_NT_64,@B22XI3P3.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=B22XI3P3.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAB888D.NTamd64]
+CopyFiles=@BAB888D.dat,THERMAL_NT_64,@BAB888D.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAB888D.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAB888T.NTamd64]
+CopyFiles=@BAB888T.dat,THERMAL_NT_64,@BAB888T.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAB888T.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAEZ320.NTamd64]
+CopyFiles=@BAEZ320.dat,THERMAL_NT_64,@BAEZ320.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAEZ320.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAGC420D.NTamd64]
+CopyFiles=@BAGC420D.dat,THERMAL_NT_64,@BAGC420D.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAGC420D.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BEGC420D.NTamd64]
+CopyFiles=@BEGC420D.dat,THERMAL_NT_64,@BEGC420D.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BEGC420D.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAGC420T.NTamd64]
+CopyFiles=@BAGC420T.dat,THERMAL_NT_64,@BAGC420T.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAGC420T.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BEGC420T.NTamd64]
+CopyFiles=@BEGC420T.dat,THERMAL_NT_64,@BEGC420T.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BEGC420T.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAGK420D.NTamd64]
+CopyFiles=@BAGK420D.dat,THERMAL_NT_64,@BAGK420D.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAGK420D.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BGK420DE.NTamd64]
+CopyFiles=@BGK420DE.dat,THERMAL_NT_64,@BGK420DE.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BGK420DE.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAGK420T.NTamd64]
+CopyFiles=@BAGK420T.dat,THERMAL_NT_64,@BAGK420T.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAGK420T.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BGK420TE.NTamd64]
+CopyFiles=@BGK420TE.dat,THERMAL_NT_64,@BGK420TE.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BGK420TE.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAGK888D.NTamd64]
+CopyFiles=@BAGK888D.dat,THERMAL_NT_64,@BAGK888D.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAGK888D.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BEGK888D.NTamd64]
+CopyFiles=@BEGK888D.dat,THERMAL_NT_64,@BEGK888D.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BEGK888D.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAGK888T.NTamd64]
+CopyFiles=@BAGK888T.dat,THERMAL_NT_64,@BAGK888T.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAGK888T.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BEGK888T.NTamd64]
+CopyFiles=@BEGK888T.dat,THERMAL_NT_64,@BEGK888T.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BEGK888T.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BEGT800.NTamd64]
+CopyFiles=@BEGT800.dat,THERMAL_NT_64,@BEGT800.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BEGT800.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAGT800.NTamd64]
+CopyFiles=@BAGT800.dat,THERMAL_NT_64,@BAGT800.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAGT800.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BEGT8003.NTamd64]
+CopyFiles=@BEGT8003.dat,THERMAL_NT_64,@BEGT8003.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BEGT8003.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAGT8003.NTamd64]
+CopyFiles=@BAGT8003.dat,THERMAL_NT_64,@BAGT8003.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAGT8003.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAGX420D.NTamd64]
+CopyFiles=@BAGX420D.dat,THERMAL_NT_64,@BAGX420D.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAGX420D.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BGX420DE.NTamd64]
+CopyFiles=@BGX420DE.dat,THERMAL_NT_64,@BGX420DE.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BGX420DE.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAGX420S.NTamd64]
+CopyFiles=@BAGX420S.dat,THERMAL_NT_64,@BAGX420S.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAGX420S.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BGX420SE.NTamd64]
+CopyFiles=@BGX420SE.dat,THERMAL_NT_64,@BGX420SE.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BGX420SE.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAGX420T.NTamd64]
+CopyFiles=@BAGX420T.dat,THERMAL_NT_64,@BAGX420T.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAGX420T.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BGX420TE.NTamd64]
+CopyFiles=@BGX420TE.dat,THERMAL_NT_64,@BGX420TE.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BGX420TE.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAGX430T.NTamd64]
+CopyFiles=@BAGX430T.dat,THERMAL_NT_64,@BAGX430T.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAGX430T.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BGX430TE.NTamd64]
+CopyFiles=@BGX430TE.dat,THERMAL_NT_64,@BGX430TE.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BGX430TE.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAHC1003.NTamd64]
+CopyFiles=@BAHC1003.dat,THERMAL_NT_64,@BAHC1003.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAHC1003.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAIMZ220.NTamd64]
+CopyFiles=@BAIMZ220.dat,THERMAL_NT_64,@BAIMZ220.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAIMZ220.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAIMZ220Z.NTamd64]
+CopyFiles=@BAIMZ220Z.dat,THERMAL_NT_64,@BAIMZ220Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAIMZ220Z.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAIMZ320.NTamd64]
+CopyFiles=@BAIMZ320.dat,THERMAL_NT_64,@BAIMZ320.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAIMZ320.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAIMZ320Z.NTamd64]
+CopyFiles=@BAIMZ320Z.dat,THERMAL_NT_64,@BAIMZ320Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAIMZ320Z.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAKKR403.NTamd64]
+CopyFiles=@BAKKR403.dat,THERMAL_NT_64,@BAKKR403.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAKKR403.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAB2824.NTamd64]
+CopyFiles=@BAB2824.dat,THERMAL_NT_64,@BAB2824.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAB2824.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAB2824P.NTamd64]
+CopyFiles=@BAB2824P.dat,THERMAL_NT_64,@BAB2824P.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAB2824P.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAT2824ZP.NTamd64]
+CopyFiles=@BAT2824ZP.dat,THERMAL_NT_64,@BAT2824ZP.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAT2824ZP.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAB2844.NTamd64]
+CopyFiles=@BAB2844.dat,THERMAL_NT_64,@BAB2844.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAB2844.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAB2844Z.NTamd64]
+CopyFiles=@BAB2844Z.dat,THERMAL_NT_64,@BAB2844Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAB2844Z.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAQLMOB.NTamd64]
+CopyFiles=@BAQLMOB.dat,THERMAL_NT_64,@BAQLMOB.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAQLMOB.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAMZ220.NTamd64]
+CopyFiles=@BAMZ220.dat,THERMAL_NT_64,@BAMZ220.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAMZ220.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAMZ320.NTamd64]
+CopyFiles=@BAMZ320.dat,THERMAL_NT_64,@BAMZ320.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAMZ320.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAP4T.NTamd64]
+CopyFiles=@BAP4T.dat,THERMAL_NT_64,@BAP4T.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAP4T.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BRP4T.NTamd64]
+CopyFiles=@BRP4T.dat,THERMAL_NT_64,@BRP4T.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BRP4T.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAQL220P.NTamd64]
+CopyFiles=@BAQL220P.dat,THERMAL_NT_64,@BAQL220P.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAQL220P.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAQL320P.NTamd64]
+CopyFiles=@BAQL320P.dat,THERMAL_NT_64,@BAQL320P.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAQL320P.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAQL420P.NTamd64]
+CopyFiles=@BAQL420P.dat,THERMAL_NT_64,@BAQL420P.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAQL420P.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAQLN220.NTamd64]
+CopyFiles=@BAQLN220.dat,THERMAL_NT_64,@BAQLN220.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAQLN220.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAQLN220Z.NTamd64]
+CopyFiles=@BAQLN220Z.dat,THERMAL_NT_64,@BAQLN220Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAQLN220Z.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAQLN320.NTamd64]
+CopyFiles=@BAQLN320.dat,THERMAL_NT_64,@BAQLN320.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAQLN320.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAQLN320Z.NTamd64]
+CopyFiles=@BAQLN320Z.dat,THERMAL_NT_64,@BAQLN320Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAQLN320Z.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAQLN420.NTamd64]
+CopyFiles=@BAQLN420.dat,THERMAL_NT_64,@BAQLN420.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAQLN420.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAQLN420Z.NTamd64]
+CopyFiles=@BAQLN420Z.dat,THERMAL_NT_64,@BAQLN420Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAQLN420Z.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BRPAX42L.NTamd64]
+CopyFiles=@BRPAX42L.dat,THERMAL_NT_64,@BRPAX42L.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BRPAX42L.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BRPAX43L.NTamd64]
+CopyFiles=@BRPAX43L.dat,THERMAL_NT_64,@BRPAX43L.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BRPAX43L.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BRPAX42R.NTamd64]
+CopyFiles=@BRPAX42R.dat,THERMAL_NT_64,@BRPAX42R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BRPAX42R.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BRPAX43R.NTamd64]
+CopyFiles=@BRPAX43R.dat,THERMAL_NT_64,@BRPAX43R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BRPAX43R.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAR11XM2.NTamd64]
+CopyFiles=@BAR11XM2.dat,THERMAL_NT_64,@BAR11XM2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAR11XM2.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAR11XM3.NTamd64]
+CopyFiles=@BAR11XM3.dat,THERMAL_NT_64,@BAR11XM3.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAR11XM3.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BRR11X2H.NTamd64]
+CopyFiles=@BRR11X2H.dat,THERMAL_NT_64,@BRR11X2H.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BRR11X2H.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BRR11X3H.NTamd64]
+CopyFiles=@BRR11X3H.dat,THERMAL_NT_64,@BRR11X3H.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BRR11X3H.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAR110XI42.NTamd64]
+CopyFiles=@BAR110XI42.dat,THERMAL_NT_64,@BAR110XI42.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAR110XI42.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAR110XI43.NTamd64]
+CopyFiles=@BAR110XI43.dat,THERMAL_NT_64,@BAR110XI43.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAR110XI43.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAR110XI46.NTamd64]
+CopyFiles=@BAR110XI46.dat,THERMAL_NT_64,@BAR110XI46.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAR110XI46.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAR17XM2.NTamd64]
+CopyFiles=@BAR17XM2.dat,THERMAL_NT_64,@BAR17XM2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAR17XM2.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAR17XM3.NTamd64]
+CopyFiles=@BAR17XM3.dat,THERMAL_NT_64,@BAR17XM3.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAR17XM3.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BABR284Z.NTamd64]
+CopyFiles=@BABR284Z.dat,THERMAL_NT_64,@BABR284Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BABR284Z.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BRRP4T.NTamd64]
+CopyFiles=@BRRP4T.dat,THERMAL_NT_64,@BRRP4T.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BRRP4T.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BARW220.NTamd64]
+CopyFiles=@BARW220.dat,THERMAL_NT_64,@BARW220.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BARW220.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BARW420.NTamd64]
+CopyFiles=@BARW420.dat,THERMAL_NT_64,@BARW420.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BARW420.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BARW4PS.NTamd64]
+CopyFiles=@BARW4PS.dat,THERMAL_NT_64,@BARW4PS.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BARW4PS.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BRZ42.NTamd64]
+CopyFiles=@BRZ42.dat,THERMAL_NT_64,@BRZ42.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BRZ42.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BRZ43.NTamd64]
+CopyFiles=@BRZ43.dat,THERMAL_NT_64,@BRZ43.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BRZ43.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BRZ62.NTamd64]
+CopyFiles=@BRZ62.dat,THERMAL_NT_64,@BRZ62.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BRZ62.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BRZ63.NTamd64]
+CopyFiles=@BRZ63.dat,THERMAL_NT_64,@BRZ63.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BRZ63.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAS4ME2.NTamd64]
+CopyFiles=@BAS4ME2.dat,THERMAL_NT_64,@BAS4ME2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAS4ME2.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAS4MZ2.NTamd64]
+CopyFiles=@BAS4MZ2.dat,THERMAL_NT_64,@BAS4MZ2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAS4MZ2.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAS4MZ3.NTamd64]
+CopyFiles=@BAS4MZ3.dat,THERMAL_NT_64,@BAS4MZ3.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAS4MZ3.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BABT2824.NTamd64]
+CopyFiles=@BABT2824.dat,THERMAL_NT_64,@BABT2824.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BABT2824.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BABT2824P.NTamd64]
+CopyFiles=@BABT2824P.dat,THERMAL_NT_64,@BABT2824P.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BABT2824P.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BA2824ZP.NTamd64]
+CopyFiles=@BA2824ZP.dat,THERMAL_NT_64,@BA2824ZP.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BA2824ZP.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BABT2844.NTamd64]
+CopyFiles=@BABT2844.dat,THERMAL_NT_64,@BABT2844.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BABT2844.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BABT284Z.NTamd64]
+CopyFiles=@BABT284Z.dat,THERMAL_NT_64,@BABT284Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BABT284Z.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BABT3842.NTamd64]
+CopyFiles=@BABT3842.dat,THERMAL_NT_64,@BABT3842.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BABT3842.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BABT3844.NTamd64]
+CopyFiles=@BABT3844.dat,THERMAL_NT_64,@BABT3844.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BABT3844.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZD50R2.NTamd64]
+CopyFiles=@BAZD50R2.dat,THERMAL_NT_64,@BAZD50R2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD50R2.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZD50R3.NTamd64]
+CopyFiles=@BAZD50R3.dat,THERMAL_NT_64,@BAZD50R3.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD50R3.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BLZE5004L.NTamd64]
+CopyFiles=@BLZE5004L.dat,THERMAL_NT_64,@BLZE5004L.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BLZE5004L.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BTZE5004L.NTamd64]
+CopyFiles=@BTZE5004L.dat,THERMAL_NT_64,@BTZE5004L.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BTZE5004L.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BLZE5004R.NTamd64]
+CopyFiles=@BLZE5004R.dat,THERMAL_NT_64,@BLZE5004R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BLZE5004R.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BTZE5004R.NTamd64]
+CopyFiles=@BTZE5004R.dat,THERMAL_NT_64,@BTZE5004R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BTZE5004R.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BLZE50R4L.NTamd64]
+CopyFiles=@BLZE50R4L.dat,THERMAL_NT_64,@BLZE50R4L.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BLZE50R4L.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BTZE50R4L.NTamd64]
+CopyFiles=@BTZE50R4L.dat,THERMAL_NT_64,@BTZE50R4L.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BTZE50R4L.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BLZE50R4R.NTamd64]
+CopyFiles=@BLZE50R4R.dat,THERMAL_NT_64,@BLZE50R4R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BLZE50R4R.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BTZE50R4R.NTamd64]
+CopyFiles=@BTZE50R4R.dat,THERMAL_NT_64,@BTZE50R4R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BTZE50R4R.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BLZE5006L.NTamd64]
+CopyFiles=@BLZE5006L.dat,THERMAL_NT_64,@BLZE5006L.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BLZE5006L.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BTZE5006L.NTamd64]
+CopyFiles=@BTZE5006L.dat,THERMAL_NT_64,@BTZE5006L.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BTZE5006L.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BLZE5006R.NTamd64]
+CopyFiles=@BLZE5006R.dat,THERMAL_NT_64,@BLZE5006R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BLZE5006R.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BTZE5006R.NTamd64]
+CopyFiles=@BTZE5006R.dat,THERMAL_NT_64,@BTZE5006R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BTZE5006R.dat
+DataSection=THERMAL_DATA_NT_64
+
+[ZE51L24.NTamd64]
+CopyFiles=@ZE51L24.dat,THERMAL_NT_64,@ZE51L24.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZE51L24.dat
+DataSection=THERMAL_DATA_NT_64
+
+[ZE51L34.NTamd64]
+CopyFiles=@ZE51L34.dat,THERMAL_NT_64,@ZE51L34.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZE51L34.dat
+DataSection=THERMAL_DATA_NT_64
+
+[ZE51L64.NTamd64]
+CopyFiles=@ZE51L64.dat,THERMAL_NT_64,@ZE51L64.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZE51L64.dat
+DataSection=THERMAL_DATA_NT_64
+
+[ZE51R24.NTamd64]
+CopyFiles=@ZE51R24.dat,THERMAL_NT_64,@ZE51R24.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZE51R24.dat
+DataSection=THERMAL_DATA_NT_64
+
+[ZE51R34.NTamd64]
+CopyFiles=@ZE51R34.dat,THERMAL_NT_64,@ZE51R34.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZE51R34.dat
+DataSection=THERMAL_DATA_NT_64
+
+[ZE51R64.NTamd64]
+CopyFiles=@ZE51R64.dat,THERMAL_NT_64,@ZE51R64.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZE51R64.dat
+DataSection=THERMAL_DATA_NT_64
+
+[ZE51L24R.NTamd64]
+CopyFiles=@ZE51L24R.dat,THERMAL_NT_64,@ZE51L24R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZE51L24R.dat
+DataSection=THERMAL_DATA_NT_64
+
+[ZE51L34R.NTamd64]
+CopyFiles=@ZE51L34R.dat,THERMAL_NT_64,@ZE51L34R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZE51L34R.dat
+DataSection=THERMAL_DATA_NT_64
+
+[ZE51L64R.NTamd64]
+CopyFiles=@ZE51L64R.dat,THERMAL_NT_64,@ZE51L64R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZE51L64R.dat
+DataSection=THERMAL_DATA_NT_64
+
+[ZE51R24R.NTamd64]
+CopyFiles=@ZE51R24R.dat,THERMAL_NT_64,@ZE51R24R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZE51R24R.dat
+DataSection=THERMAL_DATA_NT_64
+
+[ZE51R34R.NTamd64]
+CopyFiles=@ZE51R34R.dat,THERMAL_NT_64,@ZE51R34R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZE51R34R.dat
+DataSection=THERMAL_DATA_NT_64
+
+[ZE51R64R.NTamd64]
+CopyFiles=@ZE51R64R.dat,THERMAL_NT_64,@ZE51R64R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZE51R64R.dat
+DataSection=THERMAL_DATA_NT_64
+
+[ZE52L26.NTamd64]
+CopyFiles=@ZE52L26.dat,THERMAL_NT_64,@ZE52L26.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZE52L26.dat
+DataSection=THERMAL_DATA_NT_64
+
+[ZE52L36.NTamd64]
+CopyFiles=@ZE52L36.dat,THERMAL_NT_64,@ZE52L36.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZE52L36.dat
+DataSection=THERMAL_DATA_NT_64
+
+[ZE52R26.NTamd64]
+CopyFiles=@ZE52R26.dat,THERMAL_NT_64,@ZE52R26.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZE52R26.dat
+DataSection=THERMAL_DATA_NT_64
+
+[ZE52R36.NTamd64]
+CopyFiles=@ZE52R36.dat,THERMAL_NT_64,@ZE52R36.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZE52R36.dat
+DataSection=THERMAL_DATA_NT_64
+
+[ZE52L26R.NTamd64]
+CopyFiles=@ZE52L26R.dat,THERMAL_NT_64,@ZE52L26R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZE52L26R.dat
+DataSection=THERMAL_DATA_NT_64
+
+[ZE52L36R.NTamd64]
+CopyFiles=@ZE52L36R.dat,THERMAL_NT_64,@ZE52L36R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZE52L36R.dat
+DataSection=THERMAL_DATA_NT_64
+
+[ZE52R26R.NTamd64]
+CopyFiles=@ZE52R26R.dat,THERMAL_NT_64,@ZE52R26R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZE52R26R.dat
+DataSection=THERMAL_DATA_NT_64
+
+[ZE52R36R.NTamd64]
+CopyFiles=@ZE52R36R.dat,THERMAL_NT_64,@ZE52R36R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZE52R36R.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BZM4E2.NTamd64]
+CopyFiles=@BZM4E2.dat,THERMAL_NT_64,@BZM4E2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZM4E2.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BZM4Z2.NTamd64]
+CopyFiles=@BZM4Z2.dat,THERMAL_NT_64,@BZM4Z2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZM4Z2.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BZM4Z3.NTamd64]
+CopyFiles=@BZM4Z3.dat,THERMAL_NT_64,@BZM4Z3.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZM4Z3.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BZM4Z6.NTamd64]
+CopyFiles=@BZM4Z6.dat,THERMAL_NT_64,@BZM4Z6.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZM4Z6.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BZM6E2.NTamd64]
+CopyFiles=@BZM6E2.dat,THERMAL_NT_64,@BZM6E2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZM6E2.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BZM6Z2.NTamd64]
+CopyFiles=@BZM6Z2.dat,THERMAL_NT_64,@BZM6Z2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZM6Z2.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BZM6Z3.NTamd64]
+CopyFiles=@BZM6Z3.dat,THERMAL_NT_64,@BZM6Z3.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZM6Z3.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZQ310Z.NTamd64]
+CopyFiles=@BAZQ310Z.dat,THERMAL_NT_64,@BAZQ310Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ310Z.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZQ310C.NTamd64]
+CopyFiles=@BAZQ310C.dat,THERMAL_NT_64,@BAZQ310C.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ310C.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZQ320Z.NTamd64]
+CopyFiles=@BAZQ320Z.dat,THERMAL_NT_64,@BAZQ320Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ320Z.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZQ320C.NTamd64]
+CopyFiles=@BAZQ320C.dat,THERMAL_NT_64,@BAZQ320C.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ320C.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZQ510Z.NTamd64]
+CopyFiles=@BAZQ510Z.dat,THERMAL_NT_64,@BAZQ510Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ510Z.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZQ510C.NTamd64]
+CopyFiles=@BAZQ510C.dat,THERMAL_NT_64,@BAZQ510C.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ510C.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZQ520Z.NTamd64]
+CopyFiles=@BAZQ520Z.dat,THERMAL_NT_64,@BAZQ520Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ520Z.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZQ520C.NTamd64]
+CopyFiles=@BAZQ520C.dat,THERMAL_NT_64,@BAZQ520C.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ520C.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BEZT210.NTamd64]
+CopyFiles=@BEZT210.dat,THERMAL_NT_64,@BEZT210.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BEZT210.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZT210.NTamd64]
+CopyFiles=@BAZT210.dat,THERMAL_NT_64,@BAZT210.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZT210.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BTZT210.NTamd64]
+CopyFiles=@BTZT210.dat,THERMAL_NT_64,@BTZT210.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BTZT210.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BEZT220.NTamd64]
+CopyFiles=@BEZT220.dat,THERMAL_NT_64,@BEZT220.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BEZT220.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZT220.NTamd64]
+CopyFiles=@BAZT220.dat,THERMAL_NT_64,@BAZT220.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZT220.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BTZT220.NTamd64]
+CopyFiles=@BTZT220.dat,THERMAL_NT_64,@BTZT220.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BTZT220.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BEZT230.NTamd64]
+CopyFiles=@BEZT230.dat,THERMAL_NT_64,@BEZT230.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BEZT230.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZT230.NTamd64]
+CopyFiles=@BAZT230.dat,THERMAL_NT_64,@BAZT230.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZT230.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BTZT230.NTamd64]
+CopyFiles=@BTZT230.dat,THERMAL_NT_64,@BTZT230.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BTZT230.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BEZT4142.NTamd64]
+CopyFiles=@BEZT4142.dat,THERMAL_NT_64,@BEZT4142.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BEZT4142.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BZZT4142.NTamd64]
+CopyFiles=@BZZT4142.dat,THERMAL_NT_64,@BZZT4142.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZZT4142.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BZZT4143.NTamd64]
+CopyFiles=@BZZT4143.dat,THERMAL_NT_64,@BZZT4143.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZZT4143.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BZZT4146.NTamd64]
+CopyFiles=@BZZT4146.dat,THERMAL_NT_64,@BZZT4146.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZZT4146.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BZZT4262.NTamd64]
+CopyFiles=@BZZT4262.dat,THERMAL_NT_64,@BZZT4262.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZZT4262.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BZZT4263.NTamd64]
+CopyFiles=@BZZT4263.dat,THERMAL_NT_64,@BZZT4263.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZZT4263.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BZZT41R2.NTamd64]
+CopyFiles=@BZZT41R2.dat,THERMAL_NT_64,@BZZT41R2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZZT41R2.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BZZT41R3.NTamd64]
+CopyFiles=@BZZT41R3.dat,THERMAL_NT_64,@BZZT41R3.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZZT41R3.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BZZT41R6.NTamd64]
+CopyFiles=@BZZT41R6.dat,THERMAL_NT_64,@BZZT41R6.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZZT41R6.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BZZT42R2.NTamd64]
+CopyFiles=@BZZT42R2.dat,THERMAL_NT_64,@BZZT42R2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZZT42R2.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BZZT42R3.NTamd64]
+CopyFiles=@BZZT42R3.dat,THERMAL_NT_64,@BZZT42R3.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZZT42R3.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZT5102.NTamd64]
+CopyFiles=@BAZT5102.dat,THERMAL_NT_64,@BAZT5102.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZT5102.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZT5103.NTamd64]
+CopyFiles=@BAZT5103.dat,THERMAL_NT_64,@BAZT5103.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZT5103.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZT6102.NTamd64]
+CopyFiles=@BAZT6102.dat,THERMAL_NT_64,@BAZT6102.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZT6102.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZT6103.NTamd64]
+CopyFiles=@BAZT6103.dat,THERMAL_NT_64,@BAZT6103.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZT6103.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZT6106.NTamd64]
+CopyFiles=@BAZT6106.dat,THERMAL_NT_64,@BAZT6106.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZT6106.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZT6202.NTamd64]
+CopyFiles=@BAZT6202.dat,THERMAL_NT_64,@BAZT6202.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZT6202.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZT6203.NTamd64]
+CopyFiles=@BAZT6203.dat,THERMAL_NT_64,@BAZT6203.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZT6203.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BARZT612.NTamd64]
+CopyFiles=@BARZT612.dat,THERMAL_NT_64,@BARZT612.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BARZT612.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BARZT613.NTamd64]
+CopyFiles=@BARZT613.dat,THERMAL_NT_64,@BARZT613.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BARZT613.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BARZT616.NTamd64]
+CopyFiles=@BARZT616.dat,THERMAL_NT_64,@BARZT616.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BARZT616.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BARZT622.NTamd64]
+CopyFiles=@BARZT622.dat,THERMAL_NT_64,@BARZT622.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BARZT622.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BARZT623.NTamd64]
+CopyFiles=@BARZT623.dat,THERMAL_NT_64,@BARZT623.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BARZT623.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZD50Z2.NTamd64]
+CopyFiles=@BAZD50Z2.dat,THERMAL_NT_64,@BAZD50Z2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD50Z2.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZD50Z3.NTamd64]
+CopyFiles=@BAZD50Z3.dat,THERMAL_NT_64,@BAZD50Z3.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD50Z3.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZD50E2.NTamd64]
+CopyFiles=@BAZD50E2.dat,THERMAL_NT_64,@BAZD50E2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD50E2.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZD50E3.NTamd64]
+CopyFiles=@BAZD50R3.dat,THERMAL_NT_64,@BAZD50R3.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD50R3.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BATZD412.NTamd64]
+CopyFiles=@BATZD412.dat,THERMAL_NT_64,@BATZD412.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BATZD412.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BATZD413.NTamd64]
+CopyFiles=@BATZD413.dat,THERMAL_NT_64,@BATZD413.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BATZD413.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BABZD412.NTamd64]
+CopyFiles=@BABZD412.dat,THERMAL_NT_64,@BABZD412.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BABZD412.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BABZD413.NTamd64]
+CopyFiles=@BABZD413.dat,THERMAL_NT_64,@BABZD413.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BABZD413.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZD412T.NTamd64]
+CopyFiles=@BAZD412T.dat,THERMAL_NT_64,@BAZD412T.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD412T.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZD413T.NTamd64]
+CopyFiles=@BAZD413T.dat,THERMAL_NT_64,@BAZD413T.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD413T.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZD412B.NTamd64]
+CopyFiles=@BAZD412B.dat,THERMAL_NT_64,@BAZD412B.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD412B.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZD413B.NTamd64]
+CopyFiles=@BAZD413B.dat,THERMAL_NT_64,@BAZD413B.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD413B.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BATZD422.NTamd64]
+CopyFiles=@BATZD422.dat,THERMAL_NT_64,@BATZD422.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BATZD422.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BATZD423.NTamd64]
+CopyFiles=@BATZD423.dat,THERMAL_NT_64,@BATZD423.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BATZD423.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BABZD422.NTamd64]
+CopyFiles=@BABZD422.dat,THERMAL_NT_64,@BABZD422.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BABZD422.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BABZD423.NTamd64]
+CopyFiles=@BABZD423.dat,THERMAL_NT_64,@BABZD423.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BABZD423.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZD422T.NTamd64]
+CopyFiles=@BAZD422T.dat,THERMAL_NT_64,@BAZD422T.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD422T.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZD423T.NTamd64]
+CopyFiles=@BAZD423T.dat,THERMAL_NT_64,@BAZD423T.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD423T.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZD422B.NTamd64]
+CopyFiles=@BAZD422B.dat,THERMAL_NT_64,@BAZD422B.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD422B.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZD423B.NTamd64]
+CopyFiles=@BAZD423B.dat,THERMAL_NT_64,@BAZD423B.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD423B.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZ423TC.NTamd64]
+CopyFiles=@BAZ423TC.dat,THERMAL_NT_64,@BAZ423TC.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZ423TC.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZ423BC.NTamd64]
+CopyFiles=@BAZ423BC.dat,THERMAL_NT_64,@BAZ423BC.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZ423BC.dat
+DataSection=THERMAL_DATA_NT_64
+
+
+[BAZD612T.NTamd64]
+CopyFiles=@BAZD612T.dat,THERMAL_NT_64,@BAZD612T.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD612T.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZD612R.NTamd64]
+CopyFiles=@BAZD612R.dat,THERMAL_NT_64,@BAZD612R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD612R.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZD613T.NTamd64]
+CopyFiles=@BAZD613T.dat,THERMAL_NT_64,@BAZD613T.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD613T.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZD613R.NTamd64]
+CopyFiles=@BAZD613R.dat,THERMAL_NT_64,@BAZD613R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD613R.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZD612B.NTamd64]
+CopyFiles=@BAZD612B.dat,THERMAL_NT_64,@BAZD612B.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD612B.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZD613B.NTamd64]
+CopyFiles=@BAZD613B.dat,THERMAL_NT_64,@BAZD613B.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD613B.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZD622T.NTamd64]
+CopyFiles=@BAZD622T.dat,THERMAL_NT_64,@BAZD622T.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD622T.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZD623T.NTamd64]
+CopyFiles=@BAZD623T.dat,THERMAL_NT_64,@BAZD623T.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD623T.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZD622R.NTamd64]
+CopyFiles=@BAZD622R.dat,THERMAL_NT_64,@BAZD622R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD622R.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZD623R.NTamd64]
+CopyFiles=@BAZD623R.dat,THERMAL_NT_64,@BAZD623R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD623R.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZD622B.NTamd64]
+CopyFiles=@BAZD622B.dat,THERMAL_NT_64,@BAZD622B.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD622B.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZD623B.NTamd64]
+CopyFiles=@BAZD623B.dat,THERMAL_NT_64,@BAZD623B.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD623B.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZR318Z.NTamd64]
+CopyFiles=@BAZR318Z.dat,THERMAL_NT_64,@BAZR318Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZR318Z.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZR318C.NTamd64]
+CopyFiles=@BAZR318C.dat,THERMAL_NT_64,@BAZR318C.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZR318C.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZR328Z.NTamd64]
+CopyFiles=@BAZR328Z.dat,THERMAL_NT_64,@BAZR328Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZR328Z.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZR328C.NTamd64]
+CopyFiles=@BAZR328C.dat,THERMAL_NT_64,@BAZR328C.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZR328C.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZR338.NTamd64]
+CopyFiles=@BAZR338.dat,THERMAL_NT_64,@BAZR338.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZR338.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZR338Z.NTamd64]
+CopyFiles=@BAZR338Z.dat,THERMAL_NT_64,@BAZR338Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZR338Z.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZR628.NTamd64]
+CopyFiles=@BAZR628.dat,THERMAL_NT_64,@BAZR628.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZR628.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZR628Z.NTamd64]
+CopyFiles=@BAZR628Z.dat,THERMAL_NT_64,@BAZR628Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZR628Z.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZR638.NTamd64]
+CopyFiles=@BAZR638.dat,THERMAL_NT_64,@BAZR638.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZR638.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZR638Z.NTamd64]
+CopyFiles=@BAZR638Z.dat,THERMAL_NT_64,@BAZR638Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZR638Z.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BATZD622.NTamd64]
+CopyFiles=@BATZD622.dat,THERMAL_NT_64,@BATZD622.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BATZD622.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BATZD623.NTamd64]
+CopyFiles=@BATZD623.dat,THERMAL_NT_64,@BATZD623.BA0,COMMON_FILES,FNTFILES
+DataFile=BATZD623.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BABZD622.NTamd64]
+CopyFiles=@BABZD622.dat,THERMAL_NT_64,@BABZD622.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BABZD622.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BABZD623.NTamd64]
+CopyFiles=@BABZD623.dat,THERMAL_NT_64,@BABZD623.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BABZD623.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAGK420E.NTamd64]
+CopyFiles=@BAGK420E.dat,THERMAL_NT_64,@BAGK420E.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAGK420E.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BGK420EE.NTamd64]
+CopyFiles=@BGK420EE.dat,THERMAL_NT_64,@BGK420EE.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BGK420EE.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAGK888E.NTamd64]
+CopyFiles=@BAGK888E.dat,THERMAL_NT_64,@BAGK888E.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAGK888E.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BEGK888E.NTamd64]
+CopyFiles=@BEGK888E.dat,THERMAL_NT_64,@BEGK888E.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BEGK888E.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZQ610.NTamd64]
+CopyFiles=@BAZQ610.dat,THERMAL_NT_64,@BAZQ610.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ610.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZQ610Z.NTamd64]
+CopyFiles=@BAZQ610Z.dat,THERMAL_NT_64,@BAZQ610Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ610Z.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZQ620.NTamd64]
+CopyFiles=@BAZQ620.dat,THERMAL_NT_64,@BAZQ620.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ620.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZQ620Z.NTamd64]
+CopyFiles=@BAZQ620Z.dat,THERMAL_NT_64,@BAZQ620Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ620Z.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZR658.NTamd64]
+CopyFiles=@BAZR658.dat,THERMAL_NT_64,@BAZR658.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZR658.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZR658Z.NTamd64]
+CopyFiles=@BAZR658Z.dat,THERMAL_NT_64,@BAZR658Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZR658Z.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZR668.NTamd64]
+CopyFiles=@BAZR668.dat,THERMAL_NT_64,@BAZR668.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZR668.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZR668Z.NTamd64]
+CopyFiles=@BAZR668Z.dat,THERMAL_NT_64,@BAZR668Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZR668Z.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAGK42TP.NTamd64]
+CopyFiles=@BAGK42TP.dat,THERMAL_NT_64,@BAGK42TP.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAGK42TP.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BGK42TEP.NTamd64]
+CopyFiles=@BGK42TEP.dat,THERMAL_NT_64,@BGK42TEP.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BGK42TEP.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZD5103.NTamd64]
+CopyFiles=@BAZD5103.dat,THERMAL_NT_64,@BAZD5103.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD5103.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BEGT800P.NTamd64]
+CopyFiles=@BEGT800P.dat,THERMAL_NT_64,@BEGT800P.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BEGT800P.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAGT800P.NTamd64]
+CopyFiles=@BAGT800P.dat,THERMAL_NT_64,@BAGT800P.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAGT800P.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZD5113.NTamd64]
+CopyFiles=@BAZD5113.dat,THERMAL_NT_64,@BAZD5113.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZD5113.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZQ630.NTamd64]
+CopyFiles=@BAZQ630.dat,THERMAL_NT_64,@BAZQ630.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ630.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZQ630Z.NTamd64]
+CopyFiles=@BAZQ630Z.dat,THERMAL_NT_64,@BAZQ630Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ630Z.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZQ63RZ.NTamd64]
+CopyFiles=@BAZQ63RZ.dat,THERMAL_NT_64,@BAZQ63RZ.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ63RZ.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZQ120.NTamd64]
+CopyFiles=@BAZQ120.dat,THERMAL_NT_64,@BAZQ120.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ120.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZQ220.NTamd64]
+CopyFiles=@BAZQ220.dat,THERMAL_NT_64,@BAZQ220.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ220.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZR138.NTamd64]
+CopyFiles=@BAZR138.dat,THERMAL_NT_64,@BAZR138.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZR138.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BATZD222.NTamd64]
+CopyFiles=@BATZD222.dat,THERMAL_NT_64,@BATZD222.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BATZD222.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BABZD222.NTamd64]
+CopyFiles=@BABZD222.dat,THERMAL_NT_64,@BABZD222.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BABZD222.dat
+DataSection=THERMAL_DATA_NT_64
+
+[ZD100Z2.NTamd64]
+CopyFiles=@ZD100Z2.dat,THERMAL_NT_64,@ZD100Z2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZD100Z2.dat
+DataSection=THERMAL_DATA_NT_64
+
+[ZD100E2.NTamd64]
+CopyFiles=@ZD100E2.dat,THERMAL_NT_64,@ZD100E2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZD100E2.dat
+DataSection=THERMAL_DATA_NT_64
+
+[ZD230Z3.NTamd64]
+CopyFiles=@ZD230Z3.dat,THERMAL_NT_64,@ZD230Z3.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZD230Z3.dat
+DataSection=THERMAL_DATA_NT_64
+
+[ZD230E3.NTamd64]
+CopyFiles=@ZD230E3.dat,THERMAL_NT_64,@ZD230E3.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZD230E3.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BATZD232.NTamd64]
+CopyFiles=@BATZD232.dat,THERMAL_NT_64,@BATZD232.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BATZD232.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BABZD232.NTamd64]
+CopyFiles=@BABZD232.dat,THERMAL_NT_64,@BABZD232.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BABZD232.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BATZD888.NTamd64]
+CopyFiles=@BATZD888.dat,THERMAL_NT_64,@BATZD888.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BATZD888.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BABZD888.NTamd64]
+CopyFiles=@BABZD888.dat,THERMAL_NT_64,@BABZD888.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BABZD888.dat
+DataSection=THERMAL_DATA_NT_64
+
+[ZD888E3.NTamd64]
+CopyFiles=@ZD888E3.dat,THERMAL_NT_64,@ZD888E3.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZD888E3.dat
+DataSection=THERMAL_DATA_NT_64
+
+[ZD888Z3.NTamd64]
+CopyFiles=@ZD888Z3.dat,THERMAL_NT_64,@ZD888Z3.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZD888Z3.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BEZT4112.NTamd64]
+CopyFiles=@BEZT4112.dat,THERMAL_NT_64,@BEZT4112.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BEZT4112.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BZZT4112.NTamd64]
+CopyFiles=@BZZT4112.dat,THERMAL_NT_64,@BZZT4112.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZZT4112.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BZZT4113.NTamd64]
+CopyFiles=@BZZT4113.dat,THERMAL_NT_64,@BZZT4113.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZZT4113.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BZZT4116.NTamd64]
+CopyFiles=@BZZT4116.dat,THERMAL_NT_64,@BZZT4116.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZZT4116.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BZZT4212.NTamd64]
+CopyFiles=@BZZT4212.dat,THERMAL_NT_64,@BZZT4212.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZZT4212.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BZZT4213.NTamd64]
+CopyFiles=@BZZT4213.dat,THERMAL_NT_64,@BZZT4213.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZZT4213.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BZT411R2.NTamd64]
+CopyFiles=@BZT411R2.dat,THERMAL_NT_64,@BZT411R2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZT411R2.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BZT411R3.NTamd64]
+CopyFiles=@BZT411R3.dat,THERMAL_NT_64,@BZT411R3.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZT411R3.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BZT411R6.NTamd64]
+CopyFiles=@BZT411R6.dat,THERMAL_NT_64,@BZT411R6.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZT411R6.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BZT421R2.NTamd64]
+CopyFiles=@BZT421R2.dat,THERMAL_NT_64,@BZT421R2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZT421R2.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BZT421R3.NTamd64]
+CopyFiles=@BZT421R3.dat,THERMAL_NT_64,@BZT421R3.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BZT421R3.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZQ511Z.NTamd64]
+CopyFiles=@BAZQ511Z.dat,THERMAL_NT_64,@BAZQ511Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ511Z.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZQ511C.NTamd64]
+CopyFiles=@BAZQ511C.dat,THERMAL_NT_64,@BAZQ511C.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ511C.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZQ521Z.NTamd64]
+CopyFiles=@BAZQ521Z.dat,THERMAL_NT_64,@BAZQ521Z.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ521Z.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZQ521C.NTamd64]
+CopyFiles=@BAZQ521C.dat,THERMAL_NT_64,@BAZQ521C.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ521C.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZQ511R.NTamd64]
+CopyFiles=@BAZQ511R.dat,THERMAL_NT_64,@BAZQ511R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ511R.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZQ521R.NTamd64]
+CopyFiles=@BAZQ521R.dat,THERMAL_NT_64,@BAZQ521R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ521R.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZQ112.NTamd64]
+CopyFiles=@BAZQ112.dat,THERMAL_NT_64,@BAZQ112.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ112.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZQ210.NTamd64]
+CopyFiles=@BAZQ210.dat,THERMAL_NT_64,@BAZQ210.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZQ210.dat
+DataSection=THERMAL_DATA_NT_64
+
+[BAZR118.NTamd64]
+CopyFiles=@BAZR118.dat,THERMAL_NT_64,@BAZR118.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=BAZR118.dat
+DataSection=THERMAL_DATA_NT_64
+
+[ZT111E2.NTamd64]
+CopyFiles=@ZT111E2.dat,THERMAL_NT_64,@ZT111E2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZT111E2.dat
+DataSection=THERMAL_DATA_NT_64
+
+[ZT111Z2.NTamd64]
+CopyFiles=@ZT111Z2.dat,THERMAL_NT_64,@ZT111Z2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZT111Z2.dat
+DataSection=THERMAL_DATA_NT_64
+
+[ZT111Z3.NTamd64]
+CopyFiles=@ZT111Z3.dat,THERMAL_NT_64,@ZT111Z3.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZT111Z3.dat
+DataSection=THERMAL_DATA_NT_64
+
+[ZT211E2.NTamd64]
+CopyFiles=@ZT211E2.dat,THERMAL_NT_64,@ZT211E2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZT211E2.dat
+DataSection=THERMAL_DATA_NT_64
+
+[ZT211Z2.NTamd64]
+CopyFiles=@ZT211Z2.dat,THERMAL_NT_64,@ZT211Z2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZT211Z2.dat
+DataSection=THERMAL_DATA_NT_64
+
+[ZT211Z3.NTamd64]
+CopyFiles=@ZT211Z3.dat,THERMAL_NT_64,@ZT211Z3.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZT211Z3.dat
+DataSection=THERMAL_DATA_NT_64
+
+[ZT231E2.NTamd64]
+CopyFiles=@ZT231E2.dat,THERMAL_NT_64,@ZT231E2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZT231E2.dat
+DataSection=THERMAL_DATA_NT_64
+
+[ZT231Z2.NTamd64]
+CopyFiles=@ZT231Z2.dat,THERMAL_NT_64,@ZT231Z2.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZT231Z2.dat
+DataSection=THERMAL_DATA_NT_64
+
+[ZT231Z3.NTamd64]
+CopyFiles=@ZT231Z3.dat,THERMAL_NT_64,@ZT231Z3.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZT231Z3.dat
+DataSection=THERMAL_DATA_NT_64
+
+[ZT231Z2R.NTamd64]
+CopyFiles=@ZT231Z2R.dat,THERMAL_NT_64,@ZT231Z2R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZT231Z2R.dat
+DataSection=THERMAL_DATA_NT_64
+
+[ZT231Z3R.NTamd64]
+CopyFiles=@ZT231Z3R.dat,THERMAL_NT_64,@ZT231Z3R.BA0,COMMON_FILES,FNTFILES,@About.bmp
+DataFile=ZT231Z3R.dat
+DataSection=THERMAL_DATA_NT_64
+
+
+
+[COMMON_FILES]
+ZDesign.CHM
+Angsana.MMF
+Gothic.MMF
+Korean.MMF
+Mincho.MMF
+MKai.MMF
+MSung.MMF
+AndaleJ.MMF
+AndaleK.MMF
+AndaleT.MMF
+AndaleS.MMF
+ZplErr.sme
+EplErr.sme
+ToolsZPL.dll
+ToolsEPL.dll
+ToolsCPCL.dll
+ToolsKIOSK.dll
+ToolsZPLx64.dll
+ToolsEPLx64.dll
+ToolsCPCLx64.dll
+ToolsKIOSKx64.dll
+ZplKskErr.sme
+BAKKR403.PP0
+CpClErr.sme
+About.bmp
+
+[THERMAL_NT]
+ZDNdrv50.dll,,,0x00000004
+ZDNui50.dll,,,0x00000004
+zdnNLMNT.dll,,,0x00000004
+ZDNENG50.DLL
+ZDNSLO50.DLL
+ZDNCRO50.DLL
+ZDNGER50.DLL
+ZDNDAN50.DLL
+ZDNFRA50.DLL
+ZDNSPA50.DLL
+ZDNITA50.DLL
+ZDNFIN50.DLL
+ZDNDUT50.DLL
+ZDNCZE50.DLL
+ZDNPOL50.DLL
+ZDNHUN50.DLL
+ZDNRUS50.DLL
+ZDNTUR50.DLL
+ZDNSWE50.DLL
+ZDNHEB50.DLL
+ZDNSVK50.DLL
+ZDNLIT50.DLL
+ZDNCHI50.DLL
+ZDNSCH50.DLL
+ZDNTAI50.DLL
+ZDNKOR50.DLL
+ZDNJAP50.DLL
+ZDNUKR50.DLL
+ZDNNOR50.DLL
+ZDNPBR50.DLL
+zdnPMU.dll
+zdnPMS.dll
+
+[THERMAL_NT_64]
+ZDNdrv56.dll,,,0x00000004
+ZDNui56.dll,,,0x00000004
+zdnNLM64.dll,,,0x00000004
+ZDNENG56.DLL
+ZDNSLO56.DLL
+ZDNCRO56.DLL
+ZDNGER56.DLL
+ZDNDAN56.DLL
+ZDNFRA56.DLL
+ZDNSPA56.DLL
+ZDNITA56.DLL
+ZDNFIN56.DLL
+ZDNDUT56.DLL
+ZDNCZE56.DLL
+ZDNPOL56.DLL
+ZDNHUN56.DLL
+ZDNRUS56.DLL
+ZDNTUR56.DLL
+ZDNSWE56.DLL
+ZDNHEB56.DLL
+ZDNSVK56.DLL
+ZDNLIT56.DLL
+ZDNCHI56.DLL
+ZDNSCH56.DLL
+ZDNTAI56.DLL
+ZDNKOR56.DLL
+ZDNJAP56.DLL
+ZDNUKR56.DLL
+ZDNNOR56.DLL
+ZDNPBR56.DLL
+zdnPMU.dll
+zdnPMS.dll
+
+[THERMAL_DATA_NT]
+DriverFile=ZDNdrv50.dll
+ConfigFile=ZDNui50.dll
+NoTestPage=1
+DefaultDataType=RAW
+LanguageMonitor="ZDesigner Language Monitor,zdnNLMNT.dll"
+LanguageMonitorFiles=@zdnNLMNT.dll
+HelpFile=ZDesign.CHM
+
+[THERMAL_DATA_NT_64]
+DriverFile=ZDNdrv56.dll
+ConfigFile=ZDNui56.dll
+NoTestPage=1
+DefaultDataType=RAW
+LanguageMonitor="ZDesigner Language Monitor,zdnNLM64.dll"
+LanguageMonitorFiles=@zdnNLM64.dll
+HelpFile=ZDesign.CHM
+
+[PortMonitors]
+"ZDesigner Port Monitor" = PortMonzdn
+
+[PortMonzdn]
+CopyFiles=PortMonzdn_Files
+PortMonitorDll=zdnPMS.dll
+
+[PortMonzdn_Files]
+zdnPMS.dll
+zdnPMU.dll
+
+[FNTFILES]
+ZebraBarcode.ttf
+
+[DestinationDirs]
+PortMonzdn_Files=11
+DefaultDestDir=66000
+LANGMON_NT=66002
+LANGMON_NT_64=66002
+FNTFILES=20
+
+[SourceDisksNames]
+1 = %Floppy%,,,\Win32
+2 = %Floppy%,,,\Common
+
+[SourceDisksNames.amd64]
+1 = %Floppy%,,,\Win64
+2 = %Floppy%,,,\Common
+
+[SourceDisksFiles.x86]
+zdnNLMNT.DLL = 1
+ZDNDRV50.DLL = 1
+ZDNUI50.DLL = 1
+ZDNENG50.DLL = 1
+ZDNSLO50.DLL = 1
+ZDNCRO50.DLL = 1
+ZDNGER50.DLL = 1
+ZDNDAN50.DLL = 1
+ZDNFRA50.DLL = 1
+ZDNSPA50.DLL = 1
+ZDNITA50.DLL = 1
+ZDNFIN50.DLL = 1
+ZDNDUT50.DLL = 1
+ZDNCZE50.DLL = 1
+ZDNPOL50.DLL = 1
+ZDNHUN50.DLL = 1
+ZDNRUS50.DLL = 1
+ZDNTUR50.DLL = 1
+ZDNSWE50.DLL = 1
+ZDNHEB50.DLL = 1
+ZDNSVK50.DLL = 1
+ZDNLIT50.DLL = 1
+ZDNCHI50.DLL = 1
+ZDNSCH50.DLL = 1
+ZDNTAI50.DLL = 1
+ZDNKOR50.DLL = 1
+ZDNJAP50.DLL = 1
+ZDNUKR50.DLL = 1
+ZDNNOR50.DLL = 1
+ZDNPBR50.DLL = 1
+
+[SourceDisksFiles.amd64]
+zdnNLM64.DLL = 1
+ZDNDRV56.DLL = 1
+ZDNUI56.DLL = 1
+ZDNENG56.DLL = 1
+ZDNSLO56.DLL = 1
+ZDNCRO56.DLL = 1
+ZDNGER56.DLL = 1
+ZDNDAN56.DLL = 1
+ZDNFRA56.DLL = 1
+ZDNSPA56.DLL = 1
+ZDNITA56.DLL = 1
+ZDNFIN56.DLL = 1
+ZDNDUT56.DLL = 1
+ZDNCZE56.DLL = 1
+ZDNPOL56.DLL = 1
+ZDNHUN56.DLL = 1
+ZDNRUS56.DLL = 1
+ZDNTUR56.DLL = 1
+ZDNSWE56.DLL = 1
+ZDNHEB56.DLL = 1
+ZDNSVK56.DLL = 1
+ZDNLIT56.DLL = 1
+ZDNCHI56.DLL = 1
+ZDNSCH56.DLL = 1
+ZDNTAI56.DLL = 1
+ZDNKOR56.DLL = 1
+ZDNJAP56.DLL = 1
+ZDNUKR56.DLL = 1
+ZDNNOR56.DLL = 1
+ZDNPBR56.DLL = 1
+
+[SourceDisksFiles]
+zdnPMS.dll = 1
+zdnPMU.dll = 1
+About.bmp = 2
+BA105SL1.dat = 2
+BA105SL1.BA0 = 2
+BA105SL2.dat = 2
+BA105SL2.BA0 = 2
+BA105SLP2.dat = 2
+BA105SLP2.BA0 = 2
+BA105SLP3.dat = 2
+BA105SLP3.BA0 = 2
+BA110P41.dat = 2
+BA110P41.BA0 = 2
+BA110P42.dat = 2
+BA110P42.BA0 = 2
+BA110XI42.dat = 2
+BA110XI42.BA0 = 2
+BA110XI43.dat = 2
+BA110XI43.BA0 = 2
+BA110XI46.dat = 2
+BA110XI46.BA0 = 2
+BA110XI2.dat = 2
+BA110XI2.BA0 = 2
+BA110XI3.dat = 2
+BA110XI3.BA0 = 2
+BA110XI6.dat = 2
+BA110XI6.BA0 = 2
+BA140XI42.dat = 2
+BA140XI42.BA0 = 2
+BA14XI3P.dat = 2
+BA14XI3P.BA0 = 2
+BA170P41.dat = 2
+BA170P41.BA0 = 2
+BA170P42.dat = 2
+BA170P42.BA0 = 2
+BA170XI42.dat = 2
+BA170XI42.BA0 = 2
+BA170XI43.dat = 2
+BA170XI43.BA0 = 2
+BA17XI3P.dat = 2
+BA17XI3P.BA0 = 2
+B17XI3P2.dat = 2
+B17XI3P2.BA0 = 2
+BA220XI42.dat = 2
+BA220XI42.BA0 = 2
+BA220XI43.dat = 2
+BA220XI43.BA0 = 2
+BA22XI3P.dat = 2
+BA22XI3P.BA0 = 2
+B22XI3P3.dat = 2
+B22XI3P3.BA0 = 2
+BAB888D.dat = 2
+BAB888D.BA0 = 2
+BAB888T.dat = 2
+BAB888T.BA0 = 2
+BAEZ320.dat = 2
+BAEZ320.BA0 = 2
+BAGC420D.dat = 2
+BAGC420D.BA0 = 2
+BEGC420D.dat = 2
+BEGC420D.BA0 = 2
+BAGC420T.dat = 2
+BAGC420T.BA0 = 2
+BEGC420T.dat = 2
+BEGC420T.BA0 = 2
+BAGK420D.dat = 2
+BAGK420D.BA0 = 2
+BGK420DE.dat = 2
+BGK420DE.BA0 = 2
+BAGK420T.dat = 2
+BAGK420T.BA0 = 2
+BGK420TE.dat = 2
+BGK420TE.BA0 = 2
+BAGK888D.dat = 2
+BAGK888D.BA0 = 2
+BEGK888D.dat = 2
+BEGK888D.BA0 = 2
+BAGK888T.dat = 2
+BAGK888T.BA0 = 2
+BEGK888T.dat = 2
+BEGK888T.BA0 = 2
+BEGT800.dat = 2
+BEGT800.BA0 = 2
+BAGT800.dat = 2
+BAGT800.BA0 = 2
+BEGT8003.dat = 2
+BEGT8003.BA0 = 2
+BAGT8003.dat = 2
+BAGT8003.BA0 = 2
+BAGX420D.dat = 2
+BAGX420D.BA0 = 2
+BGX420DE.dat = 2
+BGX420DE.BA0 = 2
+BAGX420S.dat = 2
+BAGX420S.BA0 = 2
+BGX420SE.dat = 2
+BGX420SE.BA0 = 2
+BAGX420T.dat = 2
+BAGX420T.BA0 = 2
+BGX420TE.dat = 2
+BGX420TE.BA0 = 2
+BAGX430T.dat = 2
+BAGX430T.BA0 = 2
+BGX430TE.dat = 2
+BGX430TE.BA0 = 2
+BAHC1003.dat = 2
+BAHC1003.BA0 = 2
+BAIMZ220.dat = 2
+BAIMZ220.BA0 = 2
+BAIMZ220Z.dat = 2
+BAIMZ220Z.BA0 = 2
+BAIMZ320.dat = 2
+BAIMZ320.BA0 = 2
+BAIMZ320Z.dat = 2
+BAIMZ320Z.BA0 = 2
+BAKKR403.dat = 2
+BAKKR403.BA0 = 2
+BAB2824.dat = 2
+BAB2824.BA0 = 2
+BAB2824P.dat = 2
+BAB2824P.BA0 = 2
+BAT2824ZP.dat = 2
+BAT2824ZP.BA0 = 2
+BAB2844.dat = 2
+BAB2844.BA0 = 2
+BAB2844Z.dat = 2
+BAB2844Z.BA0 = 2
+BAQLMOB.dat = 2
+BAQLMOB.BA0 = 2
+BAMZ220.dat = 2
+BAMZ220.BA0 = 2
+BAMZ320.dat = 2
+BAMZ320.BA0 = 2
+BAP4T.dat = 2
+BAP4T.BA0 = 2
+BRP4T.dat = 2
+BRP4T.BA0 = 2
+BAQL220P.dat = 2
+BAQL220P.BA0 = 2
+BAQL320P.dat = 2
+BAQL320P.BA0 = 2
+BAQL420P.dat = 2
+BAQL420P.BA0 = 2
+BAQLN220.dat = 2
+BAQLN220.BA0 = 2
+BAQLN220Z.dat = 2
+BAQLN220Z.BA0 = 2
+BAQLN320.dat = 2
+BAQLN320.BA0 = 2
+BAQLN320Z.dat = 2
+BAQLN320Z.BA0 = 2
+BAQLN420.dat = 2
+BAQLN420.BA0 = 2
+BAQLN420Z.dat = 2
+BAQLN420Z.BA0 = 2
+BRPAX42L.dat = 2
+BRPAX42L.BA0 = 2
+BRPAX43L.dat = 2
+BRPAX43L.BA0 = 2
+BRPAX42R.dat = 2
+BRPAX42R.BA0 = 2
+BRPAX43R.dat = 2
+BRPAX43R.BA0 = 2
+BAR11XM2.dat = 2
+BAR11XM2.BA0 = 2
+BAR11XM3.dat = 2
+BAR11XM3.BA0 = 2
+BRR11X2H.dat = 2
+BRR11X2H.BA0 = 2
+BRR11X3H.dat = 2
+BRR11X3H.BA0 = 2
+BAR110XI42.dat = 2
+BAR110XI42.BA0 = 2
+BAR110XI43.dat = 2
+BAR110XI43.BA0 = 2
+BAR110XI46.dat = 2
+BAR110XI46.BA0 = 2
+BAR17XM2.dat = 2
+BAR17XM2.BA0 = 2
+BAR17XM3.dat = 2
+BAR17XM3.BA0 = 2
+BABR284Z.dat = 2
+BABR284Z.BA0 = 2
+BRRP4T.dat = 2
+BRRP4T.BA0 = 2
+BARW220.dat = 2
+BARW220.BA0 = 2
+BARW420.dat = 2
+BARW420.BA0 = 2
+BARW4PS.dat = 2
+BARW4PS.BA0 = 2
+BRZ42.dat = 2
+BRZ42.BA0 = 2
+BRZ43.dat = 2
+BRZ43.BA0 = 2
+BRZ62.dat = 2
+BRZ62.BA0 = 2
+BRZ63.dat = 2
+BRZ63.BA0 = 2
+BAS4ME2.dat = 2
+BAS4ME2.BA0 = 2
+BAS4MZ2.dat = 2
+BAS4MZ2.BA0 = 2
+BAS4MZ3.dat = 2
+BAS4MZ3.BA0 = 2
+BABT2824.dat = 2
+BABT2824.BA0 = 2
+BABT2824P.dat = 2
+BABT2824P.BA0 = 2
+BA2824ZP.dat = 2
+BA2824ZP.BA0 = 2
+BABT2844.dat = 2
+BABT2844.BA0 = 2
+BABT284Z.dat = 2
+BABT284Z.BA0 = 2
+BABT3842.dat = 2
+BABT3842.BA0 = 2
+BABT3844.dat = 2
+BABT3844.BA0 = 2
+BAZD50R2.dat = 2
+BAZD50R2.BA0 = 2
+BAZD50R3.dat = 2
+BAZD50R3.BA0 = 2
+BLZE5004L.dat = 2
+BLZE5004L.BA0 = 2
+BTZE5004L.dat = 2
+BTZE5004L.BA0 = 2
+BLZE5004R.dat = 2
+BLZE5004R.BA0 = 2
+BTZE5004R.dat = 2
+BTZE5004R.BA0 = 2
+BLZE50R4L.dat = 2
+BLZE50R4L.BA0 = 2
+BTZE50R4L.dat = 2
+BTZE50R4L.BA0 = 2
+BLZE50R4R.dat = 2
+BLZE50R4R.BA0 = 2
+BTZE50R4R.dat = 2
+BTZE50R4R.BA0 = 2
+BLZE5006L.dat = 2
+BLZE5006L.BA0 = 2
+BTZE5006L.dat = 2
+BTZE5006L.BA0 = 2
+BLZE5006R.dat = 2
+BLZE5006R.BA0 = 2
+BTZE5006R.dat = 2
+BTZE5006R.BA0 = 2
+ZE51L24.dat = 2
+ZE51L24.BA0 = 2
+ZE51L34.dat = 2
+ZE51L34.BA0 = 2
+ZE51L64.dat = 2
+ZE51L64.BA0 = 2
+ZE51R24.dat = 2
+ZE51R24.BA0 = 2
+ZE51R34.dat = 2
+ZE51R34.BA0 = 2
+ZE51R64.dat = 2
+ZE51R64.BA0 = 2
+ZE51L24R.dat = 2
+ZE51L24R.BA0 = 2
+ZE51L34R.dat = 2
+ZE51L34R.BA0 = 2
+ZE51L64R.dat = 2
+ZE51L64R.BA0 = 2
+ZE51R24R.dat = 2
+ZE51R24R.BA0 = 2
+ZE51R34R.dat = 2
+ZE51R34R.BA0 = 2
+ZE51R64R.dat = 2
+ZE51R64R.BA0 = 2
+ZE52L26.dat = 2
+ZE52L26.BA0 = 2
+ZE52L36.dat = 2
+ZE52L36.BA0 = 2
+ZE52R26.dat = 2
+ZE52R26.BA0 = 2
+ZE52R36.dat = 2
+ZE52R36.BA0 = 2
+ZE52L26R.dat = 2
+ZE52L26R.BA0 = 2
+ZE52L36R.dat = 2
+ZE52L36R.BA0 = 2
+ZE52R26R.dat = 2
+ZE52R26R.BA0 = 2
+ZE52R36R.dat = 2
+ZE52R36R.BA0 = 2
+BZM4E2.dat = 2
+BZM4E2.BA0 = 2
+BZM4Z2.dat = 2
+BZM4Z2.BA0 = 2
+BZM4Z3.dat = 2
+BZM4Z3.BA0 = 2
+BZM4Z6.dat = 2
+BZM4Z6.BA0 = 2
+BZM6E2.dat = 2
+BZM6E2.BA0 = 2
+BZM6Z2.dat = 2
+BZM6Z2.BA0 = 2
+BZM6Z3.dat = 2
+BZM6Z3.BA0 = 2
+BAZQ310Z.dat = 2
+BAZQ310Z.BA0 = 2
+BAZQ310C.dat = 2
+BAZQ310C.BA0 = 2
+BAZQ320Z.dat = 2
+BAZQ320Z.BA0 = 2
+BAZQ320C.dat = 2
+BAZQ320C.BA0 = 2
+BAZQ510Z.dat = 2
+BAZQ510Z.BA0 = 2
+BAZQ510C.dat = 2
+BAZQ510C.BA0 = 2
+BAZQ520Z.dat = 2
+BAZQ520Z.BA0 = 2
+BAZQ520C.dat = 2
+BAZQ520C.BA0 = 2
+BEZT210.dat = 2
+BEZT210.BA0 = 2
+BAZT210.dat = 2
+BAZT210.BA0 = 2
+BTZT210.dat = 2
+BTZT210.BA0 = 2
+BEZT220.dat = 2
+BEZT220.BA0 = 2
+BAZT220.dat = 2
+BAZT220.BA0 = 2
+BTZT220.dat = 2
+BTZT220.BA0 = 2
+BEZT230.dat = 2
+BEZT230.BA0 = 2
+BAZT230.dat = 2
+BAZT230.BA0 = 2
+BTZT230.dat = 2
+BTZT230.BA0 = 2
+BEZT4142.dat = 2
+BEZT4142.BA0 = 2
+BZZT4142.dat = 2
+BZZT4142.BA0 = 2
+BZZT4143.dat = 2
+BZZT4143.BA0 = 2
+BZZT4146.dat = 2
+BZZT4146.BA0 = 2
+BZZT4262.dat = 2
+BZZT4262.BA0 = 2
+BZZT4263.dat = 2
+BZZT4263.BA0 = 2
+BZZT41R2.dat = 2
+BZZT41R2.BA0 = 2
+BZZT41R3.dat = 2
+BZZT41R3.BA0 = 2
+BZZT41R6.dat = 2
+BZZT41R6.BA0 = 2
+BZZT42R2.dat = 2
+BZZT42R2.BA0 = 2
+BZZT42R3.dat = 2
+BZZT42R3.BA0 = 2
+BAZT5102.dat = 2
+BAZT5102.BA0 = 2
+BAZT5103.dat = 2
+BAZT5103.BA0 = 2
+BAZT6102.dat = 2
+BAZT6102.BA0 = 2
+BAZT6103.dat = 2
+BAZT6103.BA0 = 2
+BAZT6106.dat = 2
+BAZT6106.BA0 = 2
+BAZT6202.dat = 2
+BAZT6202.BA0 = 2
+BAZT6203.dat = 2
+BAZT6203.BA0 = 2
+BARZT612.dat = 2
+BARZT612.BA0 = 2
+BARZT613.dat = 2
+BARZT613.BA0 = 2
+BARZT616.dat = 2
+BARZT616.BA0 = 2
+BARZT622.dat = 2
+BARZT622.BA0 = 2
+BARZT623.dat = 2
+BARZT623.BA0 = 2
+BAZD50Z2.dat = 2
+BAZD50Z2.BA0 = 2
+BAZD50Z3.dat = 2
+BAZD50Z3.BA0 = 2
+BAZD50E2.dat = 2
+BAZD50E2.BA0 = 2
+BAZD50E3.dat = 2
+BAZD50E3.BA0 = 2
+BATZD413.dat = 2
+BATZD413.BA0 = 2
+BABZD413.dat = 2
+BABZD413.BA0 = 2
+BABZD423.dat = 2
+BABZD423.BA0 = 2
+BATZD423.dat = 2
+BATZD423.BA0 = 2
+BATZD422.dat = 2
+BATZD422.BA0 = 2
+BATZD412.dat = 2
+BATZD412.BA0 = 2
+BABZD422.dat = 2
+BABZD422.BA0 = 2
+BABZD412.dat = 2
+BABZD412.BA0 = 2
+BAZD413T.dat = 2
+BAZD413T.BA0 = 2
+BAZD413B.dat = 2
+BAZD413B.BA0 = 2
+BAZD423B.dat = 2
+BAZD423B.BA0 = 2
+BAZD423T.dat = 2
+BAZD423T.BA0 = 2
+BAZD422T.dat = 2
+BAZD422T.BA0 = 2
+BAZ423TC.dat = 2
+BAZ423TC.BA0 = 2
+BAZ423BC.dat = 2
+BAZ423BC.BA0 = 2
+BAZD412T.dat = 2
+BAZD412T.BA0 = 2
+BAZD422B.dat = 2
+BAZD422B.BA0 = 2
+BAZD412B.dat = 2
+BAZD412B.BA0 = 2
+BAZD613T.dat = 2
+BAZD613T.BA0 = 2
+BAZD613B.dat = 2
+BAZD613B.BA0 = 2
+BAZD613R.dat = 2
+BAZD613R.BA0 = 2
+BAZD623B.dat = 2
+BAZD623B.BA0 = 2
+BAZD623T.dat = 2
+BAZD623T.BA0 = 2
+BAZD623R.dat = 2
+BAZD623R.BA0 = 2
+BAZD622T.dat = 2
+BAZD622T.BA0 = 2
+BAZD622R.dat = 2
+BAZD622R.BA0 = 2
+BAZD612T.dat = 2
+BAZD612T.BA0 = 2
+BAZD612R.dat = 2
+BAZD612R.BA0 = 2
+BAZD622B.dat = 2
+BAZD622B.BA0 = 2
+BAZD612B.dat = 2
+BAZD612B.BA0 = 2
+BAZR318Z.dat = 2
+BAZR318Z.BA0 = 2
+BAZR318C.dat = 2
+BAZR318C.BA0 = 2
+BAZR328Z.dat = 2
+BAZR328Z.BA0 = 2
+BAZR328C.dat = 2
+BAZR328C.BA0 = 2
+BAZR338Z.dat = 2
+BAZR338Z.BA0 = 2
+BAZR628Z.dat = 2
+BAZR628Z.BA0 = 2
+BAZR638.dat = 2
+BAZR638.BA0 = 2
+BAZR638Z.dat = 2
+BAZR638Z.BA0 = 2
+BAZR628.dat = 2
+BAZR628.BA0 = 2
+BAZR338.dat = 2
+BAZR338.BA0 = 2
+BABZD623.dat = 2
+BABZD623.BA0 = 2
+BABZD622.dat = 2
+BABZD622.BA0 = 2
+BATZD623.dat = 2
+BATZD623.BA0 = 2
+BATZD622.dat = 2
+BATZD622.BA0 = 2
+BAGK420E.dat = 2
+BAGK420E.BA0 = 2
+BGK420EE.dat = 2
+BGK420EE.BA0 = 2
+BAGK888E.dat = 2
+BAGK888E.BA0 = 2
+BEGK888E.dat = 2
+BEGK888E.BA0 = 2
+BAZQ610.dat = 2
+BAZQ610.BA0 = 2
+BAZQ610Z.dat = 2
+BAZQ610Z.BA0 = 2
+BAZQ620.dat = 2
+BAZQ620.BA0 = 2
+BAZQ620Z.dat = 2
+BAZQ620Z.BA0 = 2
+BAZR658.dat = 2
+BAZR658.BA0 = 2
+BAZR658Z.dat = 2
+BAZR658Z.BA0 = 2
+BAZR668.dat = 2
+BAZR668.BA0 = 2
+BAZR668Z.dat = 2
+BAZR668Z.BA0 = 2
+BAGK42TP.dat = 2
+BAGK42TP.BA0 = 2
+BGK42TEP.dat = 2
+BGK42TEP.BA0 = 2
+BAZD5103.dat = 2
+BAZD5103.BA0 = 2
+BEGT800P.dat = 2
+BEGT800P.BA0 = 2
+BAGT800P.dat = 2
+BAGT800P.BA0 = 2
+BAZD5113.dat = 2
+BAZD5113.BA0 = 2
+BAZQ630.dat = 2
+BAZQ630.BA0 = 2
+BAZQ630Z.dat = 2
+BAZQ630Z.BA0 = 2
+BAZQ63RZ.dat = 2
+BAZQ63RZ.BA0 = 2
+BAZQ120.dat = 2
+BAZQ120.BA0 = 2
+BAZQ220.dat = 2
+BAZQ220.BA0 = 2
+BAZR138.dat = 2
+BAZR138.BA0 = 2
+BATZD222.dat = 2
+BATZD222.ba0 = 2
+BABZD222.dat = 2
+BABZD222.ba0 = 2
+BATZD232.dat = 2
+BATZD232.ba0 = 2
+BABZD232.dat = 2
+BABZD232.ba0 = 2
+ZD230Z3.dat = 2
+ZD230Z3.ba0 = 2
+ZD230E3.dat = 2
+ZD230E3.ba0 = 2
+BATZD888.dat = 2
+BATZD888.ba0 = 2
+BABZD888.dat = 2
+BABZD888.ba0 = 2
+ZD100Z2.dat = 2
+ZD100Z2.ba0 = 2
+ZD100E2.dat = 2
+ZD100E2.ba0 = 2
+ZD888E3.dat = 2
+ZD888E3.ba0 = 2
+ZD888Z3.dat = 2
+ZD888Z3.ba0 = 2
+BEZT4112.dat = 2
+BEZT4112.BA0 = 2
+BZZT4112.dat = 2
+BZZT4112.BA0 = 2
+BZZT4113.dat = 2
+BZZT4113.BA0 = 2
+BZZT4116.dat = 2
+BZZT4116.BA0 = 2
+BZZT4212.dat = 2
+BZZT4212.BA0 = 2
+BZZT4213.dat = 2
+BZZT4213.BA0 = 2
+BZT411R2.dat = 2
+BZT411R2.BA0 = 2
+BZT411R3.dat = 2
+BZT411R3.BA0 = 2
+BZT411R6.dat = 2
+BZT411R6.BA0 = 2
+BZT421R2.dat = 2
+BZT421R2.BA0 = 2
+BZT421R3.dat = 2
+BZT421R3.BA0 = 2
+BAZQ511Z.dat = 2
+BAZQ511Z.BA0 = 2
+BAZQ511C.dat = 2
+BAZQ511C.BA0 = 2
+BAZQ521Z.dat = 2
+BAZQ521Z.BA0 = 2
+BAZQ521C.dat = 2
+BAZQ521C.BA0 = 2
+BAZQ511R.dat = 2
+BAZQ511R.BA0 = 2
+BAZQ521R.dat = 2
+BAZQ521R.BA0 = 2
+BAZQ112.dat = 2
+BAZQ112.BA0 = 2
+BAZQ210.dat = 2
+BAZQ210.BA0 = 2
+BAZR118.dat = 2
+BAZR118.BA0 = 2
+ZT111E2.dat = 2
+ZT111E2.BA0 = 2
+ZT111Z2.dat = 2
+ZT111Z2.BA0 = 2
+ZT111Z3.dat = 2
+ZT111Z3.BA0 = 2
+ZT211E2.dat = 2
+ZT211E2.BA0 = 2
+ZT211Z2.dat = 2
+ZT211Z2.BA0 = 2
+ZT211Z3.dat = 2
+ZT211Z3.BA0 = 2
+ZT231E2.dat = 2
+ZT231E2.BA0 = 2
+ZT231Z2.dat = 2
+ZT231Z2.BA0 = 2
+ZT231Z3.dat = 2
+ZT231Z3.BA0 = 2
+ZT231Z2R.dat = 2
+ZT231Z2R.BA0 = 2
+ZT231Z3R.dat = 2
+ZT231Z3R.BA0 = 2
+ZDesign.CHM = 2
+Angsana.MMF = 2
+Gothic.MMF = 2
+Korean.MMF = 2
+Mincho.MMF = 2
+MKai.MMF = 2
+MSung.MMF = 2
+AndaleJ.MMF = 2
+AndaleK.MMF = 2
+AndaleT.MMF = 2
+AndaleS.MMF = 2
+ZplErr.sme = 2
+EplErr.sme = 2
+ToolsZPL.dll = 2
+ToolsEPL.dll = 2
+ToolsCPCL.dll = 2
+ToolsKIOSK.dll = 2
+ToolsZPLx64.dll = 2
+ToolsEPLx64.dll = 2
+ToolsCPCLx64.dll = 2
+ToolsKIOSKx64.dll = 2
+ZplKskErr.sme = 2
+BAKKR403.PP0 = 2
+CpClErr.sme = 2
+ZebraBarcode.ttf = 2
+ZQ310PC.DAT = 2
+ZQ310PC.BA0 = 2
+ZQ320PC.DAT = 2
+ZQ320PC.BA0 = 2
+ZR328PC.DAT = 2
+ZR328PC.BA0 = 2
+ZQ610PC.DAT = 2
+ZQ610PC.BA0 = 2
+ZQ620PC.DAT = 2
+ZQ620PC.BA0 = 2
+ZQ630PC.DAT = 2
+ZQ630PC.BA0 = 2
+ZR668PC.DAT = 2
+ZR668PC.BA0 = 2
+ZQ310PZ.DAT = 2
+ZQ310PZ.BA0 = 2
+ZQ320PZ.DAT = 2
+ZQ320PZ.BA0 = 2
+ZR328PZ.DAT = 2
+ZR328PZ.BA0 = 2
+ZQ610PZ.DAT = 2
+ZQ610PZ.BA0 = 2
+ZQ620PZ.DAT = 2
+ZQ620PZ.BA0 = 2
+ZQ630PZ.DAT = 2
+ZQ630PZ.BA0 = 2
+ZR668PZ.DAT = 2
+ZR668PZ.BA0 = 2
+ZQ630RPZ.DAT = 2
+ZQ630RPZ.BA0 = 2
+ZQ120PC.DAT = 2
+ZQ120PC.BA0 = 2
+ZQ220PC.DAT = 2
+ZQ220PC.BA0 = 2
+
+[PrinterPackageInstallation.x86]
+PackageAware=TRUE
+ 
+[PrinterPackageInstallation.amd64]
+PackageAware=TRUE
+
+[Strings]
+Floppy="ZDesigner Printer Driver Disk"
+CLASSNAME="Printer"
+
+[AppInstall]
+AppName=Zebra Font Downloader
+AppIcon=*STARTUP*, "Zebra Font Downloader", ..\ZebraFD.exe, 0
+DesktopIcon="Zebra Font Downloader", ..\ZebraFD.exe, 0
+AppFiles=@..\ZebraFD.exe
+AppDest=*PRGFILES*\Zebra Font Downloader
+AppName2=Zebra Status Monitor
+AppFiles2=@..\StatMonSetup.exe
+AppDest2=*PRGFILES*\Zebra Status Monitor
+AppFlag=3
+AppDefaultCheck=1
+
+[PRNINST]
+AllowNewPortInstallationDlg=0
+Languages=1,3,4,5,6,7,8,9,10,11,13,14,15,16,18,19,20,21,22,23,24,25,26,27,28,30,31
+;DiscoveryProtocol=5
+;DiscoveryProtocolTimeout=3000
+;DiscoveryProtocolPortType=5
+;DiscoveryProtocolPortNum=9100
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
